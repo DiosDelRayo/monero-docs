@@ -36,6 +36,27 @@ nav:
     - monero-blockchain-import: 'interacting/monero-blockchain-import-reference.md'
   - External:
     - MoneroPulse: 'infrastructure/monero-pulse.md'
+- Development:
+  - SDK:
+    - Home: 'sdk/index.md'
+    - Offline Signing:
+      - Home: 'sdk/ots/index.md'
+      - C++:
+        - Quickstart: 'sdk/ots/quickstart.md'
+        - Reference: 'sdk/ots/reference/index.md'
+      - C:
+        - Quickstart: 'sdk/ots/c/quickstart.md'
+        - Reference: 'sdk/ots/c/reference/index.md'
+      - Python:
+        - Quickstart: 'sdk/ots/python/quickstart.md'
+        - Reference: 'sdk/ots/python/reference/index.md'
+      - Java:
+        - Quickstart: 'sdk/ots/java/quickstart.md'
+        - Reference: 'sdk/ots/java/reference/index.md'
+      - Dart:
+        - Quickstart: 'sdk/ots/dart/quickstart.md'
+        - Reference: 'sdk/ots/dart/reference/index.md'
+  - Links: 'sdk/links.md'
 - RPC Library:
   - Node RPC: 'rpc-library/monerod-rpc.md'
   - Wallet RPC: 'rpc-library/wallet-rpc.md'

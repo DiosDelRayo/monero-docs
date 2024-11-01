@@ -22,7 +22,7 @@ The library provides following features:
     * Unsigned Transaction handling (verification and signing)
 
 ### C ABI
-Are actually the C ABI `extern "C"` statements in the C++ library where the compiler creates an interface which can be used from C but still using the C++ source code. At this point you can use the library in C instead C++ and enables a lot, if not all, languages to use the library, continure reading in [Wrappers](#Wrappers)
+Are actually the C ABI `extern "C"` statements in the C++ library where the compiler creates an interface which can be used from C but still using the C++ source code. At this point you can use the library in C instead C++ and enables a lot, if not all, languages to use the library, continure reading in [Wrappers](#wrappers)
 
 * [Quickstart](c/quickstart.md) for using in C or writing an wrapper.
 * [Reference](c/reference/)
