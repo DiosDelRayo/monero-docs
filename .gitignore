@@ -1,8 +1,6 @@
 .idea
 *.iml
 public
-
-.monero-docs/
-.monero-docs-venv/
-.cache/
-__pycache__/
+.monero-docs-venv
+.cache
+__pycache__

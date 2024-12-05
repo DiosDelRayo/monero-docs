@@ -445,7 +445,7 @@ Outputs:
           - _key_ - the public key of the output
           - _view_tag_ - The 1st byte of a shared secret (used for reducing synchronization time)
     - _extra_ - Usually called the "transaction ID" but can be used to include any random 32 byte/64 character hex string.
-    - _rct_signatures_ - Contain signatures of tx signers. Coinbased txs do not have signatures.
+    - _rct_signatures_ - Contain signatures of tx signers. Coinbase txs do not have signatures.
   - _tx_hashes_ - List of hashes of non-coinbase transactions in the block. If there are no other transactions, this will be an empty list.
 - _status_ - string; General RPC error code. "OK" means everything looks good.
 - _top_hash_ - string; If payment for RPC is enabled, the hash of the highest block in the chain. Otherwise, empty.
@@ -791,7 +791,7 @@ Alias: _getblocktemplate_ .
 
 Inputs:
 
-- _wallet_address_ - string; Address of wallet to receive coinbase transactions if block is successfully mined.
+- _wallet_address_ - string; Address of wallet to receive coinbase transaction if block is successfully mined.
 - _reserve_size_ - unsigned int; Reserve size.
 
 Outputs:
@@ -841,7 +841,7 @@ $ curl http://127.0.0.1:18081/json_rpc -d '{"jsonrpc":"2.0","id":"0","method":"g
 
 ### **get_coinbase_tx_sum**
 
-Get the coinbase amount and the fees amount for n last blocks starting at particular height
+Get the newly emitted coins amount and the fees amount for n last blocks starting at particular height
 
 Alias: _None_ .
 
@@ -853,14 +853,14 @@ Inputs:
 Outputs:
 
 - _credits_ - unsigned int; If payment for RPC is enabled, the number of credits available to the requesting client. Otherwise, 0.
-- _emission_amount_ - unsigned int; Least significant 64 bits for 128 bit integer representing the sum of coinbase rewards in [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR."). (See src/rpc/core_rpc_server.cpp store_128)
-- _emission_amount_top64_ - unsigned it; Most significant 64 bits for 128 bit integer representing the sum of coinbase rewards in [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR.")
+- _emission_amount_ - unsigned int; Least significant 64 bits for 128 bit integer representing the new coins emitted in [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR."). (See src/rpc/core_rpc_server.cpp store_128)
+- _emission_amount_top64_ - unsigned it; Most significant 64 bits for 128 bit integer representing the new coins emitted in [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR.")
 - _fee_amount_ - unsigned int; Most significant 64 bits for 128 bit integer representing the sum of fees in [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR.").
 - _fee_amount_top64_ - unsigned int; Most significant 64 bits for 128 bit integer representing the sum of fees in [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR.").
 - _status_ - string; General RPC error code. "OK" means everything looks good.
 - _top_hash_ - string; If payment for RPC is enabled, the hash of the highest block in the chain. Otherwise, empty.
 - _untrusted_ - boolean; States if the result is obtained using the bootstrap mode, and is therefore not trusted (`true`), or when the daemon is fully synced and thus handles the RPC locally (`false`)
-- _wide_emission_amount_ - string (128 bit hex encoded integer); Sum of coinbase rewards in [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR.").
+- _wide_emission_amount_ - string (128 bit hex encoded integer); New coins emitted in [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR.").
 - _wide_fee_amount_ - string (128 bit hex encoded integer); Sum of fees in [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR.").
 
 Example:
@@ -1063,7 +1063,7 @@ Outputs:
 - _testnet_ - boolean; States if the node is on the testnet (`true`) or not (`false`).
 - _top_block_hash_ - string; Hash of the highest block in the chain.
 - _top_hash_ - string; If payment for RPC is enabled, the hash of the highest block in the chain. Otherwise, empty.
-- _tx_count_ - unsigned int; Total number of non-coinbase transaction in the chain.
+- _tx_count_ - unsigned int; Total number of non-coinbase transactions in the chain.
 - _tx_pool_size_ - unsigned int; Number of transactions that have been broadcast but not included in a block.
 - _$1_ - boolean; States if the result is obtained using the bootstrap mode, and is therefore not trusted (`true`), or when the daemon is fully synced and thus handles the RPC locally (`false`)
 - _update_available_ - boolean; States if a newer Monero software version is available.
@@ -1161,7 +1161,7 @@ Outputs:
   - _orphan_status_ - boolean; Usually `false`. If `true`, this block is not part of the longest chain.
   - _pow_hash_ - string; The hash, as a hexadecimal string, calculated from the block as proof-of-work.
   - _prev_hash_ - string; The hash of the block immediately preceding this block in the chain.
-  - _reward_ - unsigned int; The amount of new [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR.") generated in this block and rewarded to the miner. Note: 1 XMR = 1e12 [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR.").
+  - _reward_ - unsigned int; The amount of [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR.") rewarded to the miner. The reward is the sum of new coins created (the emission) and fees paid by transactions in this block. Note: 1 XMR = 1e12 [atomic-units](https://www.getmonero.org/resources/moneropedia/atomic-units.html "Atomic Units refer to the smallest fraction of 1 XMR.").
   - _timestamp_ - unsigned int; The unix time at which the block was recorded into the blockchain.
   - _wide_cumulative_difficulty_ - Cumulative difficulty of all blocks in the blockchain as a hexadecimal string representing a 128-bit number.
   - _wide_difficulty_ - string; Network difficulty (analogous to the strength of the network) as a hexadecimal string representing a 128-bit number.
