@@ -1,0 +1,30 @@
+<map id="/projects/monerosigner/monero/ots/include/ots&#45;internal.hpp" name="/projects/monerosigner/monero/ots/include/ots&#45;internal.hpp">
+<area shape="rect" id="Node000001" title="Internal declarations for library." alt="" coords="519,5,677,60"/>
+<area shape="rect" id="Node000002" href="$ots_8hpp.html" title="Header for the C++ library." alt="" coords="303,115,368,141"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="519,62,382,111,376,113,374,108,380,105,518,57"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="393,115,502,141"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="557,62,479,111,476,106,554,58"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="527,108,669,148"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="601,60,601,94,595,94,595,60"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="694,108,881,148"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="652,58,738,100,736,104,650,62"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="905,108,1085,148"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="678,50,902,102,901,107,677,55"/>
+<area shape="rect" id="Node000003" href="$ots-exceptions_8hpp.html" title="Header for the C++ library Exceptions." alt="" coords="5,196,137,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="303,142,123,195,122,190,302,136"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="141,269,196,295"/>
+<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="303,141,252,162,225,178,203,198,185,226,176,257,170,255,180,224,199,194,222,173,249,157,301,136"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="213,196,282,221"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="324,143,272,189,269,185,321,139"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="306,196,365,221"/>
+<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="338,141,338,182,333,182,333,141"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="389,196,439,221"/>
+<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="349,139,394,184,391,188,345,143"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="464,196,511,221"/>
+<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="359,138,454,187,452,192,357,143"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="535,196,589,221"/>
+<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="363,138,382,145,522,193,521,198,380,151,361,143"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="32,269,111,295"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="74,222,74,256,69,256,69,222"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="89,219,143,259,140,263,85,224"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="ots::exception::OutOfRange" name="ots::exception::OutOfRange">
+<area shape="rect" id="Node000001" title="arguments outside of expected range. Needle not in Haystack ;)" alt="" coords="484,77,669,102"/>
+<area shape="rect" id="Node000005" href="$classots_1_1exception_1_1seed_1_1LanguageNotFound.html" title="a language expected if not found" alt="" coords="723,5,866,45"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="633,70,725,43,727,48,635,75"/>
+<area shape="rect" id="Node000006" href="$classots_1_1exception_1_1seedjar_1_1SeedNotFound.html" title="a seed expected if not found" alt="" coords="717,69,872,109"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="683,87,717,87,717,92,683,92"/>
+<area shape="rect" id="Node000007" href="$classots_1_1exception_1_1wallet_1_1AddressNotFound.html" title="wallet does not contain the provided address" alt="" coords="721,133,868,173"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="635,103,727,131,725,136,633,109"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="313,77,436,102"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="450,87,484,87,484,92,450,92"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="157,77,265,102"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="279,87,313,87,313,92,279,92"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,77,109,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,87,157,87,157,92,123,92"/>
+</map>

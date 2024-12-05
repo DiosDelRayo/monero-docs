@@ -8,18 +8,24 @@ an Hardware wallet.
 The library compiled out of the monero source, without further dependencies, specific for the
 usecase of offline signer and hardware wallets.
 
+!!! warning
+    This was the initial design (UML diagram) of the third iteration, is not in sync with the actual development at the moment, as it will be synced when there are (probably) no more changes.
+    Even the [reference](./reference/index.html) will be at the most probably behind, how it is not yet automatically synced - which should happen at a later point in time.
+
 * [Quickstart](quickstart.md)
-* [Reference](reference/)
+* [UML diagram](uml.md)
+* [Reference](reference/index.html)
 
 The library provides following features:
-    * Monero Seed generation
-    * Polyseed generation
-    * Address and Key generation
-    * Account and Subaddress managment
-    * Address verification
-    * Import outputs
-    * Export Key Images
-    * Unsigned Transaction handling (verification and signing)
+
+* Monero Seed generation
+* Polyseed generation
+* Address and Key generation
+* Account and Subaddress managment
+* Address verification
+* Import outputs
+* Export Key Images
+* Unsigned Transaction handling (verification and signing)
 
 ### C ABI
 Are actually the C ABI `extern "C"` statements in the C++ library where the compiler creates an interface which can be used from C but still using the C++ source code. At this point you can use the library in C instead C++ and enables a lot, if not all, languages to use the library, continure reading in [Wrappers](#wrappers)

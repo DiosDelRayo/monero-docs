@@ -1,0 +1,13 @@
+<map id="ots::exception::DomainError" name="ots::exception::DomainError">
+<area shape="rect" id="Node000001" title="errors related to the library use itself" alt="" coords="484,45,669,70"/>
+<area shape="rect" id="Node000005" href="$classots_1_1exception_1_1seed_1_1NoDefaultLanguageSet.html" title="a default language is expected but not set" alt="" coords="717,5,883,45"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="679,40,717,35,718,40,679,45"/>
+<area shape="rect" id="Node000006" href="$classots_1_1exception_1_1wallet_1_1ExportKeyImages.html" title="export key images failed" alt="" coords="727,69,873,109"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="680,69,727,76,726,81,679,75"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="313,45,436,70"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="450,55,484,55,484,60,450,60"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="157,45,265,70"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="279,55,313,55,313,60,279,60"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,45,109,70"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,55,157,55,157,60,123,60"/>
+</map>

@@ -1,0 +1,39 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,203,109,228"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="165,129,273,155"/>
+<area shape="poly" id="edge6_Node000000_Node000001" title=" " alt="" coords="98,194,189,152,191,157,100,199"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="157,252,281,277"/>
+<area shape="poly" id="edge20_Node000000_Node000015" title=" " alt="" coords="114,230,177,249,176,254,112,235"/>
+<area shape="rect" id="Node000002" href="$classots_1_1exception_1_1LogicError.html" title="violation of logical preconditions or class invariants" alt="" coords="357,5,528,31"/>
+<area shape="poly" id="edge7_Node000001_Node000002" title=" " alt="" coords="237,117,276,77,301,57,328,40,357,28,359,33,331,44,304,61,280,81,241,121"/>
+<area shape="rect" id="Node000003" href="$classots_1_1exception_1_1NotImplementedYet.html" title="Sole purpose of this exception is to create already the stub and mark as incomplete,..." alt="" coords="329,55,556,80"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="255,120,328,89,369,77,371,83,330,94,257,125"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="381,104,504,129"/>
+<area shape="poly" id="edge9_Node000001_Node000004" title=" " alt="" coords="287,132,381,121,381,126,287,137"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="369,153,516,179"/>
+<area shape="poly" id="edge12_Node000001_Node000007" title=" " alt="" coords="287,147,370,156,369,161,287,152"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="381,203,504,228"/>
+<area shape="poly" id="edge15_Node000001_Node000010" title=" " alt="" coords="259,158,330,187,382,201,380,206,328,193,257,163"/>
+<area shape="rect" id="Node000005" href="$classots_1_1exception_1_1DomainError.html" title="errors related to the library use itself" alt="" coords="615,97,800,123"/>
+<area shape="poly" id="edge10_Node000004_Node000005" title=" " alt="" coords="517,112,614,110,614,115,518,117"/>
+<area shape="rect" id="Node000006" href="$classots_1_1exception_1_1seed_1_1NoDefaultLanguageSet.html" title="a default language is expected but not set" alt="" coords="859,82,1024,122"/>
+<area shape="poly" id="edge11_Node000005_Node000006" title=" " alt="" coords="814,104,859,102,859,107,814,109"/>
+<area shape="rect" id="Node000008" href="$classots_1_1exception_1_1InvalidArgument.html" title="provided an invalid argument" alt="" coords="604,153,811,179"/>
+<area shape="poly" id="edge13_Node000007_Node000008" title=" " alt="" coords="530,163,604,163,604,169,530,169"/>
+<area shape="rect" id="Node000009" href="$classots_1_1exception_1_1address_1_1Invalid.html" title="The provided string is not a valid Monero address." alt="" coords="862,146,1021,186"/>
+<area shape="poly" id="edge14_Node000008_Node000009" title=" " alt="" coords="824,163,862,163,862,169,824,169"/>
+<area shape="rect" id="Node000011" href="$classots_1_1exception_1_1OutOfRange.html" title="arguments outside of expected range. Needle not in Haystack ;)" alt="" coords="615,235,800,260"/>
+<area shape="poly" id="edge16_Node000010_Node000011" title=" " alt="" coords="518,222,615,233,614,239,517,227"/>
+<area shape="rect" id="Node000012" href="$classots_1_1exception_1_1seed_1_1LanguageNotFound.html" title="a language expected if not found" alt="" coords="870,210,1013,250"/>
+<area shape="poly" id="edge17_Node000011_Node000012" title=" " alt="" coords="814,237,870,233,870,238,814,242"/>
+<area shape="rect" id="Node000013" href="$classots_1_1exception_1_1seedjar_1_1SeedNotFound.html" title="a seed expected if not found" alt="" coords="864,274,1019,314"/>
+<area shape="poly" id="edge18_Node000011_Node000013" title=" " alt="" coords="786,260,864,276,863,281,785,265"/>
+<area shape="rect" id="Node000014" href="$classots_1_1exception_1_1wallet_1_1AddressNotFound.html" title="wallet does not contain the provided address" alt="" coords="868,338,1015,378"/>
+<area shape="poly" id="edge19_Node000011_Node000014" title=" " alt="" coords="761,263,812,286,836,305,860,324,884,335,881,340,857,328,833,309,809,291,759,267"/>
+<area shape="rect" id="Node000016" href="$classots_1_1exception_1_1RuntimeError.html" title="Conditions only detectable at runtime." alt="" coords="348,252,537,277"/>
+<area shape="poly" id="edge21_Node000015_Node000016" title=" " alt="" coords="295,262,348,262,348,267,295,267"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="386,301,499,327"/>
+<area shape="poly" id="edge22_Node000015_Node000017" title=" " alt="" coords="291,278,386,299,385,304,290,283"/>
+<area shape="rect" id="Node000018" href="$classots_1_1exception_1_1RangeError.html" title="range error in internal computation" alt="" coords="618,301,797,327"/>
+<area shape="poly" id="edge23_Node000017_Node000018" title=" " alt="" coords="513,311,618,311,618,317,513,317"/>
+</map>

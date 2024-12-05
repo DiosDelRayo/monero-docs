@@ -43,10 +43,11 @@ nav:
       - Home: 'sdk/ots/index.md'
       - C++:
         - Quickstart: 'sdk/ots/quickstart.md'
-        - Reference: 'sdk/ots/reference/index.md'
+        - UML diagram: 'sdk/ots/uml.md'
+        - Reference: 'sdk/ots/reference/index.html'
       - C:
         - Quickstart: 'sdk/ots/c/quickstart.md'
-        - Reference: 'sdk/ots/c/reference/index.md'
+        - Reference: 'sdk/ots/reference/index.md'
       - Python:
         - Quickstart: 'sdk/ots/python/quickstart.md'
         - Reference: 'sdk/ots/python/reference/index.md'
