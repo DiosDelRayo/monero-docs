@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['validaddress_0',['validAddress',['../classots_1_1Address.html#afdbe3a459b49c26167a1a318c9e01921',1,'ots::Address']]],
-  ['values_1',['values',['../classots_1_1Seed.html#a0ef284fc08fbd9fd05ed529b62f404d6',1,'ots::Seed::values()'],['../classots_1_1LegacySeed.html#a2b270d5db746f1d1ee4ffca09d29b66f',1,'ots::LegacySeed::values()'],['../classots_1_1MoneroSeed.html#aac3e0da29851c1d8ce7ba5b8cc213c29',1,'ots::MoneroSeed::values()'],['../classots_1_1Polyseed.html#a03ec0e3269cfef4ae2390cba0db43ad1',1,'ots::Polyseed::values()']]],
-  ['verifydata_2',['verifyData',['../classots_1_1Wallet.html#abe4c7e8ec9947ab24d6e5340041c530c',1,'ots::Wallet']]],
-  ['version_3',['version',['../classots_1_1OTS.html#a93352aa3f8b15541b25eddfedec2639d',1,'ots::OTS']]],
-  ['versioncomponents_4',['versionComponents',['../classots_1_1OTS.html#ae9912472b9c596f0861f7a412cfdf102',1,'ots::OTS']]]
+  ['timestamp_0',['timestamp',['../classots_1_1Seed.html#a062c6632d48a12552cfd55946ff19c4c',1,'ots::Seed']]],
+  ['timestampfromheight_1',['timestampFromHeight',['../classots_1_1OTS.html#ad04d12d90ba17d576539677d1169d079',1,'ots::OTS']]],
+  ['toofewvalues_2',['TooFewValues',['../classots_1_1exception_1_1seed_1_1TooFewValues.html#a74959fb06363c719412ad5ecb0748900',1,'ots::exception::seed::TooFewValues']]],
+  ['transfer_3',['transfer',['../classots_1_1KeyStore.html#ae6e8c5bf0947771a70702a7f2fe77360',1,'ots::KeyStore::transfer()'],['../classots_1_1PolyseedKeyStore.html#aa32ffa5834a18ea64d54eca92fc9505a',1,'ots::PolyseedKeyStore::transfer()']]],
+  ['type_4',['type',['../classots_1_1Address.html#ace1f409b4d802b2f35b98e2dc14af3ab',1,'ots::Address::type() const noexcept'],['../classots_1_1Address.html#a6a2a728492729956a5eaf90bd38d8c38',1,'ots::Address::type(const std::string &amp;address)']]]
 ];

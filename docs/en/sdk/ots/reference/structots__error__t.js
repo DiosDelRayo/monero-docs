@@ -1,6 +1,6 @@
 var structots__error__t =
 [
     [ "code", "structots__error__t.html#aa1fa0e9f698260c40ff5812aa4df57de", null ],
-    [ "location", "structots__error__t.html#a8f864c172ef1f0d284659d3e1c063254", null ],
-    [ "message", "structots__error__t.html#a6a0edd3d3070a768d9e2246317adf569", null ]
+    [ "location", "structots__error__t.html#a2ef427ce92e9c759d6cc1587ef8d3223", null ],
+    [ "message", "structots__error__t.html#a6be5559758290e7841856dd0e75346c4", null ]
 ];

@@ -92,13 +92,13 @@ $(document).ready(function(){initNavTree('ots-abi_8cpp.html',''); initResizable(
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle"><div class="title">ots-abi.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="ots_8h_source.html">ots.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="ots_8hpp_source.html">ots.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ots-exceptions_8hpp_source.html">ots-exceptions.hpp</a>&quot;</code><br />
 <code>#include &lt;cstring&gt;</code><br />
 <code>#include &lt;memory&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -106,157 +106,434 @@ Include dependency graph for ots-abi.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="ots-abi_8cpp__incl.png" border="0" usemap="#a_2projects_2monerosigner_2monero_2ots_2src_2ots-abi_8cpp" alt=""/></div>
 <map name="a_2projects_2monerosigner_2monero_2ots_2src_2ots-abi_8cpp" id="a_2projects_2monerosigner_2monero_2ots_2src_2ots-abi_8cpp">
-<area shape="rect" title=" " alt="" coords="176,5,357,45"/>
-<area shape="rect" href="ots_8h.html" title="Header for the C ABI library." alt="" coords="144,93,195,119"/>
-<area shape="poly" title=" " alt="" coords="245,48,196,87,193,82,241,43"/>
-<area shape="rect" href="ots_8hpp.html" title="Header for the C++ library." alt="" coords="270,93,335,119"/>
-<area shape="poly" title=" " alt="" coords="278,44,294,79,289,82,273,47"/>
-<area shape="rect" title=" " alt="" coords="5,167,75,192"/>
-<area shape="poly" title=" " alt="" coords="261,47,241,84,226,104,208,121,187,133,157,145,89,167,87,162,155,140,185,128,205,117,222,100,236,81,257,44"/>
-<area shape="rect" title=" " alt="" coords="360,93,421,119"/>
-<area shape="poly" title=" " alt="" coords="298,43,362,84,359,88,295,48"/>
-<area shape="rect" href="ots-exceptions_8hpp.html" title="Header for the C++ library Exceptions." alt="" coords="99,167,231,192"/>
-<area shape="poly" title=" " alt="" coords="282,121,201,163,199,158,279,116"/>
-<area shape="rect" title=" " alt="" coords="235,240,290,265"/>
-<area shape="poly" title=" " alt="" coords="302,120,272,227,267,226,297,118"/>
-<area shape="poly" title=" " alt="" coords="271,119,89,168,87,163,269,114"/>
-<area shape="rect" title=" " alt="" coords="307,167,365,192"/>
-<area shape="poly" title=" " alt="" coords="311,118,327,153,322,155,306,120"/>
-<area shape="rect" title=" " alt="" coords="389,167,440,192"/>
-<area shape="poly" title=" " alt="" coords="322,116,386,157,383,161,319,121"/>
-<area shape="rect" title=" " alt="" coords="465,167,511,192"/>
-<area shape="poly" title=" " alt="" coords="333,116,452,162,450,166,331,121"/>
-<area shape="rect" title=" " alt="" coords="536,167,589,192"/>
-<area shape="poly" title=" " alt="" coords="336,113,523,164,522,169,335,118"/>
-<area shape="rect" title=" " alt="" coords="126,240,205,265"/>
-<area shape="poly" title=" " alt="" coords="168,192,168,226,163,226,163,192"/>
-<area shape="poly" title=" " alt="" coords="183,190,237,229,234,234,179,194"/>
+<area shape="rect" title=" " alt="" coords="563,5,744,45"/>
+<area shape="rect" href="ots_8h.html" title="Header for the C ABI (Application Binary Interface) library." alt="" coords="180,93,231,119"/>
+<area shape="poly" title=" " alt="" coords="563,45,245,100,244,95,562,40"/>
+<area shape="rect" href="ots_8hpp.html" title="Header for the C++ library." alt="" coords="621,93,686,119"/>
+<area shape="poly" title=" " alt="" coords="656,46,656,79,651,79,651,46"/>
+<area shape="rect" href="ots-exceptions_8hpp.html" title="Header for the C++ library Exceptions." alt="" coords="361,167,493,192"/>
+<area shape="poly" title=" " alt="" coords="627,48,457,161,454,157,624,43"/>
+<area shape="rect" title=" " alt="" coords="843,167,912,192"/>
+<area shape="poly" title=" " alt="" coords="671,44,706,80,751,116,792,140,834,159,831,164,790,145,748,121,703,84,668,47"/>
+<area shape="rect" title=" " alt="" coords="761,93,823,119"/>
+<area shape="poly" title=" " alt="" coords="688,43,761,84,758,89,685,48"/>
+<area shape="rect" title=" " alt="" coords="168,167,243,192"/>
+<area shape="poly" title=" " alt="" coords="208,119,208,153,203,153,203,119"/>
+<area shape="rect" title=" " alt="" coords="267,167,336,192"/>
+<area shape="poly" title=" " alt="" coords="222,117,276,156,273,160,219,121"/>
+<area shape="rect" title=" " alt="" coords="58,240,123,265"/>
+<area shape="poly" title=" " alt="" coords="197,121,158,168,110,231,105,227,154,165,193,117"/>
+<area shape="rect" href="ots-errors_8h.html" title="Error codes for the C ABI." alt="" coords="5,167,93,192"/>
+<area shape="poly" title=" " alt="" coords="181,121,88,163,86,158,179,116"/>
+<area shape="poly" title=" " alt="" coords="58,191,79,227,75,229,54,194"/>
+<area shape="poly" title=" " alt="" coords="621,120,477,165,475,160,620,115"/>
+<area shape="rect" title=" " alt="" coords="592,240,651,265"/>
+<area shape="poly" title=" " alt="" coords="679,116,701,130,722,148,735,169,736,181,732,193,718,210,702,224,665,242,663,237,699,219,715,206,727,191,731,181,730,171,718,152,698,135,676,121"/>
+<area shape="rect" title=" " alt="" coords="726,240,781,265"/>
+<area shape="poly" title=" " alt="" coords="687,116,722,135,739,149,752,165,761,196,761,227,755,227,756,197,747,168,735,152,719,139,685,121"/>
+<area shape="poly" title=" " alt="" coords="687,115,830,160,828,165,686,120"/>
+<area shape="rect" title=" " alt="" coords="517,167,568,192"/>
+<area shape="poly" title=" " alt="" coords="637,121,574,161,571,157,634,116"/>
+<area shape="rect" title=" " alt="" coords="593,167,639,192"/>
+<area shape="poly" title=" " alt="" coords="650,120,631,156,626,153,645,118"/>
+<area shape="rect" title=" " alt="" coords="664,167,717,192"/>
+<area shape="poly" title=" " alt="" coords="662,118,681,153,676,156,657,120"/>
+<area shape="poly" title=" " alt="" coords="459,190,580,233,578,238,457,195"/>
+<area shape="rect" title=" " alt="" coords="387,240,466,265"/>
+<area shape="poly" title=" " alt="" coords="429,192,429,226,424,226,424,192"/>
+<area shape="poly" title=" " alt="" coords="480,189,713,240,712,245,479,195"/>
 </map>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structots__ctx__st.html">ots_ctx_st</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a38a851b9c83a1b426d836ab0b9371bc9" id="r_a38a851b9c83a1b426d836ab0b9371bc9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structots__result__t.html">ots_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a38a851b9c83a1b426d836ab0b9371bc9">ots_create_context</a> ()</td></tr>
-<tr class="separator:a38a851b9c83a1b426d836ab0b9371bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a884366995a4796741482236e8419bd2e" id="r_a884366995a4796741482236e8419bd2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a884366995a4796741482236e8419bd2e">ots_free_context</a> (<a class="el" href="structots__result__t.html">ots_result_t</a> *result)</td></tr>
-<tr class="separator:a884366995a4796741482236e8419bd2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ac10df9189f172be42253ecd76540b0" id="r_a7ac10df9189f172be42253ecd76540b0"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a7ac10df9189f172be42253ecd76540b0">ots_version</a> ()</td></tr>
-<tr class="separator:a7ac10df9189f172be42253ecd76540b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac968dbf75b968443a446247b611dabb9" id="r_ac968dbf75b968443a446247b611dabb9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#ac968dbf75b968443a446247b611dabb9">ots_free_version_string</a> (char *version_str)</td></tr>
-<tr class="separator:ac968dbf75b968443a446247b611dabb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45ea57edc340a884b28ebcc2d4ad0e2b" id="r_a45ea57edc340a884b28ebcc2d4ad0e2b"><td class="memItemLeft" align="right" valign="top">int *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a45ea57edc340a884b28ebcc2d4ad0e2b">ots_version_components</a> ()</td></tr>
-<tr class="separator:a45ea57edc340a884b28ebcc2d4ad0e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb747fd21f98a0690ca1645f297d33e7" id="r_afb747fd21f98a0690ca1645f297d33e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#afb747fd21f98a0690ca1645f297d33e7">ots_free_version_components</a> (int *components)</td></tr>
-<tr class="separator:afb747fd21f98a0690ca1645f297d33e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16e8e7aac4d4a2f2320cd90e24ceea37" id="r_a16e8e7aac4d4a2f2320cd90e24ceea37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a16e8e7aac4d4a2f2320cd90e24ceea37">ots_error_init</a> (<a class="el" href="structots__error__t.html">ots_error_t</a> *error)</td></tr>
+<tr class="memdesc:a16e8e7aac4d4a2f2320cd90e24ceea37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize error structure.  <br /></td></tr>
+<tr class="separator:a16e8e7aac4d4a2f2320cd90e24ceea37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fedb903daec145326b1c65b9d59031a" id="r_a9fedb903daec145326b1c65b9d59031a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a9fedb903daec145326b1c65b9d59031a">ots_is_error</a> (const <a class="el" href="structots__result__t.html">ots_result_t</a> *result)</td></tr>
+<tr class="memdesc:a9fedb903daec145326b1c65b9d59031a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if result contains an error.  <br /></td></tr>
+<tr class="separator:a9fedb903daec145326b1c65b9d59031a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0e444b2ee1eb89cce6bf8686d84d4a2" id="r_ad0e444b2ee1eb89cce6bf8686d84d4a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#ad0e444b2ee1eb89cce6bf8686d84d4a2">ots_has_error</a> (const <a class="el" href="structots__result__t.html">ots_result_t</a> *result)</td></tr>
+<tr class="memdesc:ad0e444b2ee1eb89cce6bf8686d84d4a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if result contains an error.  <br /></td></tr>
+<tr class="separator:ad0e444b2ee1eb89cce6bf8686d84d4a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11a6761e0aec349b70946b55babb4e46" id="r_a11a6761e0aec349b70946b55babb4e46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structots__result__t.html">ots_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a11a6761e0aec349b70946b55babb4e46">ots_get_last_error</a> (void)</td></tr>
+<tr class="memdesc:a11a6761e0aec349b70946b55babb4e46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get error message for last error.  <br /></td></tr>
+<tr class="separator:a11a6761e0aec349b70946b55babb4e46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab34f1d1e44e67a42e3f4ebacc7a641ea" id="r_ab34f1d1e44e67a42e3f4ebacc7a641ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structots__result__t.html">ots_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#ab34f1d1e44e67a42e3f4ebacc7a641ea">ots_get_error_message</a> (int32_t error_code)</td></tr>
+<tr class="memdesc:ab34f1d1e44e67a42e3f4ebacc7a641ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get error message for specific error code.  <br /></td></tr>
+<tr class="separator:ab34f1d1e44e67a42e3f4ebacc7a641ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89f6b128883e9283219f04dad837bacd" id="r_a89f6b128883e9283219f04dad837bacd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a89f6b128883e9283219f04dad837bacd">ots_clear_error</a> (void)</td></tr>
+<tr class="memdesc:a89f6b128883e9283219f04dad837bacd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clear last error state.  <br /></td></tr>
+<tr class="separator:a89f6b128883e9283219f04dad837bacd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2a6458c5fefdf7945b348d2f240489e" id="r_aa2a6458c5fefdf7945b348d2f240489e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#aa2a6458c5fefdf7945b348d2f240489e">ots_free_string</a> (char *str)</td></tr>
+<tr class="memdesc:aa2a6458c5fefdf7945b348d2f240489e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a string allocated by the library.  <br /></td></tr>
+<tr class="separator:aa2a6458c5fefdf7945b348d2f240489e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6855ddc238f0850abbed59b104aeec2e" id="r_a6855ddc238f0850abbed59b104aeec2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a6855ddc238f0850abbed59b104aeec2e">ots_free_array</a> (void *arr)</td></tr>
+<tr class="memdesc:a6855ddc238f0850abbed59b104aeec2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free an array allocated by the library.  <br /></td></tr>
+<tr class="separator:a6855ddc238f0850abbed59b104aeec2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a0d4e3ecabb1b888c4adf7170b037ca" id="r_a2a0d4e3ecabb1b888c4adf7170b037ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a2a0d4e3ecabb1b888c4adf7170b037ca">ots_free_handle</a> (<a class="el" href="structots__handle__t.html">ots_handle_t</a> handle)</td></tr>
+<tr class="memdesc:a2a0d4e3ecabb1b888c4adf7170b037ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a handle.  <br /></td></tr>
+<tr class="separator:a2a0d4e3ecabb1b888c4adf7170b037ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4514a72bf78368ee4e69adce37fbc61e" id="r_a4514a72bf78368ee4e69adce37fbc61e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a4514a72bf78368ee4e69adce37fbc61e">ots_wipeable_string_free</a> (<a class="el" href="structots__wipeable__string__t.html">ots_wipeable_string_t</a> *str)</td></tr>
+<tr class="memdesc:a4514a72bf78368ee4e69adce37fbc61e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free a wipeable string, securely wiping memory.  <br /></td></tr>
+<tr class="separator:a4514a72bf78368ee4e69adce37fbc61e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e45b2f5d724752ffc55f6f80ebe1538" id="r_a8e45b2f5d724752ffc55f6f80ebe1538"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a8e45b2f5d724752ffc55f6f80ebe1538">ots_seed_indices_free</a> (<a class="el" href="structots__seed__indices__t.html">ots_seed_indices_t</a> *indices)</td></tr>
+<tr class="memdesc:a8e45b2f5d724752ffc55f6f80ebe1538"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free seed indices, securely wiping memory.  <br /></td></tr>
+<tr class="separator:a8e45b2f5d724752ffc55f6f80ebe1538"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6450e528129b5afca7bdd64f24267bde" id="r_a6450e528129b5afca7bdd64f24267bde"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a6450e528129b5afca7bdd64f24267bde">ots_free_tx_description</a> (<a class="el" href="structots__tx__description__t.html">ots_tx_description_t</a> *desc)</td></tr>
+<tr class="memdesc:a6450e528129b5afca7bdd64f24267bde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Free transaction description.  <br /></td></tr>
+<tr class="separator:a6450e528129b5afca7bdd64f24267bde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cd5cb434cc7b7d451e56c0d33bddef1" id="r_a2cd5cb434cc7b7d451e56c0d33bddef1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structots__result__t.html">ots_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#a2cd5cb434cc7b7d451e56c0d33bddef1">ots_version</a> (void)</td></tr>
+<tr class="memdesc:a2cd5cb434cc7b7d451e56c0d33bddef1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get library version string.  <br /></td></tr>
+<tr class="separator:a2cd5cb434cc7b7d451e56c0d33bddef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0a213dd3fec5be9b0c4979a4ab5132a" id="r_ae0a213dd3fec5be9b0c4979a4ab5132a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structots__result__t.html">ots_result_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ots-abi_8cpp.html#ae0a213dd3fec5be9b0c4979a4ab5132a">ots_version_components</a> (void)</td></tr>
+<tr class="memdesc:ae0a213dd3fec5be9b0c4979a4ab5132a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get version components [major, minor, patch].  <br /></td></tr>
+<tr class="separator:ae0a213dd3fec5be9b0c4979a4ab5132a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a38a851b9c83a1b426d836ab0b9371bc9" name="a38a851b9c83a1b426d836ab0b9371bc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a38a851b9c83a1b426d836ab0b9371bc9">&#9670;&#160;</a></span>ots_create_context()</h2>
+<a id="a89f6b128883e9283219f04dad837bacd" name="a89f6b128883e9283219f04dad837bacd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89f6b128883e9283219f04dad837bacd">&#9670;&#160;</a></span>ots_clear_error()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="structots__result__t.html">ots_result_t</a> ots_create_context </td>
+          <td class="memname">void ots_clear_error </td>
           <td>(</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Clear last error state. </p>
+
 </div>
 </div>
-<a id="a884366995a4796741482236e8419bd2e" name="a884366995a4796741482236e8419bd2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a884366995a4796741482236e8419bd2e">&#9670;&#160;</a></span>ots_free_context()</h2>
+<a id="a16e8e7aac4d4a2f2320cd90e24ceea37" name="a16e8e7aac4d4a2f2320cd90e24ceea37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16e8e7aac4d4a2f2320cd90e24ceea37">&#9670;&#160;</a></span>ots_error_init()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ots_free_context </td>
+          <td class="memname">void ots_error_init </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structots__result__t.html">ots_result_t</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="structots__error__t.html">ots_error_t</a> *&#160;</td>
+          <td class="paramname"><em>error</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize error structure. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[out]</td><td class="paramname">error</td><td>Error structure to initialize </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6855ddc238f0850abbed59b104aeec2e" name="a6855ddc238f0850abbed59b104aeec2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6855ddc238f0850abbed59b104aeec2e">&#9670;&#160;</a></span>ots_free_array()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ots_free_array </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>arr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Free an array allocated by the library. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">arr</td><td>Array to free </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2a0d4e3ecabb1b888c4adf7170b037ca" name="a2a0d4e3ecabb1b888c4adf7170b037ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a0d4e3ecabb1b888c4adf7170b037ca">&#9670;&#160;</a></span>ots_free_handle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ots_free_handle </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structots__handle__t.html">ots_handle_t</a>&#160;</td>
+          <td class="paramname"><em>handle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Free a handle. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">handle</td><td>Handle to free </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa2a6458c5fefdf7945b348d2f240489e" name="aa2a6458c5fefdf7945b348d2f240489e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2a6458c5fefdf7945b348d2f240489e">&#9670;&#160;</a></span>ots_free_string()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ots_free_string </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Free a string allocated by the library. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">str</td><td>String to free </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6450e528129b5afca7bdd64f24267bde" name="a6450e528129b5afca7bdd64f24267bde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6450e528129b5afca7bdd64f24267bde">&#9670;&#160;</a></span>ots_free_tx_description()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ots_free_tx_description </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structots__tx__description__t.html">ots_tx_description_t</a> *&#160;</td>
+          <td class="paramname"><em>desc</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Free transaction description. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">desc</td><td>Transaction description to free </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ab34f1d1e44e67a42e3f4ebacc7a641ea" name="ab34f1d1e44e67a42e3f4ebacc7a641ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab34f1d1e44e67a42e3f4ebacc7a641ea">&#9670;&#160;</a></span>ots_get_error_message()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structots__result__t.html">ots_result_t</a> ots_get_error_message </td>
+          <td>(</td>
+          <td class="paramtype">int32_t&#160;</td>
+          <td class="paramname"><em>error_code</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get error message for specific error code. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">error_code</td><td>Error code to get message for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Result containing error message string </dd></dl>
+
+</div>
+</div>
+<a id="a11a6761e0aec349b70946b55babb4e46" name="a11a6761e0aec349b70946b55babb4e46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11a6761e0aec349b70946b55babb4e46">&#9670;&#160;</a></span>ots_get_last_error()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structots__result__t.html">ots_result_t</a> ots_get_last_error </td>
+          <td>(</td>
+          <td class="paramtype">void&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get error message for last error. </p>
+<dl class="section return"><dt>Returns</dt><dd>Result containing error message string </dd></dl>
+
+</div>
+</div>
+<a id="ad0e444b2ee1eb89cce6bf8686d84d4a2" name="ad0e444b2ee1eb89cce6bf8686d84d4a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0e444b2ee1eb89cce6bf8686d84d4a2">&#9670;&#160;</a></span>ots_has_error()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ots_has_error </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structots__result__t.html">ots_result_t</a> *&#160;</td>
           <td class="paramname"><em>result</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if result contains an error. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">result</td><td>Result to check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if result contains an error </dd></dl>
+
 </div>
 </div>
-<a id="afb747fd21f98a0690ca1645f297d33e7" name="afb747fd21f98a0690ca1645f297d33e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb747fd21f98a0690ca1645f297d33e7">&#9670;&#160;</a></span>ots_free_version_components()</h2>
+<a id="a9fedb903daec145326b1c65b9d59031a" name="a9fedb903daec145326b1c65b9d59031a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fedb903daec145326b1c65b9d59031a">&#9670;&#160;</a></span>ots_is_error()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ots_free_version_components </td>
+          <td class="memname">bool ots_is_error </td>
           <td>(</td>
-          <td class="paramtype">int *&#160;</td>
-          <td class="paramname"><em>components</em></td><td>)</td>
+          <td class="paramtype">const <a class="el" href="structots__result__t.html">ots_result_t</a> *&#160;</td>
+          <td class="paramname"><em>result</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Check if result contains an error. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">result</td><td>Result to check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if result contains an error </dd></dl>
+
 </div>
 </div>
-<a id="ac968dbf75b968443a446247b611dabb9" name="ac968dbf75b968443a446247b611dabb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac968dbf75b968443a446247b611dabb9">&#9670;&#160;</a></span>ots_free_version_string()</h2>
+<a id="a8e45b2f5d724752ffc55f6f80ebe1538" name="a8e45b2f5d724752ffc55f6f80ebe1538"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e45b2f5d724752ffc55f6f80ebe1538">&#9670;&#160;</a></span>ots_seed_indices_free()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void ots_free_version_string </td>
+          <td class="memname">void ots_seed_indices_free </td>
           <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>version_str</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="structots__seed__indices__t.html">ots_seed_indices_t</a> *&#160;</td>
+          <td class="paramname"><em>indices</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Free seed indices, securely wiping memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">indices</td><td>Indices to free </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="a7ac10df9189f172be42253ecd76540b0" name="a7ac10df9189f172be42253ecd76540b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ac10df9189f172be42253ecd76540b0">&#9670;&#160;</a></span>ots_version()</h2>
+<a id="a2cd5cb434cc7b7d451e56c0d33bddef1" name="a2cd5cb434cc7b7d451e56c0d33bddef1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cd5cb434cc7b7d451e56c0d33bddef1">&#9670;&#160;</a></span>ots_version()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char * ots_version </td>
+          <td class="memname"><a class="el" href="structots__result__t.html">ots_result_t</a> ots_version </td>
           <td>(</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Get library version string. </p>
+<dl class="section return"><dt>Returns</dt><dd>Version string, must be freed with <a class="el" href="ots_8h.html#aa2a6458c5fefdf7945b348d2f240489e" title="Free a string allocated by the library.">ots_free_string()</a> </dd></dl>
+
 </div>
 </div>
-<a id="a45ea57edc340a884b28ebcc2d4ad0e2b" name="a45ea57edc340a884b28ebcc2d4ad0e2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45ea57edc340a884b28ebcc2d4ad0e2b">&#9670;&#160;</a></span>ots_version_components()</h2>
+<a id="ae0a213dd3fec5be9b0c4979a4ab5132a" name="ae0a213dd3fec5be9b0c4979a4ab5132a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0a213dd3fec5be9b0c4979a4ab5132a">&#9670;&#160;</a></span>ots_version_components()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int * ots_version_components </td>
+          <td class="memname"><a class="el" href="structots__result__t.html">ots_result_t</a> ots_version_components </td>
           <td>(</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get version components [major, minor, patch]. </p>
+<dl class="section return"><dt>Returns</dt><dd>Result containing version components array </dd></dl>
+
+</div>
+</div>
+<a id="a4514a72bf78368ee4e69adce37fbc61e" name="a4514a72bf78368ee4e69adce37fbc61e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4514a72bf78368ee4e69adce37fbc61e">&#9670;&#160;</a></span>ots_wipeable_string_free()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ots_wipeable_string_free </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structots__wipeable__string__t.html">ots_wipeable_string_t</a> *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Free a wipeable string, securely wiping memory. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">str</td><td>String to free </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

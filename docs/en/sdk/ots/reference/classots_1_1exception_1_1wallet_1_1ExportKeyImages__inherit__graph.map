@@ -1,11 +1,13 @@
 <map id="ots::exception::wallet::ExportKeyImages" name="ots::exception::wallet::ExportKeyImages">
-<area shape="rect" id="Node000001" title="export key images failed" alt="" coords="25,299,171,339"/>
-<area shape="rect" id="Node000002" href="$classots_1_1exception_1_1DomainError.html" title="errors related to the library use itself" alt="" coords="5,225,191,251"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,264,101,299,95,299,95,264"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="37,152,159,177"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="101,191,101,225,95,225,95,191"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="44,79,152,104"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="101,118,101,152,95,152,95,118"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="46,5,150,31"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="101,44,101,79,95,79,95,44"/>
+<area shape="rect" id="Node000001" title="export key images failed" alt="" coords="79,299,225,339"/>
+<area shape="rect" id="Node000002" href="$classots_1_1exception_1_1DomainError.html" title="errors related to the library use itself" alt="" coords="59,225,245,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,264,155,299,149,299,149,264"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,128,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,184,140,223,136,227,89,188"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="13,79,121,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="69,118,69,152,64,152,64,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="15,5,119,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="69,44,69,79,64,79,64,44"/>
+<area shape="rect" id="Node000006" href="$classots_1_1exception_1_1Exception.html" title=" " alt="" coords="152,152,323,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="215,188,168,227,164,223,212,184"/>
 </map>

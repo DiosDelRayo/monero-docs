@@ -94,6 +94,8 @@ $(document).ready(function(){initNavTree('classots_1_1Polyseed.html',''); initRe
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classots_1_1Polyseed-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ots::Polyseed Class Reference</div></div>
 </div><!--header-->
@@ -108,11 +110,9 @@ Inheritance diagram for ots::Polyseed:</div>
 <div class="dyncontent">
 <div class="center"><img src="classots_1_1Polyseed__inherit__graph.png" border="0" usemap="#aots_1_1Polyseed_inherit__map" alt="Inheritance graph"/></div>
 <map name="aots_1_1Polyseed_inherit__map" id="aots_1_1Polyseed_inherit__map">
-<area shape="rect" title="Represents a Polyseed type." alt="" coords="27,152,130,177"/>
-<area shape="rect" href="classots_1_1EncryptableSeed.html" title="Abstract base class for seeds that support encryption." alt="" coords="5,79,152,104"/>
-<area shape="poly" title=" " alt="" coords="81,118,81,152,76,152,76,118"/>
-<area shape="rect" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management." alt="" coords="39,5,118,31"/>
-<area shape="poly" title=" " alt="" coords="81,44,81,79,76,79,76,44"/>
+<area shape="rect" title="Represents a Polyseed type." alt="" coords="5,79,108,104"/>
+<area shape="rect" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management." alt="" coords="17,5,96,31"/>
+<area shape="poly" title=" " alt="" coords="59,44,59,79,54,79,54,44"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -120,56 +120,71 @@ Collaboration diagram for ots::Polyseed:</div>
 <div class="dyncontent">
 <div class="center"><img src="classots_1_1Polyseed__coll__graph.png" border="0" usemap="#aots_1_1Polyseed_coll__map" alt="Collaboration graph"/></div>
 <map name="aots_1_1Polyseed_coll__map" id="aots_1_1Polyseed_coll__map">
-<area shape="rect" title="Represents a Polyseed type." alt="" coords="139,345,242,371"/>
-<area shape="rect" href="classots_1_1EncryptableSeed.html" title="Abstract base class for seeds that support encryption." alt="" coords="117,271,264,296"/>
-<area shape="poly" title=" " alt="" coords="193,310,193,345,188,345,188,310"/>
-<area shape="rect" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management." alt="" coords="151,196,230,221"/>
-<area shape="poly" title=" " alt="" coords="193,236,193,270,188,270,188,236"/>
-<area shape="rect" title=" " alt="" coords="5,93,144,133"/>
-<area shape="poly" title=" " alt="" coords="110,140,178,194,174,198,107,144"/>
-<area shape="rect" href="classots_1_1KeyStore.html" title="essentialy wraps crypto::secret_key" alt="" coords="23,5,126,31"/>
-<area shape="poly" title=" " alt="" coords="77,44,77,93,72,93,72,44"/>
-<area shape="rect" title=" " alt="" coords="168,101,291,126"/>
-<area shape="poly" title=" " alt="" coords="222,140,198,197,193,195,217,138"/>
+<area shape="rect" title="Represents a Polyseed type." alt="" coords="1271,185,1373,210"/>
+<area shape="rect" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management." alt="" coords="1143,135,1221,161"/>
+<area shape="poly" title=" " alt="" coords="1233,163,1286,182,1284,187,1231,168"/>
+<area shape="rect" title=" " alt="" coords="887,28,1025,68"/>
+<area shape="poly" title=" " alt="" coords="1032,70,1120,107,1164,133,1161,137,1117,112,1030,75"/>
+<area shape="rect" href="classots_1_1Address.html" title="Represents a Monero address." alt="" coords="551,26,647,51"/>
+<area shape="poly" title=" " alt="" coords="660,38,887,44,886,49,660,43"/>
+<area shape="rect" title=" " alt="" coords="273,18,353,43"/>
+<area shape="poly" title=" " alt="" coords="367,29,551,35,551,40,367,35"/>
+<area shape="rect" title=" " alt="" coords="5,11,132,51"/>
+<area shape="poly" title=" " alt="" coords="146,28,273,28,273,33,146,33"/>
+<area shape="rect" title=" " alt="" coords="887,96,1025,136"/>
+<area shape="poly" title=" " alt="" coords="1039,125,1142,140,1142,145,1038,130"/>
+<area shape="rect" href="classots_1_1Wallet.html" title="provides all offline wallet functionality" alt="" coords="557,103,641,129"/>
+<area shape="poly" title=" " alt="" coords="654,113,887,113,887,119,654,119"/>
+<area shape="rect" title=" " alt="" coords="200,153,427,193"/>
+<area shape="poly" title=" " alt="" coords="440,167,1142,146,1142,152,441,172"/>
+<area shape="poly" title=" " alt="" coords="426,148,556,122,557,127,427,153"/>
+<area shape="rect" href="classots_1_1KeyStore.html" title="essentialy wraps crypto::secret_key" alt="" coords="17,190,120,215"/>
+<area shape="poly" title=" " alt="" coords="133,192,199,184,200,190,134,198"/>
+<area shape="rect" href="classots_1_1PolyseedKeyStore.html" title="Extends KeyStore with specific functionality for polyseed&#45;based cryptographic operations." alt="" coords="235,218,391,243"/>
+<area shape="poly" title=" " alt="" coords="134,207,236,219,235,224,133,213"/>
+<area shape="rect" title=" " alt="" coords="206,68,421,108"/>
+<area shape="poly" title=" " alt="" coords="434,97,557,109,556,115,434,102"/>
+<area shape="rect" href="classots_1_1Account.html" title="holds monero internal account and internal functions" alt="" coords="21,75,117,101"/>
+<area shape="poly" title=" " alt="" coords="131,85,206,85,206,91,131,91"/>
+<area shape="rect" title=" " alt="" coords="671,205,863,259"/>
+<area shape="poly" title=" " alt="" coords="876,223,1270,198,1271,203,877,228"/>
+<area shape="poly" title=" " alt="" coords="405,228,670,229,670,234,405,234"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a169adbd22c8d3c5e5bb34c406d25f865" id="r_a169adbd22c8d3c5e5bb34c406d25f865"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a169adbd22c8d3c5e5bb34c406d25f865">phrase</a> (const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;language) const override</td></tr>
-<tr class="memdesc:a169adbd22c8d3c5e5bb34c406d25f865"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the seed phrase in a specified language.  <br /></td></tr>
-<tr class="separator:a169adbd22c8d3c5e5bb34c406d25f865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a03ec0e3269cfef4ae2390cba0db43ad1" id="r_a03ec0e3269cfef4ae2390cba0db43ad1"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a03ec0e3269cfef4ae2390cba0db43ad1">values</a> () const override</td></tr>
-<tr class="memdesc:a03ec0e3269cfef4ae2390cba0db43ad1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the raw numeric values representing the seed.  <br /></td></tr>
-<tr class="separator:a03ec0e3269cfef4ae2390cba0db43ad1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a61054d040447a73cd85be584ebe54d12" id="r_a61054d040447a73cd85be584ebe54d12"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a61054d040447a73cd85be584ebe54d12">fingerprint</a> () const override</td></tr>
-<tr class="memdesc:a61054d040447a73cd85be584ebe54d12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a unique fingerprint for the seed.  <br /></td></tr>
-<tr class="separator:a61054d040447a73cd85be584ebe54d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acee933cff7c5980ab75790e8d2ce78db" id="r_acee933cff7c5980ab75790e8d2ce78db"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#acee933cff7c5980ab75790e8d2ce78db">encrypted</a> () const override</td></tr>
-<tr class="memdesc:acee933cff7c5980ab75790e8d2ce78db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the seed is encrypted.  <br /></td></tr>
-<tr class="separator:acee933cff7c5980ab75790e8d2ce78db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51b957fd35e58017924691f43a3dfab4" id="r_a51b957fd35e58017924691f43a3dfab4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a51b957fd35e58017924691f43a3dfab4">encrypt</a> (const std::string &amp;password) override</td></tr>
-<tr class="memdesc:a51b957fd35e58017924691f43a3dfab4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Encrypts the seed with a password.  <br /></td></tr>
-<tr class="separator:a51b957fd35e58017924691f43a3dfab4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace9d0bf680a0eb8871df0850c592508e" id="r_ace9d0bf680a0eb8871df0850c592508e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#ace9d0bf680a0eb8871df0850c592508e">decrypt</a> (const std::string &amp;password) override</td></tr>
-<tr class="memdesc:ace9d0bf680a0eb8871df0850c592508e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrypts the seed with a password.  <br /></td></tr>
-<tr class="separator:ace9d0bf680a0eb8871df0850c592508e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f2612fb65df291487c46b9e0cf41e01" id="r_a9f2612fb65df291487c46b9e0cf41e01"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classots_1_1WipeableString.html">WipeableString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a9f2612fb65df291487c46b9e0cf41e01">phrase</a> (const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;language, const std::string &amp;password=&quot;&quot;) const override</td></tr>
+<tr class="memdesc:a9f2612fb65df291487c46b9e0cf41e01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the seed phrase in a specified language.  <br /></td></tr>
+<tr class="separator:a9f2612fb65df291487c46b9e0cf41e01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a507ca7be190f4e0b480d05e2d0522c03" id="r_a507ca7be190f4e0b480d05e2d0522c03"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classots_1_1SeedIndices.html">SeedIndices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a507ca7be190f4e0b480d05e2d0522c03">indices</a> (const std::string &amp;password=&quot;&quot;) const override</td></tr>
+<tr class="memdesc:a507ca7be190f4e0b480d05e2d0522c03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the raw numeric values representing the seed (indices)  <br /></td></tr>
+<tr class="separator:a507ca7be190f4e0b480d05e2d0522c03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab460829ef780fa55839a95c0bb0aa520" id="r_ab460829ef780fa55839a95c0bb0aa520"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1MoneroSeed.html">MoneroSeed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#ab460829ef780fa55839a95c0bb0aa520">moneroSeed</a> () const</td></tr>
+<tr class="memdesc:ab460829ef780fa55839a95c0bb0aa520"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the Monero seed from the <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a>.  <br /></td></tr>
+<tr class="separator:ab460829ef780fa55839a95c0bb0aa520"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classots_1_1Seed"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classots_1_1Seed')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classots_1_1Seed.html">ots::Seed</a></td></tr>
 <tr class="memitem:a5b1d1032701b0dc03ab02502d7a8c3b2 inherit pub_methods_classots_1_1Seed" id="r_a5b1d1032701b0dc03ab02502d7a8c3b2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a5b1d1032701b0dc03ab02502d7a8c3b2">~Seed</a> ()=default</td></tr>
 <tr class="memdesc:a5b1d1032701b0dc03ab02502d7a8c3b2 inherit pub_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor to ensure proper cleanup of derived classes.  <br /></td></tr>
 <tr class="separator:a5b1d1032701b0dc03ab02502d7a8c3b2 inherit pub_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6af9cdb9e8cd09f3cdf7b471ed161646 inherit pub_methods_classots_1_1Seed" id="r_a6af9cdb9e8cd09f3cdf7b471ed161646"><td class="memItemLeft" align="right" valign="top">virtual uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a6af9cdb9e8cd09f3cdf7b471ed161646">birthday</a> () const</td></tr>
-<tr class="memdesc:a6af9cdb9e8cd09f3cdf7b471ed161646 inherit pub_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the seed's creation timestamp.  <br /></td></tr>
-<tr class="separator:a6af9cdb9e8cd09f3cdf7b471ed161646 inherit pub_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1bbcd8771e02acc8795932bc83de0eb inherit pub_methods_classots_1_1Seed" id="r_ab1bbcd8771e02acc8795932bc83de0eb"><td class="memItemLeft" align="right" valign="top">virtual uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#ab1bbcd8771e02acc8795932bc83de0eb">height</a> () const</td></tr>
-<tr class="memdesc:ab1bbcd8771e02acc8795932bc83de0eb inherit pub_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the blockchain height associated with the seed.  <br /></td></tr>
-<tr class="separator:ab1bbcd8771e02acc8795932bc83de0eb inherit pub_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aece7c1be1bbf7773189f9d503d384e6c inherit pub_methods_classots_1_1Seed" id="r_aece7c1be1bbf7773189f9d503d384e6c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#aece7c1be1bbf7773189f9d503d384e6c">network</a> () const</td></tr>
-<tr class="memdesc:aece7c1be1bbf7773189f9d503d384e6c inherit pub_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the network associated with the seed.  <br /></td></tr>
-<tr class="separator:aece7c1be1bbf7773189f9d503d384e6c inherit pub_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff464f0e9d3c2c9cba9f3954e2640d54 inherit pub_methods_classots_1_1Seed" id="r_aff464f0e9d3c2c9cba9f3954e2640d54"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classots_1_1Wallet.html">Wallet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#aff464f0e9d3c2c9cba9f3954e2640d54">wallet</a> ()</td></tr>
-<tr class="memdesc:aff464f0e9d3c2c9cba9f3954e2640d54 inherit pub_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a wallet from the seed.  <br /></td></tr>
-<tr class="separator:aff464f0e9d3c2c9cba9f3954e2640d54 inherit pub_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af37ddd358a19140558c9de2cf901877b inherit pub_methods_classots_1_1Seed" id="r_af37ddd358a19140558c9de2cf901877b"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#af37ddd358a19140558c9de2cf901877b">fingerprint</a> () const noexcept</td></tr>
+<tr class="memdesc:af37ddd358a19140558c9de2cf901877b inherit pub_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a unique fingerprint for the seed.  <br /></td></tr>
+<tr class="separator:af37ddd358a19140558c9de2cf901877b inherit pub_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17ef04ddaf887dfca2e3a98eda42ca3c inherit pub_methods_classots_1_1Seed" id="r_a17ef04ddaf887dfca2e3a98eda42ca3c"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classots_1_1Address.html">Address</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a17ef04ddaf887dfca2e3a98eda42ca3c">address</a> () const noexcept</td></tr>
+<tr class="memdesc:a17ef04ddaf887dfca2e3a98eda42ca3c inherit pub_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classots_1_1Address.html" title="Represents a Monero address.">Address</a> of the seed.  <br /></td></tr>
+<tr class="separator:a17ef04ddaf887dfca2e3a98eda42ca3c inherit pub_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a062c6632d48a12552cfd55946ff19c4c inherit pub_methods_classots_1_1Seed" id="r_a062c6632d48a12552cfd55946ff19c4c"><td class="memItemLeft" align="right" valign="top">virtual const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a062c6632d48a12552cfd55946ff19c4c">timestamp</a> () const noexcept</td></tr>
+<tr class="memdesc:a062c6632d48a12552cfd55946ff19c4c inherit pub_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the seed's creation timestamp.  <br /></td></tr>
+<tr class="separator:a062c6632d48a12552cfd55946ff19c4c inherit pub_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1432acb54d741e521c99598ca3488cd9 inherit pub_methods_classots_1_1Seed" id="r_a1432acb54d741e521c99598ca3488cd9"><td class="memItemLeft" align="right" valign="top">virtual const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a1432acb54d741e521c99598ca3488cd9">height</a> () const noexcept</td></tr>
+<tr class="memdesc:a1432acb54d741e521c99598ca3488cd9 inherit pub_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the blockchain height associated with the seed.  <br /></td></tr>
+<tr class="separator:a1432acb54d741e521c99598ca3488cd9 inherit pub_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d3d3d6eefce46d4efe0faaa0ed02f2f inherit pub_methods_classots_1_1Seed" id="r_a4d3d3d6eefce46d4efe0faaa0ed02f2f"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a4d3d3d6eefce46d4efe0faaa0ed02f2f">network</a> () const noexcept</td></tr>
+<tr class="memdesc:a4d3d3d6eefce46d4efe0faaa0ed02f2f inherit pub_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the network associated with the seed.  <br /></td></tr>
+<tr class="separator:a4d3d3d6eefce46d4efe0faaa0ed02f2f inherit pub_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59649d84109540117759c10de74a6480 inherit pub_methods_classots_1_1Seed" id="r_a59649d84109540117759c10de74a6480"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classots_1_1Wallet.html">Wallet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a59649d84109540117759c10de74a6480">wallet</a> () noexcept</td></tr>
+<tr class="memdesc:a59649d84109540117759c10de74a6480 inherit pub_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a wallet from the seed.  <br /></td></tr>
+<tr class="separator:a59649d84109540117759c10de74a6480 inherit pub_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a352e3dfeb4a035c481bd0756b6fc4e61 inherit pub_methods_classots_1_1Seed" id="r_a352e3dfeb4a035c481bd0756b6fc4e61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a352e3dfeb4a035c481bd0756b6fc4e61">Seed</a> (const <a class="el" href="classots_1_1Seed.html">Seed</a> &amp;)=delete</td></tr>
 <tr class="separator:a352e3dfeb4a035c481bd0756b6fc4e61 inherit pub_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a548a0800e2634e9ccbf2ca5a25671255 inherit pub_methods_classots_1_1Seed" id="r_a548a0800e2634e9ccbf2ca5a25671255"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1Seed.html">Seed</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a548a0800e2634e9ccbf2ca5a25671255">operator=</a> (const <a class="el" href="classots_1_1Seed.html">Seed</a> &amp;)=delete</td></tr>
@@ -181,43 +196,92 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a975efd8d016ce28b9feccd0850d1d85a" id="r_a975efd8d016ce28b9feccd0850d1d85a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a975efd8d016ce28b9feccd0850d1d85a">create</a> (uint64_t time, const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;language, <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> <a class="el" href="classots_1_1Seed.html#aece7c1be1bbf7773189f9d503d384e6c">network</a>=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>)</td></tr>
-<tr class="memdesc:a975efd8d016ce28b9feccd0850d1d85a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> with specific parameters.  <br /></td></tr>
-<tr class="separator:a975efd8d016ce28b9feccd0850d1d85a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5aef05bbd62c3335c1ef59ab0d477fb" id="r_aa5aef05bbd62c3335c1ef59ab0d477fb"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#aa5aef05bbd62c3335c1ef59ab0d477fb">decode</a> (const std::string &amp;<a class="el" href="classots_1_1Polyseed.html#a169adbd22c8d3c5e5bb34c406d25f865">phrase</a>, <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> <a class="el" href="classots_1_1Seed.html#aece7c1be1bbf7773189f9d503d384e6c">network</a>=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>)</td></tr>
-<tr class="memdesc:aa5aef05bbd62c3335c1ef59ab0d477fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decodes a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> from a phrase.  <br /></td></tr>
-<tr class="separator:aa5aef05bbd62c3335c1ef59ab0d477fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a679eea86b74c5212844a58acb4e9ad54" id="r_a679eea86b74c5212844a58acb4e9ad54"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a679eea86b74c5212844a58acb4e9ad54">decode</a> (const std::string &amp;<a class="el" href="classots_1_1Polyseed.html#a169adbd22c8d3c5e5bb34c406d25f865">phrase</a>, const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;language, <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> <a class="el" href="classots_1_1Seed.html#aece7c1be1bbf7773189f9d503d384e6c">network</a>=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>)</td></tr>
-<tr class="separator:a679eea86b74c5212844a58acb4e9ad54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15d9a36e40b929f7cbd320e8d39be8af" id="r_a15d9a36e40b929f7cbd320e8d39be8af"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a15d9a36e40b929f7cbd320e8d39be8af">decode</a> (const std::vector&lt; int &gt; &amp;<a class="el" href="classots_1_1Polyseed.html#a03ec0e3269cfef4ae2390cba0db43ad1">values</a>, <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> <a class="el" href="classots_1_1Seed.html#aece7c1be1bbf7773189f9d503d384e6c">network</a>=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>)</td></tr>
-<tr class="separator:a15d9a36e40b929f7cbd320e8d39be8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90b0c1328b9c18b11dd749e739a6d489" id="r_a90b0c1328b9c18b11dd749e739a6d489"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a90b0c1328b9c18b11dd749e739a6d489">create</a> (const std::array&lt; unsigned char, 19 &gt; &amp;random, <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> <a class="el" href="classots_1_1Seed.html#a4d3d3d6eefce46d4efe0faaa0ed02f2f">network</a>=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>, uint64_t time=0, const std::string &amp;passphrase=&quot;&quot;)</td></tr>
+<tr class="memdesc:a90b0c1328b9c18b11dd749e739a6d489"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> with specific parameters.  <br /></td></tr>
+<tr class="separator:a90b0c1328b9c18b11dd749e739a6d489"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7202cd2d5962ab7ae5bd7a2a8c5090dd" id="r_a7202cd2d5962ab7ae5bd7a2a8c5090dd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a7202cd2d5962ab7ae5bd7a2a8c5090dd">create</a> (const std::array&lt; unsigned char, 32 &gt; &amp;random, <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> <a class="el" href="classots_1_1Seed.html#a4d3d3d6eefce46d4efe0faaa0ed02f2f">network</a>=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>, uint64_t time=0, const std::string &amp;passphrase=&quot;&quot;)</td></tr>
+<tr class="memdesc:a7202cd2d5962ab7ae5bd7a2a8c5090dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convinience function to create a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> from random 32 bytes like sha256 or pbkdf2.  <br /></td></tr>
+<tr class="separator:a7202cd2d5962ab7ae5bd7a2a8c5090dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50259dc8980341db2ecc270b0b28c7f2" id="r_a50259dc8980341db2ecc270b0b28c7f2"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a50259dc8980341db2ecc270b0b28c7f2">generate</a> (<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> <a class="el" href="classots_1_1Seed.html#a4d3d3d6eefce46d4efe0faaa0ed02f2f">network</a>=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>, uint64_t time=0, const std::string &amp;passphrase=&quot;&quot;)</td></tr>
+<tr class="memdesc:a50259dc8980341db2ecc270b0b28c7f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> with specific parameters.  <br /></td></tr>
+<tr class="separator:a50259dc8980341db2ecc270b0b28c7f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72ba0f180ea8a902d6143d645be71aba" id="r_a72ba0f180ea8a902d6143d645be71aba"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a72ba0f180ea8a902d6143d645be71aba">decode</a> (const std::string &amp;<a class="el" href="classots_1_1Polyseed.html#a9f2612fb65df291487c46b9e0cf41e01">phrase</a>, const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> <a class="el" href="classots_1_1Seed.html#a4d3d3d6eefce46d4efe0faaa0ed02f2f">network</a>=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>, const std::string &amp;password=&quot;&quot;, const std::string &amp;passphrase=&quot;&quot;)</td></tr>
+<tr class="memdesc:a72ba0f180ea8a902d6143d645be71aba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decodes a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> from a phrase.  <br /></td></tr>
+<tr class="separator:a72ba0f180ea8a902d6143d645be71aba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11d99bac383bb2049f0c3a56dd2528a4" id="r_a11d99bac383bb2049f0c3a56dd2528a4"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a11d99bac383bb2049f0c3a56dd2528a4">decode</a> (const std::string &amp;<a class="el" href="classots_1_1Polyseed.html#a9f2612fb65df291487c46b9e0cf41e01">phrase</a>, const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;language, const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> <a class="el" href="classots_1_1Seed.html#a4d3d3d6eefce46d4efe0faaa0ed02f2f">network</a>=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>, const std::string &amp;password=&quot;&quot;, const std::string &amp;passphrase=&quot;&quot;)</td></tr>
+<tr class="memdesc:a11d99bac383bb2049f0c3a56dd2528a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decodes a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> from a phrase.  <br /></td></tr>
+<tr class="separator:a11d99bac383bb2049f0c3a56dd2528a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa19dc052875bcc79dd8ac48453e46041" id="r_aa19dc052875bcc79dd8ac48453e46041"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#aa19dc052875bcc79dd8ac48453e46041">decode</a> (const <a class="el" href="classots_1_1SeedIndices.html">SeedIndices</a> &amp;<a class="el" href="classots_1_1Polyseed.html#a507ca7be190f4e0b480d05e2d0522c03">indices</a>, const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> <a class="el" href="classots_1_1Seed.html#a4d3d3d6eefce46d4efe0faaa0ed02f2f">network</a>=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>, const std::string &amp;password=&quot;&quot;, const std::string &amp;passphrase=&quot;&quot;)</td></tr>
+<tr class="memdesc:aa19dc052875bcc79dd8ac48453e46041"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decodes a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> from indexes of the words.  <br /></td></tr>
+<tr class="separator:aa19dc052875bcc79dd8ac48453e46041"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac00f9670dd5651616a4f53494603feee" id="r_ac00f9670dd5651616a4f53494603feee"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#ac00f9670dd5651616a4f53494603feee">decode</a> (const std::vector&lt; uint16_t &gt; &amp;values, const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> <a class="el" href="classots_1_1Seed.html#a4d3d3d6eefce46d4efe0faaa0ed02f2f">network</a>=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>, const std::string &amp;password=&quot;&quot;, const std::string &amp;passphrase=&quot;&quot;)</td></tr>
+<tr class="memdesc:ac00f9670dd5651616a4f53494603feee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decodes a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> from indexes of the words.  <br /></td></tr>
+<tr class="separator:ac00f9670dd5651616a4f53494603feee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_methods_classots_1_1Seed"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_classots_1_1Seed')"><img src="closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="classots_1_1Seed.html">ots::Seed</a></td></tr>
+<tr class="memitem:ab5c06858c6eac77ec80ee22374470f64 inherit pub_static_methods_classots_1_1Seed" id="r_ab5c06858c6eac77ec80ee22374470f64"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#ab5c06858c6eac77ec80ee22374470f64">mergeValues</a> (const std::vector&lt; uint16_t &gt; &amp;values1, const std::vector&lt; uint16_t &gt; &amp;values2)</td></tr>
+<tr class="memdesc:ab5c06858c6eac77ec80ee22374470f64 inherit pub_static_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges two seed values, so you can join multiple SeedQRs to one seed.  <br /></td></tr>
+<tr class="separator:ab5c06858c6eac77ec80ee22374470f64 inherit pub_static_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af809c7fa8d9bae23464f1cec6276c5ee inherit pub_static_methods_classots_1_1Seed" id="r_af809c7fa8d9bae23464f1cec6276c5ee"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#af809c7fa8d9bae23464f1cec6276c5ee">mergeValues</a> (const std::vector&lt; std::vector&lt; uint16_t &gt; &gt; &amp;values)</td></tr>
+<tr class="memdesc:af809c7fa8d9bae23464f1cec6276c5ee inherit pub_static_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges multiple seed values, so you can join multiple SeedQRs to one seed.  <br /></td></tr>
+<tr class="separator:af809c7fa8d9bae23464f1cec6276c5ee inherit pub_static_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e6499e96be77b7c78a8c3acaaf77223 inherit pub_static_methods_classots_1_1Seed" id="r_a8e6499e96be77b7c78a8c3acaaf77223"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a8e6499e96be77b7c78a8c3acaaf77223">mergeAndZeorizeValues</a> (std::vector&lt; uint16_t &gt; &amp;values1, std::vector&lt; uint16_t &gt; &amp;values2, bool del=true)</td></tr>
+<tr class="memdesc:a8e6499e96be77b7c78a8c3acaaf77223 inherit pub_static_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges two seed values, so you can join multiple SeedQRs to one seed.  <br /></td></tr>
+<tr class="separator:a8e6499e96be77b7c78a8c3acaaf77223 inherit pub_static_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f26bf28edc39605073794ed625b997 inherit pub_static_methods_classots_1_1Seed" id="r_a98f26bf28edc39605073794ed625b997"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a98f26bf28edc39605073794ed625b997">mergeAndZeorizeValues</a> (std::vector&lt; std::vector&lt; uint16_t &gt; &gt; &amp;values, bool del=true)</td></tr>
+<tr class="memdesc:a98f26bf28edc39605073794ed625b997 inherit pub_static_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges multiple seed values, so you can join multiple SeedQRs to one seed.  <br /></td></tr>
+<tr class="separator:a98f26bf28edc39605073794ed625b997 inherit pub_static_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e1da0c0fcb100d2ee52dd86094228bd inherit pub_static_methods_classots_1_1Seed" id="r_a3e1da0c0fcb100d2ee52dd86094228bd"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a3e1da0c0fcb100d2ee52dd86094228bd">mergeWithPassword</a> (const std::string &amp;password, const std::vector&lt; uint16_t &gt; &amp;values)</td></tr>
+<tr class="memdesc:a3e1da0c0fcb100d2ee52dd86094228bd inherit pub_static_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge password with seed values.  <br /></td></tr>
+<tr class="separator:a3e1da0c0fcb100d2ee52dd86094228bd inherit pub_static_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad29eff145611ed540fef0593266e7bb7 inherit pub_static_methods_classots_1_1Seed" id="r_ad29eff145611ed540fef0593266e7bb7"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#ad29eff145611ed540fef0593266e7bb7">mergeWithPasswordAndZeorize</a> (std::string &amp;password, std::vector&lt; uint16_t &gt; &amp;values, bool del=true)</td></tr>
+<tr class="memdesc:ad29eff145611ed540fef0593266e7bb7 inherit pub_static_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge password with seed values and zeroize password.  <br /></td></tr>
+<tr class="separator:ad29eff145611ed540fef0593266e7bb7 inherit pub_static_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a617dd281515dab7ff4e29a4a92d16004 inherit pub_static_methods_classots_1_1Seed" id="r_a617dd281515dab7ff4e29a4a92d16004"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a617dd281515dab7ff4e29a4a92d16004">mergeWithPassword</a> (const <a class="el" href="classots_1_1WipeableString.html">WipeableString</a> &amp;password, const std::vector&lt; uint16_t &gt; &amp;values)</td></tr>
+<tr class="memdesc:a617dd281515dab7ff4e29a4a92d16004 inherit pub_static_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge password with seed values.  <br /></td></tr>
+<tr class="separator:a617dd281515dab7ff4e29a4a92d16004 inherit pub_static_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d879bc852992d00cdff6a1e316b71c inherit pub_static_methods_classots_1_1Seed" id="r_a80d879bc852992d00cdff6a1e316b71c"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a80d879bc852992d00cdff6a1e316b71c">mergeWithPasswordAndZeorize</a> (const <a class="el" href="classots_1_1WipeableString.html">WipeableString</a> &amp;password, std::vector&lt; uint16_t &gt; &amp;values, bool del=true)</td></tr>
+<tr class="memdesc:a80d879bc852992d00cdff6a1e316b71c inherit pub_static_methods_classots_1_1Seed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge password with seed values and zeroize values.  <br /></td></tr>
+<tr class="separator:a80d879bc852992d00cdff6a1e316b71c inherit pub_static_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_classots_1_1EncryptableSeed"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classots_1_1EncryptableSeed')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classots_1_1EncryptableSeed.html">ots::EncryptableSeed</a></td></tr>
-<tr class="memitem:a8b779e830f32877aeabdc0d8975d65b6 inherit pro_methods_classots_1_1EncryptableSeed" id="r_a8b779e830f32877aeabdc0d8975d65b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1EncryptableSeed.html#a8b779e830f32877aeabdc0d8975d65b6">EncryptableSeed</a> ()=default</td></tr>
-<tr class="separator:a8b779e830f32877aeabdc0d8975d65b6 inherit pro_methods_classots_1_1EncryptableSeed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a9ded9b7b5e7b7ae8aafbf12916428b23" id="r_a9ded9b7b5e7b7ae8aafbf12916428b23"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a9ded9b7b5e7b7ae8aafbf12916428b23">Polyseed</a> ()</td></tr>
+<tr class="separator:a9ded9b7b5e7b7ae8aafbf12916428b23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_classots_1_1Seed"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classots_1_1Seed')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classots_1_1Seed.html">ots::Seed</a></td></tr>
 <tr class="memitem:aa90588a8f85493f517f7a5ebdbf9cc17 inherit pro_methods_classots_1_1Seed" id="r_aa90588a8f85493f517f7a5ebdbf9cc17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#aa90588a8f85493f517f7a5ebdbf9cc17">Seed</a> ()</td></tr>
 <tr class="separator:aa90588a8f85493f517f7a5ebdbf9cc17 inherit pro_methods_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a8b39b761862b70129041cc6df3e31ddb" id="r_a8b39b761862b70129041cc6df3e31ddb"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classots_1_1PolyseedKeyStore.html">PolyseedKeyStore</a>, <a class="el" href="structots_1_1PolyseedKeyStoreDeleter.html">PolyseedKeyStoreDeleter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html#a8b39b761862b70129041cc6df3e31ddb">m_seed</a></td></tr>
+<tr class="separator:a8b39b761862b70129041cc6df3e31ddb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classots_1_1Seed"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classots_1_1Seed')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classots_1_1Seed.html">ots::Seed</a></td></tr>
-<tr class="memitem:a9b7e1918056fa3c3591a5b7db635729b inherit pro_attribs_classots_1_1Seed" id="r_a9b7e1918056fa3c3591a5b7db635729b"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a9b7e1918056fa3c3591a5b7db635729b">m_birthday</a> = 0</td></tr>
-<tr class="separator:a9b7e1918056fa3c3591a5b7db635729b inherit pro_attribs_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe208fcff3c5f4d8adfc998a9f3ec734 inherit pro_attribs_classots_1_1Seed" id="r_afe208fcff3c5f4d8adfc998a9f3ec734"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classots_1_1Address.html">Address</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#afe208fcff3c5f4d8adfc998a9f3ec734">m_address</a></td></tr>
+<tr class="separator:afe208fcff3c5f4d8adfc998a9f3ec734 inherit pro_attribs_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f262312b40f029eaf4a9c0e2f73efe inherit pro_attribs_classots_1_1Seed" id="r_aa6f262312b40f029eaf4a9c0e2f73efe"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classots_1_1Wallet.html">Wallet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#aa6f262312b40f029eaf4a9c0e2f73efe">m_wallet</a></td></tr>
+<tr class="separator:aa6f262312b40f029eaf4a9c0e2f73efe inherit pro_attribs_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b4dcd05249937a3d5c61619efbf4333 inherit pro_attribs_classots_1_1Seed" id="r_a5b4dcd05249937a3d5c61619efbf4333"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a5b4dcd05249937a3d5c61619efbf4333">m_timestamp</a> = 0</td></tr>
+<tr class="separator:a5b4dcd05249937a3d5c61619efbf4333 inherit pro_attribs_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc89451a4d8b13a855a6292ad5fd39a1 inherit pro_attribs_classots_1_1Seed" id="r_abc89451a4d8b13a855a6292ad5fd39a1"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#abc89451a4d8b13a855a6292ad5fd39a1">m_height</a> = 0</td></tr>
 <tr class="separator:abc89451a4d8b13a855a6292ad5fd39a1 inherit pro_attribs_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc807ca4bf1dfdbbacf2697797f79255 inherit pro_attribs_classots_1_1Seed" id="r_abc807ca4bf1dfdbbacf2697797f79255"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classots_1_1KeyStore.html">KeyStore</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#abc807ca4bf1dfdbbacf2697797f79255">m_key</a></td></tr>
-<tr class="separator:abc807ca4bf1dfdbbacf2697797f79255 inherit pro_attribs_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a594c3bb2cd659970ed83e440b639b202 inherit pro_attribs_classots_1_1Seed" id="r_a594c3bb2cd659970ed83e440b639b202"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a594c3bb2cd659970ed83e440b639b202">m_values</a></td></tr>
-<tr class="separator:a594c3bb2cd659970ed83e440b639b202 inherit pro_attribs_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9953f74f68e43c94323b4180ea51873e inherit pro_attribs_classots_1_1Seed" id="r_a9953f74f68e43c94323b4180ea51873e"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classots_1_1KeyStore.html">KeyStore</a>, <a class="el" href="structots_1_1KeyStoreDeleter.html">KeyStoreDeleter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a9953f74f68e43c94323b4180ea51873e">m_key</a></td></tr>
+<tr class="separator:a9953f74f68e43c94323b4180ea51873e inherit pro_attribs_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4de98be0d877d3fa59ab2f42a0bbcc22 inherit pro_attribs_classots_1_1Seed" id="r_a4de98be0d877d3fa59ab2f42a0bbcc22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a4de98be0d877d3fa59ab2f42a0bbcc22">m_network</a></td></tr>
 <tr class="separator:a4de98be0d877d3fa59ab2f42a0bbcc22 inherit pro_attribs_classots_1_1Seed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Represents a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> type. </p>
-<p>Provides <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> generation, encoding, and management </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a975efd8d016ce28b9feccd0850d1d85a" name="a975efd8d016ce28b9feccd0850d1d85a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a975efd8d016ce28b9feccd0850d1d85a">&#9670;&#160;</a></span>create()</h2>
+<p>Provides <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> generation, encoding, and management</p>
+<dl class="section note"><dt>Note</dt><dd>Password and Passphrase is somehow unfortunate.<ul>
+<li>Password encrypts and decrypts a polyseed, so you can call <a class="el" href="classots_1_1Polyseed.html#a9f2612fb65df291487c46b9e0cf41e01" title="Generates the seed phrase in a specified language.">Polyseed::phrase</a>(lang, "password") or <a class="el" href="classots_1_1Polyseed.html#a507ca7be190f4e0b480d05e2d0522c03" title="Gets the raw numeric values representing the seed (indices)">Polyseed::indices</a>("password") to encrypt the seed with a password. And later you provide the same seed phrase and the same password to decrypt it.</li>
+<li>Passphrase is used to offset the seed, and works a bit different. The seed offset passphrase is used after the data from the seed, for that the passphrase is set on creation time and need to be provided always on decoding. So, while you can change your seed phrase with a password, the passphrase will be always the same! With a monero seed you can change the passphrase because the secret key is encoded by the seed phrase while with polyseed the secret key is derived from the seed phrase data and not reversible. </li>
+</ul>
+</dd>
+<dd>
+if you provide to the user seed offset by passphrase, or encryption by password I suggest asking the user for the fingerprint of the seed and compare it with the fingerprint of the Seeed and if not it doesn't match the passphrase or password are wrong. </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9ded9b7b5e7b7ae8aafbf12916428b23" name="a9ded9b7b5e7b7ae8aafbf12916428b23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ded9b7b5e7b7ae8aafbf12916428b23">&#9670;&#160;</a></span>Polyseed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -226,22 +290,54 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::Polyseed::create </td>
+          <td class="memname">ots::Polyseed::Polyseed </td>
           <td>(</td>
-          <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;&#160;</td>
-          <td class="paramname"><em>language</em>, </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a90b0c1328b9c18b11dd749e739a6d489" name="a90b0c1328b9c18b11dd749e739a6d489"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90b0c1328b9c18b11dd749e739a6d489">&#9670;&#160;</a></span>create() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::Polyseed::create </td>
+          <td>(</td>
+          <td class="paramtype">const std::array&lt; unsigned char, 19 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>random</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
-          <td class="paramname"><em>network</em> = <code><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a></code>&#160;</td>
+          <td class="paramname"><em>network</em> = <code><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>time_</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>passphrase</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -259,18 +355,21 @@ Additional Inherited Members</h2></td></tr>
 <p>Creates a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> with specific parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">time</td><td>Timestamp for seed creation </td></tr>
-    <tr><td class="paramname">language</td><td><a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> language </td></tr>
+    <tr><td class="paramname">random</td><td>19-byte random input </td></tr>
     <tr><td class="paramname">network</td><td>Network type (default: MAIN) </td></tr>
+    <tr><td class="paramname">time</td><td>Timestamp for seed creation, default 0, what translates to now (current system time) </td></tr>
+    <tr><td class="paramname">passphrase</td><td>for seed offset (like in monero seed), default empty string </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> Created seed </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> Created seed</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Unfortunately the birthday in polyseed is set with the dependency injection what makes it necessary to inject every time or use a global/static variable to be flexible with the timestamp. So for now polyseed_create is not used, but re-implemented in a way the timestamp can be set on a by case base without writing ugly code. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Maybe a PR with a refactoring of tevador/polyseed in the future and if accepted refactor here again, too. </dd></dl>
 
 </div>
 </div>
-<a id="a679eea86b74c5212844a58acb4e9ad54" name="a679eea86b74c5212844a58acb4e9ad54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a679eea86b74c5212844a58acb4e9ad54">&#9670;&#160;</a></span>decode() <span class="overload">[1/3]</span></h2>
+<a id="a7202cd2d5962ab7ae5bd7a2a8c5090dd" name="a7202cd2d5962ab7ae5bd7a2a8c5090dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7202cd2d5962ab7ae5bd7a2a8c5090dd">&#9670;&#160;</a></span>create() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,22 +378,28 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::Polyseed::decode </td>
+          <td class="memname"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::Polyseed::create </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>phrase</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;&#160;</td>
-          <td class="paramname"><em>language</em>, </td>
+          <td class="paramtype">const std::array&lt; unsigned char, 32 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>random</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
-          <td class="paramname"><em>network</em> = <code><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a></code>&#160;</td>
+          <td class="paramname"><em>network</em> = <code><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>time</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>passphrase</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -309,10 +414,22 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Convinience function to create a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> from random 32 bytes like sha256 or pbkdf2. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">random</td><td>32-byte random input, but only first 19 bytes are used! </td></tr>
+    <tr><td class="paramname">network</td><td>Network type (default: MAIN) </td></tr>
+    <tr><td class="paramname">time</td><td>Timestamp for seed creation, default 0, what translates to now (current system time) </td></tr>
+    <tr><td class="paramname">passphrase</td><td>for seed offset (like in monero seed), default empty string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> Created seed </dd></dl>
+
 </div>
 </div>
-<a id="aa5aef05bbd62c3335c1ef59ab0d477fb" name="aa5aef05bbd62c3335c1ef59ab0d477fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5aef05bbd62c3335c1ef59ab0d477fb">&#9670;&#160;</a></span>decode() <span class="overload">[2/3]</span></h2>
+<a id="aa19dc052875bcc79dd8ac48453e46041" name="aa19dc052875bcc79dd8ac48453e46041"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa19dc052875bcc79dd8ac48453e46041">&#9670;&#160;</a></span>decode() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -321,7 +438,75 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::Polyseed::decode </td>
+          <td class="memname"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::Polyseed::decode </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classots_1_1SeedIndices.html">SeedIndices</a> &amp;&#160;</td>
+          <td class="paramname"><em>indices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
+          <td class="paramname"><em>network</em> = <code><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>passphrase</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Decodes a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> from indexes of the words. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">indices</td><td><a class="el" href="classots_1_1SeedIndices.html" title="Secure container for seed word indices.">SeedIndices</a> to decode </td></tr>
+    <tr><td class="paramname">network</td><td>Network type (default: MAIN) </td></tr>
+    <tr><td class="paramname">password</td><td>Decryption password, if different from empty string </td></tr>
+    <tr><td class="paramname">passphrase</td><td>for seed offset (like in monero seed), default empty string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> Decoded seed </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1SeedDecodingFailed.html" title="a seed could not be encoded">ots::exception::seed::SeedDecodingFailed</a></td><td>If decoding fails </td></tr>
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1polyseed_1_1NoPasswordProvided.html" title="Seed encrypted, but no password provided.">ots::exception::polyseed::NoPasswordProvided</a></td><td>If a password is needed but not provided</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Language not needed because the index is the same in all languages </dd></dl>
+
+</div>
+</div>
+<a id="a72ba0f180ea8a902d6143d645be71aba" name="a72ba0f180ea8a902d6143d645be71aba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72ba0f180ea8a902d6143d645be71aba">&#9670;&#160;</a></span>decode() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::Polyseed::decode </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
           <td class="paramname"><em>phrase</em>, </td>
@@ -329,8 +514,20 @@ Additional Inherited Members</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
-          <td class="paramname"><em>network</em> = <code><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a></code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
+          <td class="paramname"><em>network</em> = <code><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>passphrase</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -350,15 +547,25 @@ Additional Inherited Members</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">phrase</td><td><a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> phrase </td></tr>
     <tr><td class="paramname">network</td><td>Network type (default: MAIN) </td></tr>
+    <tr><td class="paramname">password</td><td>Decryption password, if different from empty string </td></tr>
+    <tr><td class="paramname">passphrase</td><td>for seed offset (like in monero seed), default empty string </td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> Decoded seed </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1SeedDecodingFailed.html" title="a seed could not be encoded">ots::exception::seed::SeedDecodingFailed</a></td><td>If decoding fails </td></tr>
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1polyseed_1_1NoPasswordProvided.html" title="Seed encrypted, but no password provided.">ots::exception::polyseed::NoPasswordProvided</a></td><td>If a password is needed but not provided</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>autodetect language </dd></dl>
 
 </div>
 </div>
-<a id="a15d9a36e40b929f7cbd320e8d39be8af" name="a15d9a36e40b929f7cbd320e8d39be8af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15d9a36e40b929f7cbd320e8d39be8af">&#9670;&#160;</a></span>decode() <span class="overload">[3/3]</span></h2>
+<a id="a11d99bac383bb2049f0c3a56dd2528a4" name="a11d99bac383bb2049f0c3a56dd2528a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11d99bac383bb2049f0c3a56dd2528a4">&#9670;&#160;</a></span>decode() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,16 +574,34 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::Polyseed::decode </td>
+          <td class="memname"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::Polyseed::decode </td>
           <td>(</td>
-          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>values</em>, </td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>phrase</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
-          <td class="paramname"><em>network</em> = <code><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a></code>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;&#160;</td>
+          <td class="paramname"><em>language</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
+          <td class="paramname"><em>network</em> = <code><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>passphrase</em> = <code>&quot;&quot;</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -391,10 +616,30 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Decodes a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> from a phrase. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">phrase</td><td><a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> phrase </td></tr>
+    <tr><td class="paramname">language</td><td>the language of the wordlist to use </td></tr>
+    <tr><td class="paramname">network</td><td>Network type (default: MAIN) </td></tr>
+    <tr><td class="paramname">password</td><td>Decryption password, if different from empty string </td></tr>
+    <tr><td class="paramname">passphrase</td><td>for seed offset (like in monero seed), default empty string </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> Decoded seed </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1SeedDecodingFailed.html" title="a seed could not be encoded">ots::exception::seed::SeedDecodingFailed</a></td><td>If decoding fails </td></tr>
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1polyseed_1_1NoPasswordProvided.html" title="Seed encrypted, but no password provided.">ots::exception::polyseed::NoPasswordProvided</a></td><td>If a password is needed but not provided </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
-<a id="ace9d0bf680a0eb8871df0850c592508e" name="ace9d0bf680a0eb8871df0850c592508e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace9d0bf680a0eb8871df0850c592508e">&#9670;&#160;</a></span>decrypt()</h2>
+<a id="ac00f9670dd5651616a4f53494603feee" name="ac00f9670dd5651616a4f53494603feee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac00f9670dd5651616a4f53494603feee">&#9670;&#160;</a></span>decode() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -403,35 +648,66 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ots::Polyseed::decrypt </td>
+          <td class="memname"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::Polyseed::decode </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>password</em></td><td>)</td>
+          <td class="paramtype">const std::vector&lt; uint16_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
+          <td class="paramname"><em>network</em> = <code><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>passphrase</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Decrypts the seed with a password. </p>
+<p>Decodes a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> from indexes of the words. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">password</td><td>Decryption password </td></tr>
+    <tr><td class="paramname">values</td><td><a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> phrase as index representation </td></tr>
+    <tr><td class="paramname">network</td><td>Network type (default: MAIN) </td></tr>
+    <tr><td class="paramname">password</td><td>Decryption password, if different from empty string </td></tr>
+    <tr><td class="paramname">passphrase</td><td>for seed offset (like in monero seed), default empty string </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>bool True if decrypted, false otherwise </dd></dl>
-
-<p>Implements <a class="el" href="classots_1_1EncryptableSeed.html#aefdd6708be10572510d0d0eb68db0c4b">ots::EncryptableSeed</a>.</p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> Decoded seed </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1SeedDecodingFailed.html" title="a seed could not be encoded">ots::exception::seed::SeedDecodingFailed</a></td><td>If decoding fails </td></tr>
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1polyseed_1_1NoPasswordProvided.html" title="Seed encrypted, but no password provided.">ots::exception::polyseed::NoPasswordProvided</a></td><td>If a password is needed but not provided</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>Language not needed because the index is the same in all languages </dd></dl>
 
 </div>
 </div>
-<a id="a51b957fd35e58017924691f43a3dfab4" name="a51b957fd35e58017924691f43a3dfab4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51b957fd35e58017924691f43a3dfab4">&#9670;&#160;</a></span>encrypt()</h2>
+<a id="a50259dc8980341db2ecc270b0b28c7f2" name="a50259dc8980341db2ecc270b0b28c7f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50259dc8980341db2ecc270b0b28c7f2">&#9670;&#160;</a></span>generate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -440,35 +716,51 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ots::Polyseed::encrypt </td>
+          <td class="memname"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::Polyseed::generate </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>password</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
+          <td class="paramname"><em>network</em> = <code><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>time</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>passphrase</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Encrypts the seed with a password. </p>
+<p>Generates a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> with specific parameters. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">password</td><td>Encryption password </td></tr>
+    <tr><td class="paramname">network</td><td>Network type (default: MAIN) </td></tr>
+    <tr><td class="paramname">time</td><td>Timestamp for seed creation, default 0, what translates to now (current system time) </td></tr>
+    <tr><td class="paramname">passphrase</td><td>for seed offset (like in monero seed), default empty string </td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>bool True if encrypted, false otherwise </dd></dl>
-
-<p>Implements <a class="el" href="classots_1_1EncryptableSeed.html#ab46320bf78ce47ac8a4d7c2571cabe92">ots::EncryptableSeed</a>.</p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> Created seed </dd></dl>
 
 </div>
 </div>
-<a id="acee933cff7c5980ab75790e8d2ce78db" name="acee933cff7c5980ab75790e8d2ce78db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acee933cff7c5980ab75790e8d2ce78db">&#9670;&#160;</a></span>encrypted()</h2>
+<a id="a507ca7be190f4e0b480d05e2d0522c03" name="a507ca7be190f4e0b480d05e2d0522c03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a507ca7be190f4e0b480d05e2d0522c03">&#9670;&#160;</a></span>indices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -477,9 +769,10 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool ots::Polyseed::encrypted </td>
+          <td class="memname">const <a class="el" href="classots_1_1SeedIndices.html">SeedIndices</a> ots::Polyseed::indices </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em> = <code>&quot;&quot;</code></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -490,45 +783,35 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks if the seed is encrypted. </p>
-<dl class="section return"><dt>Returns</dt><dd>bool True if the seed is encrypted, false otherwise </dd></dl>
+<p>Gets the raw numeric values representing the seed (indices) </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> numeric representation </dd></dl>
 
-<p>Reimplemented from <a class="el" href="classots_1_1Seed.html#a7b55976aefc957a343768fbe651d3bec">ots::Seed</a>.</p>
+<p>Implements <a class="el" href="classots_1_1Seed.html#a89427d4aecb92098108cf0e0bed91dc6">ots::Seed</a>.</p>
 
 </div>
 </div>
-<a id="a61054d040447a73cd85be584ebe54d12" name="a61054d040447a73cd85be584ebe54d12"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a61054d040447a73cd85be584ebe54d12">&#9670;&#160;</a></span>fingerprint()</h2>
+<a id="ab460829ef780fa55839a95c0bb0aa520" name="ab460829ef780fa55839a95c0bb0aa520"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab460829ef780fa55839a95c0bb0aa520">&#9670;&#160;</a></span>moneroSeed()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ots::Polyseed::fingerprint </td>
+          <td class="memname"><a class="el" href="classots_1_1MoneroSeed.html">MoneroSeed</a> ots::Polyseed::moneroSeed </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Generates a unique fingerprint for the seed. </p>
-<dl class="section return"><dt>Returns</dt><dd>std::string <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> fingerprint </dd></dl>
-
-<p>Implements <a class="el" href="classots_1_1Seed.html#a8376fdd4b7e4d15ff24656ed7e354267">ots::Seed</a>.</p>
+<p>Gets the Monero seed from the <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1MoneroSeed.html" title="Represents a Monero 25-words seed.">MoneroSeed</a> Monero seed </dd></dl>
 
 </div>
 </div>
-<a id="a169adbd22c8d3c5e5bb34c406d25f865" name="a169adbd22c8d3c5e5bb34c406d25f865"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a169adbd22c8d3c5e5bb34c406d25f865">&#9670;&#160;</a></span>phrase()</h2>
+<a id="a9f2612fb65df291487c46b9e0cf41e01" name="a9f2612fb65df291487c46b9e0cf41e01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f2612fb65df291487c46b9e0cf41e01">&#9670;&#160;</a></span>phrase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -537,11 +820,21 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ots::Polyseed::phrase </td>
+          <td class="memname">const <a class="el" href="classots_1_1WipeableString.html">WipeableString</a> ots::Polyseed::phrase </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;&#160;</td>
-          <td class="paramname"><em>language</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>language</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -558,14 +851,21 @@ Additional Inherited Members</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>std::string <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> phrase </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> phrase </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ots::exception::seed::UnsupportedLanguage</td><td>If the language is not supported </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Implements <a class="el" href="classots_1_1Seed.html#a44298bced5f1a11998e8f55ba1a96371">ots::Seed</a>.</p>
+<p>Implements <a class="el" href="classots_1_1Seed.html#a66846b1fb9f5036e010d88d2174e71f3">ots::Seed</a>.</p>
 
 </div>
 </div>
-<a id="a03ec0e3269cfef4ae2390cba0db43ad1" name="a03ec0e3269cfef4ae2390cba0db43ad1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03ec0e3269cfef4ae2390cba0db43ad1">&#9670;&#160;</a></span>values()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a8b39b761862b70129041cc6df3e31ddb" name="a8b39b761862b70129041cc6df3e31ddb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b39b761862b70129041cc6df3e31ddb">&#9670;&#160;</a></span>m_seed</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -574,23 +874,15 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; int &gt; ots::Polyseed::values </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classots_1_1PolyseedKeyStore.html">PolyseedKeyStore</a>, <a class="el" href="structots_1_1PolyseedKeyStoreDeleter.html">PolyseedKeyStoreDeleter</a>&gt; ots::Polyseed::m_seed</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Gets the raw numeric values representing the seed. </p>
-<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;int&gt; <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> numeric representation </dd></dl>
-
-<p>Reimplemented from <a class="el" href="classots_1_1Seed.html#a0ef284fc08fbd9fd05ed529b62f404d6">ots::Seed</a>.</p>
 
 </div>
 </div>

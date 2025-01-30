@@ -115,6 +115,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af9e7bd1dff50b7b69fd55fa9d5cd3c94" id="r_af9e7bd1dff50b7b69fd55fa9d5cd3c94"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="classots_1_1Seed.html">Seed</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1SeedJar.html#af9e7bd1dff50b7b69fd55fa9d5cd3c94">get</a> (const std::string &amp;fingerprint) const</td></tr>
 <tr class="memdesc:af9e7bd1dff50b7b69fd55fa9d5cd3c94"><td class="mdescLeft">&#160;</td><td class="mdescRight">retrieve a <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> object from the jar from the fingerprint of the <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> object  <br /></td></tr>
 <tr class="separator:af9e7bd1dff50b7b69fd55fa9d5cd3c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69bafef85dfbb810b593f1e279000d5c" id="r_a69bafef85dfbb810b593f1e279000d5c"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1SeedJar.html#a69bafef85dfbb810b593f1e279000d5c">count</a> () const noexcept</td></tr>
+<tr class="separator:a69bafef85dfbb810b593f1e279000d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad5c229243941640091123f9ee70262f9" id="r_ad5c229243941640091123f9ee70262f9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1SeedJar.html#ad5c229243941640091123f9ee70262f9">has</a> (<a class="el" href="namespaceots.html#a0ae85bced26ccd7d76f9c95c360283d8">seed_handle_t</a> handle) const noexcept</td></tr>
 <tr class="separator:ad5c229243941640091123f9ee70262f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa493e606ce8a75ad214dc46560b5b9af" id="r_aa493e606ce8a75ad214dc46560b5b9af"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1SeedJar.html#aa493e606ce8a75ad214dc46560b5b9af">has</a> (const std::string &amp;fingerprint) const</td></tr>
@@ -129,8 +131,33 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Storage for the <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> objects, mainly for the purpose of the C ABI. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>check if not better include in <a class="el" href="classots_1_1OTS.html" title="General functionality.">OTS</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>check if not better include in <a class="el" href="classots_1_1OTS.html" title="General functionality.">OTS</a> </dd></dl>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a69bafef85dfbb810b593f1e279000d5c" name="a69bafef85dfbb810b593f1e279000d5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69bafef85dfbb810b593f1e279000d5c">&#9670;&#160;</a></span>count()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint32_t ots::SeedJar::count </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af9e7bd1dff50b7b69fd55fa9d5cd3c94" name="af9e7bd1dff50b7b69fd55fa9d5cd3c94"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9e7bd1dff50b7b69fd55fa9d5cd3c94">&#9670;&#160;</a></span>get() <span class="overload">[1/2]</span></h2>
 

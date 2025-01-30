@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('classots_1_1Wallet.html',''); initResi
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classots_1_1Wallet-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">ots::Wallet Class Reference</div></div>
@@ -108,11 +109,15 @@ Collaboration diagram for ots::Wallet:</div>
 <div class="dyncontent">
 <div class="center"><img src="classots_1_1Wallet__coll__graph.png" border="0" usemap="#aots_1_1Wallet_coll__map" alt="Collaboration graph"/></div>
 <map name="aots_1_1Wallet_coll__map" id="aots_1_1Wallet_coll__map">
-<area shape="rect" title="provides all offline wallet functionality" alt="" coords="33,196,117,221"/>
-<area shape="rect" title=" " alt="" coords="5,93,144,133"/>
-<area shape="poly" title=" " alt="" coords="77,147,77,196,72,196,72,147"/>
-<area shape="rect" href="classots_1_1KeyStore.html" title="essentialy wraps crypto::secret_key" alt="" coords="23,5,126,31"/>
-<area shape="poly" title=" " alt="" coords="77,44,77,93,72,93,72,44"/>
+<area shape="rect" title="provides all offline wallet functionality" alt="" coords="520,45,604,70"/>
+<area shape="rect" title=" " alt="" coords="176,5,403,45"/>
+<area shape="poly" title=" " alt="" coords="417,38,520,50,519,55,416,43"/>
+<area shape="rect" href="classots_1_1KeyStore.html" title="essentialy wraps crypto::secret_key" alt="" coords="5,13,108,38"/>
+<area shape="poly" title=" " alt="" coords="122,23,176,23,176,28,122,28"/>
+<area shape="rect" title=" " alt="" coords="182,69,397,109"/>
+<area shape="poly" title=" " alt="" coords="410,78,496,68,519,64,520,69,496,73,411,83"/>
+<area shape="rect" href="classots_1_1Account.html" title="holds monero internal account and internal functions" alt="" coords="9,77,105,102"/>
+<area shape="poly" title=" " alt="" coords="119,87,182,87,182,92,119,92"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -130,36 +135,36 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aceefe4eb7428c83a38a7596e52fca9a4" id="r_aceefe4eb7428c83a38a7596e52fca9a4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classots_1_1Address.html">Address</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#aceefe4eb7428c83a38a7596e52fca9a4">subAddresses</a> (uint32_t account=0, uint32_t max=10, uint32_t offset=0) const noexcept</td></tr>
 <tr class="memdesc:aceefe4eb7428c83a38a7596e52fca9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gives a list of subaddresses for a given account.  <br /></td></tr>
 <tr class="separator:aceefe4eb7428c83a38a7596e52fca9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aefa673ec4ef177db918332091d703fea" id="r_aefa673ec4ef177db918332091d703fea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#aefa673ec4ef177db918332091d703fea">hasAddress</a> (const std::string &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>) const noexcept</td></tr>
-<tr class="memdesc:aefa673ec4ef177db918332091d703fea"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if the address string is a valid monero address and then if the address belongs to the wallet  <br /></td></tr>
-<tr class="separator:aefa673ec4ef177db918332091d703fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d0d21eb25eb19baba3fc4a1e13b6e1d" id="r_a4d0d21eb25eb19baba3fc4a1e13b6e1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a4d0d21eb25eb19baba3fc4a1e13b6e1d">hasAddress</a> (const <a class="el" href="classots_1_1Address.html">Address</a> &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>) const noexcept</td></tr>
-<tr class="memdesc:a4d0d21eb25eb19baba3fc4a1e13b6e1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if the address belongs to the wallet  <br /></td></tr>
-<tr class="separator:a4d0d21eb25eb19baba3fc4a1e13b6e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ea2d164c4943ea85a96c2640f5feee3" id="r_a2ea2d164c4943ea85a96c2640f5feee3"><td class="memItemLeft" align="right" valign="top">std::pair&lt; uint32_t, uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a2ea2d164c4943ea85a96c2640f5feee3">addressIndex</a> (const std::string &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>) const</td></tr>
-<tr class="memdesc:a2ea2d164c4943ea85a96c2640f5feee3"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if the address string is a valid monero address and give the account and subindex  <br /></td></tr>
-<tr class="separator:a2ea2d164c4943ea85a96c2640f5feee3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bef53ec96fda9b790e2e63483c01662" id="r_a4bef53ec96fda9b790e2e63483c01662"><td class="memItemLeft" align="right" valign="top">std::pair&lt; uint32_t, uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a4bef53ec96fda9b790e2e63483c01662">addressIndex</a> (const <a class="el" href="classots_1_1Address.html">Address</a> &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>) const</td></tr>
-<tr class="memdesc:a4bef53ec96fda9b790e2e63483c01662"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the account and subindex of a address in the wallet  <br /></td></tr>
-<tr class="separator:a4bef53ec96fda9b790e2e63483c01662"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d48df58257f74364deb70839408a332" id="r_a7d48df58257f74364deb70839408a332"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a7d48df58257f74364deb70839408a332">secretViewKey</a> () const noexcept</td></tr>
-<tr class="memdesc:a7d48df58257f74364deb70839408a332"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Secret View Key.  <br /></td></tr>
-<tr class="separator:a7d48df58257f74364deb70839408a332"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7612875a0b3e8fcf9b87f1b4c624859" id="r_af7612875a0b3e8fcf9b87f1b4c624859"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#af7612875a0b3e8fcf9b87f1b4c624859">publicViewKey</a> () const noexcept</td></tr>
-<tr class="memdesc:af7612875a0b3e8fcf9b87f1b4c624859"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Public View Key.  <br /></td></tr>
-<tr class="separator:af7612875a0b3e8fcf9b87f1b4c624859"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1256bba5f65cdc7f46675231fff960b0" id="r_a1256bba5f65cdc7f46675231fff960b0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a1256bba5f65cdc7f46675231fff960b0">secretSpendKey</a> () const noexcept</td></tr>
-<tr class="memdesc:a1256bba5f65cdc7f46675231fff960b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Secret Spend Key.  <br /></td></tr>
-<tr class="separator:a1256bba5f65cdc7f46675231fff960b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76dcbd057b65c25764755c39dca4d782" id="r_a76dcbd057b65c25764755c39dca4d782"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a76dcbd057b65c25764755c39dca4d782">publicSpendKey</a> () const noexcept</td></tr>
-<tr class="memdesc:a76dcbd057b65c25764755c39dca4d782"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Public Spend Key.  <br /></td></tr>
-<tr class="separator:a76dcbd057b65c25764755c39dca4d782"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8d4a08cddfb48a181430f66ffb7a019" id="r_ac8d4a08cddfb48a181430f66ffb7a019"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#ac8d4a08cddfb48a181430f66ffb7a019">hasAddress</a> (const std::string &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>, uint32_t maxAccountDepth=0, uint32_t maxIndexDepth=0) const noexcept</td></tr>
+<tr class="memdesc:ac8d4a08cddfb48a181430f66ffb7a019"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if the address string is a valid monero address and then if the address belongs to the wallet  <br /></td></tr>
+<tr class="separator:ac8d4a08cddfb48a181430f66ffb7a019"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad8122bad3466f348fe931ca53e12539" id="r_aad8122bad3466f348fe931ca53e12539"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#aad8122bad3466f348fe931ca53e12539">hasAddress</a> (const <a class="el" href="classots_1_1Address.html">Address</a> &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>, uint32_t maxAccountDepth=0, uint32_t maxIndexDepth=0) const noexcept</td></tr>
+<tr class="memdesc:aad8122bad3466f348fe931ca53e12539"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if the address belongs to the wallet  <br /></td></tr>
+<tr class="separator:aad8122bad3466f348fe931ca53e12539"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4edc55df5b92088e45b7c0ce23d7a363" id="r_a4edc55df5b92088e45b7c0ce23d7a363"><td class="memItemLeft" align="right" valign="top">std::pair&lt; uint32_t, uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a4edc55df5b92088e45b7c0ce23d7a363">addressIndex</a> (const std::string &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>, uint32_t maxAccountDepth=0, uint32_t maxIndexDepth=0) const</td></tr>
+<tr class="memdesc:a4edc55df5b92088e45b7c0ce23d7a363"><td class="mdescLeft">&#160;</td><td class="mdescRight">check if the address string is a valid monero address and give the account and subindex  <br /></td></tr>
+<tr class="separator:a4edc55df5b92088e45b7c0ce23d7a363"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa22c84b422e85a710f5f6e5156b9fcbf" id="r_aa22c84b422e85a710f5f6e5156b9fcbf"><td class="memItemLeft" align="right" valign="top">std::pair&lt; uint32_t, uint32_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#aa22c84b422e85a710f5f6e5156b9fcbf">addressIndex</a> (const <a class="el" href="classots_1_1Address.html">Address</a> &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>, uint32_t maxAccountDepth=0, uint32_t maxIndexDepth=0) const</td></tr>
+<tr class="memdesc:aa22c84b422e85a710f5f6e5156b9fcbf"><td class="mdescLeft">&#160;</td><td class="mdescRight">get the account and subindex of a address in the wallet  <br /></td></tr>
+<tr class="separator:aa22c84b422e85a710f5f6e5156b9fcbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2709d26980fa0ae04add3f391e9147ea" id="r_a2709d26980fa0ae04add3f391e9147ea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1WipeableString.html">WipeableString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a2709d26980fa0ae04add3f391e9147ea">secretViewKey</a> () const noexcept</td></tr>
+<tr class="memdesc:a2709d26980fa0ae04add3f391e9147ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Secret View Key.  <br /></td></tr>
+<tr class="separator:a2709d26980fa0ae04add3f391e9147ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c44a2f6be39025759f8ed59a61d3ff1" id="r_a7c44a2f6be39025759f8ed59a61d3ff1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1WipeableString.html">WipeableString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a7c44a2f6be39025759f8ed59a61d3ff1">publicViewKey</a> () const noexcept</td></tr>
+<tr class="memdesc:a7c44a2f6be39025759f8ed59a61d3ff1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Public View Key.  <br /></td></tr>
+<tr class="separator:a7c44a2f6be39025759f8ed59a61d3ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d6dda92ecb31872f652e3a16b0f0c5f" id="r_a9d6dda92ecb31872f652e3a16b0f0c5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1WipeableString.html">WipeableString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a9d6dda92ecb31872f652e3a16b0f0c5f">secretSpendKey</a> () const noexcept</td></tr>
+<tr class="memdesc:a9d6dda92ecb31872f652e3a16b0f0c5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Secret Spend Key.  <br /></td></tr>
+<tr class="separator:a9d6dda92ecb31872f652e3a16b0f0c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a489ed2a449a5084c6489d57f7cedfa3b" id="r_a489ed2a449a5084c6489d57f7cedfa3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1WipeableString.html">WipeableString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a489ed2a449a5084c6489d57f7cedfa3b">publicSpendKey</a> () const noexcept</td></tr>
+<tr class="memdesc:a489ed2a449a5084c6489d57f7cedfa3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Public Spend Key.  <br /></td></tr>
+<tr class="separator:a489ed2a449a5084c6489d57f7cedfa3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93665dd688d083f72e9a92e6beb9195b" id="r_a93665dd688d083f72e9a92e6beb9195b"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a93665dd688d083f72e9a92e6beb9195b">importOutputs</a> (const std::string &amp;outputs)</td></tr>
 <tr class="memdesc:a93665dd688d083f72e9a92e6beb9195b"><td class="mdescLeft">&#160;</td><td class="mdescRight">import the output, previous exported from the view only wallet  <br /></td></tr>
 <tr class="separator:a93665dd688d083f72e9a92e6beb9195b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dea10f47088e90816cb00101dcd4e77" id="r_a6dea10f47088e90816cb00101dcd4e77"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a6dea10f47088e90816cb00101dcd4e77">exportKeyImages</a> () const</td></tr>
-<tr class="memdesc:a6dea10f47088e90816cb00101dcd4e77"><td class="mdescLeft">&#160;</td><td class="mdescRight">export key images after outputs are imported  <br /></td></tr>
-<tr class="separator:a6dea10f47088e90816cb00101dcd4e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89442c6cd58d0a193d599429c469b78" id="r_aa89442c6cd58d0a193d599429c469b78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1WipeableString.html">WipeableString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#aa89442c6cd58d0a193d599429c469b78">exportKeyImages</a> () const</td></tr>
+<tr class="memdesc:aa89442c6cd58d0a193d599429c469b78"><td class="mdescLeft">&#160;</td><td class="mdescRight">export key images after outputs are imported  <br /></td></tr>
+<tr class="separator:aa89442c6cd58d0a193d599429c469b78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad56e6240eff8c1f4b25dda16dfa505c9" id="r_ad56e6240eff8c1f4b25dda16dfa505c9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1TxDescription.html">TxDescription</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#ad56e6240eff8c1f4b25dda16dfa505c9">describeTransaction</a> (const std::string &amp;unsignedTransaction) const</td></tr>
 <tr class="memdesc:ad56e6240eff8c1f4b25dda16dfa505c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gives a whole picture of the unsigned transaction.  <br /></td></tr>
 <tr class="separator:ad56e6240eff8c1f4b25dda16dfa505c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,28 +180,56 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a77c699316f3af22f9e3e7ba8606ef669" id="r_a77c699316f3af22f9e3e7ba8606ef669"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a77c699316f3af22f9e3e7ba8606ef669">signData</a> (const std::string &amp;data) const noexcept</td></tr>
 <tr class="memdesc:a77c699316f3af22f9e3e7ba8606ef669"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sign a provided string.  <br /></td></tr>
 <tr class="separator:a77c699316f3af22f9e3e7ba8606ef669"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe4c7e8ec9947ab24d6e5340041c530c" id="r_abe4c7e8ec9947ab24d6e5340041c530c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#abe4c7e8ec9947ab24d6e5340041c530c">verifyData</a> (const std::string &amp;data, const std::string &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>, const std::string &amp;signature) const</td></tr>
-<tr class="memdesc:abe4c7e8ec9947ab24d6e5340041c530c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify a signed message.  <br /></td></tr>
-<tr class="separator:abe4c7e8ec9947ab24d6e5340041c530c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba256bb950069ec66db9d0be909bdd84" id="r_aba256bb950069ec66db9d0be909bdd84"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#aba256bb950069ec66db9d0be909bdd84">Wallet</a> (const std::array&lt; unsigned char, 32 &gt; &amp;key, uint64_t <a class="el" href="classots_1_1Wallet.html#aa5a5c98b56ffcd1c79a2b5256b86625e">height</a>) noexcept</td></tr>
-<tr class="memdesc:aba256bb950069ec66db9d0be909bdd84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a offline <a class="el" href="classots_1_1Wallet.html" title="provides all offline wallet functionality">Wallet</a> from a secret key.  <br /></td></tr>
-<tr class="separator:aba256bb950069ec66db9d0be909bdd84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec20e4e40eebd69e037fc853ae39ec6b" id="r_aec20e4e40eebd69e037fc853ae39ec6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#aec20e4e40eebd69e037fc853ae39ec6b">Wallet</a> (const <a class="el" href="classots_1_1KeyStore.html">KeyStore</a> &amp;key, uint64_t <a class="el" href="classots_1_1Wallet.html#aa5a5c98b56ffcd1c79a2b5256b86625e">height</a>) noexcept</td></tr>
-<tr class="memdesc:aec20e4e40eebd69e037fc853ae39ec6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a offline <a class="el" href="classots_1_1Wallet.html" title="provides all offline wallet functionality">Wallet</a> from a secret key.  <br /></td></tr>
-<tr class="separator:aec20e4e40eebd69e037fc853ae39ec6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea90e3fb1ddd64e6abd90b2e4c236abd" id="r_aea90e3fb1ddd64e6abd90b2e4c236abd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#aea90e3fb1ddd64e6abd90b2e4c236abd">signData</a> (const std::string &amp;data, const std::pair&lt; uint32_t, uint32_t &gt; &amp;index) const</td></tr>
+<tr class="memdesc:aea90e3fb1ddd64e6abd90b2e4c236abd"><td class="mdescLeft">&#160;</td><td class="mdescRight">sign a message with subindex address of the wallet  <br /></td></tr>
+<tr class="separator:aea90e3fb1ddd64e6abd90b2e4c236abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70a37f12ec5c40a7f18a054b93295e24" id="r_a70a37f12ec5c40a7f18a054b93295e24"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a70a37f12ec5c40a7f18a054b93295e24">signData</a> (const std::string &amp;data, const <a class="el" href="classots_1_1Address.html">Address</a> &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>) const</td></tr>
+<tr class="memdesc:a70a37f12ec5c40a7f18a054b93295e24"><td class="mdescLeft">&#160;</td><td class="mdescRight">sign a message with the provided address of the wallet  <br /></td></tr>
+<tr class="separator:a70a37f12ec5c40a7f18a054b93295e24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a799a6cf95aa2c03b4756d60daa56d215" id="r_a799a6cf95aa2c03b4756d60daa56d215"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a799a6cf95aa2c03b4756d60daa56d215">signData</a> (const std::string &amp;data, const std::string &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>) const</td></tr>
+<tr class="memdesc:a799a6cf95aa2c03b4756d60daa56d215"><td class="mdescLeft">&#160;</td><td class="mdescRight">sign a message with the provided address of the wallet  <br /></td></tr>
+<tr class="separator:a799a6cf95aa2c03b4756d60daa56d215"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07136a5f95a9796ae1c9bb5eb7f530ce" id="r_a07136a5f95a9796ae1c9bb5eb7f530ce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a07136a5f95a9796ae1c9bb5eb7f530ce">verifyData</a> (const std::string &amp;data, const std::pair&lt; uint32_t, uint32_t &gt; &amp;index, const std::string &amp;signature, bool legacyFallback=false) const</td></tr>
+<tr class="memdesc:a07136a5f95a9796ae1c9bb5eb7f530ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify a signed message.  <br /></td></tr>
+<tr class="separator:a07136a5f95a9796ae1c9bb5eb7f530ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4034889464e36c6b8804ef7ccb6dbc40" id="r_a4034889464e36c6b8804ef7ccb6dbc40"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a4034889464e36c6b8804ef7ccb6dbc40">verifyData</a> (const std::string &amp;data, const std::string &amp;signature, bool legacyFallback=false) const</td></tr>
+<tr class="memdesc:a4034889464e36c6b8804ef7ccb6dbc40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify a signed message, for the wallet address.  <br /></td></tr>
+<tr class="separator:a4034889464e36c6b8804ef7ccb6dbc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87be426ec193c7c34abae6425940ccb3" id="r_a87be426ec193c7c34abae6425940ccb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a87be426ec193c7c34abae6425940ccb3">Wallet</a> (const std::array&lt; unsigned char, 32 &gt; &amp;key, uint64_t <a class="el" href="classots_1_1Wallet.html#aa5a5c98b56ffcd1c79a2b5256b86625e">height</a>, const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> network) noexcept</td></tr>
+<tr class="memdesc:a87be426ec193c7c34abae6425940ccb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a offline <a class="el" href="classots_1_1Wallet.html" title="provides all offline wallet functionality">Wallet</a> from a secret key.  <br /></td></tr>
+<tr class="separator:a87be426ec193c7c34abae6425940ccb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac450d2c1500d28e6c13031928bbddd09" id="r_ac450d2c1500d28e6c13031928bbddd09"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#ac450d2c1500d28e6c13031928bbddd09">Wallet</a> (const <a class="el" href="classots_1_1KeyStore.html">KeyStore</a> &amp;key, uint64_t <a class="el" href="classots_1_1Wallet.html#aa5a5c98b56ffcd1c79a2b5256b86625e">height</a>, const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> network) noexcept</td></tr>
+<tr class="memdesc:ac450d2c1500d28e6c13031928bbddd09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a offline <a class="el" href="classots_1_1Wallet.html" title="provides all offline wallet functionality">Wallet</a> from a secret key.  <br /></td></tr>
+<tr class="separator:ac450d2c1500d28e6c13031928bbddd09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9694a4063741b579f77a7ca67de96451" id="r_a9694a4063741b579f77a7ca67de96451"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a9694a4063741b579f77a7ca67de96451">Wallet</a> (const <a class="el" href="classots_1_1Account.html">Account</a> &amp;account, const <a class="el" href="classots_1_1KeyStore.html">KeyStore</a> &amp;key, uint64_t <a class="el" href="classots_1_1Wallet.html#aa5a5c98b56ffcd1c79a2b5256b86625e">height</a>, const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> network) noexcept</td></tr>
+<tr class="memdesc:a9694a4063741b579f77a7ca67de96451"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create a offline <a class="el" href="classots_1_1Wallet.html" title="provides all offline wallet functionality">Wallet</a> from a secret key.  <br /></td></tr>
+<tr class="separator:a9694a4063741b579f77a7ca67de96451"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a12876a3f0bf8d6f11ca70ccd11eba3cb" id="r_a12876a3f0bf8d6f11ca70ccd11eba3cb"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a12876a3f0bf8d6f11ca70ccd11eba3cb">verifyData</a> (const std::string &amp;data, const std::string &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>, const std::string &amp;signature, bool legacyFallback=false)</td></tr>
+<tr class="memdesc:a12876a3f0bf8d6f11ca70ccd11eba3cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify a signed message.  <br /></td></tr>
+<tr class="separator:a12876a3f0bf8d6f11ca70ccd11eba3cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66d158098d932e44bcb7c0b9ae3e1eea" id="r_a66d158098d932e44bcb7c0b9ae3e1eea"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a66d158098d932e44bcb7c0b9ae3e1eea">verifyData</a> (const std::string &amp;data, const <a class="el" href="classots_1_1Address.html">Address</a> &amp;<a class="el" href="classots_1_1Wallet.html#aeb7e370d1ded08d0f3b5fb0d9d293c4e">address</a>, const std::string &amp;signature, bool legacyFallback=false)</td></tr>
+<tr class="memdesc:a66d158098d932e44bcb7c0b9ae3e1eea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verify a signed message.  <br /></td></tr>
+<tr class="separator:a66d158098d932e44bcb7c0b9ae3e1eea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:abf7fbc8e4ab3e5efb2a5e71d2ff6a46b" id="r_abf7fbc8e4ab3e5efb2a5e71d2ff6a46b"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classots_1_1KeyStore.html">KeyStore</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#abf7fbc8e4ab3e5efb2a5e71d2ff6a46b">m_key</a></td></tr>
-<tr class="separator:abf7fbc8e4ab3e5efb2a5e71d2ff6a46b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabaf75fed5c2e51dc00ad417af83a4dd" id="r_aabaf75fed5c2e51dc00ad417af83a4dd"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classots_1_1KeyStore.html">KeyStore</a>, <a class="el" href="structots_1_1KeyStoreDeleter.html">KeyStoreDeleter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#aabaf75fed5c2e51dc00ad417af83a4dd">m_key</a></td></tr>
+<tr class="separator:aabaf75fed5c2e51dc00ad417af83a4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05c46d6ec803f8c8bacf4d2376628c0e" id="r_a05c46d6ec803f8c8bacf4d2376628c0e"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classots_1_1Account.html">Account</a>, <a class="el" href="structots_1_1AccountDeleter.html">AccountDeleter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a05c46d6ec803f8c8bacf4d2376628c0e">m_account</a></td></tr>
+<tr class="separator:a05c46d6ec803f8c8bacf4d2376628c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5776d6c35a37a150c7fbcacd128696cf" id="r_a5776d6c35a37a150c7fbcacd128696cf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#a5776d6c35a37a150c7fbcacd128696cf">m_network</a></td></tr>
+<tr class="separator:a5776d6c35a37a150c7fbcacd128696cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af77194621640f4987b879d767d42fb05" id="r_af77194621640f4987b879d767d42fb05"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html#af77194621640f4987b879d767d42fb05">m_height</a> = 0</td></tr>
 <tr class="separator:af77194621640f4987b879d767d42fb05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>provides all offline wallet functionality </p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aba256bb950069ec66db9d0be909bdd84" name="aba256bb950069ec66db9d0be909bdd84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba256bb950069ec66db9d0be909bdd84">&#9670;&#160;</a></span>Wallet() <span class="overload">[1/2]</span></h2>
+<a id="a87be426ec193c7c34abae6425940ccb3" name="a87be426ec193c7c34abae6425940ccb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87be426ec193c7c34abae6425940ccb3">&#9670;&#160;</a></span>Wallet() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -214,7 +247,13 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
+          <td class="paramname"><em>network</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -232,16 +271,17 @@ Protected Attributes</h2></td></tr>
 <p>Create a offline <a class="el" href="classots_1_1Wallet.html" title="provides all offline wallet functionality">Wallet</a> from a secret key. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">key</td><td>provided as insecure std::array, will be stored in the keystore, make sure to wike the provided variable after creating the <a class="el" href="classots_1_1Wallet.html" title="provides all offline wallet functionality">Wallet</a> </td></tr>
+    <tr><td class="paramname">key</td><td>provided as insecure std::array, will be stored in the keystore, make sure to wipe the provided variable after creating the <a class="el" href="classots_1_1Wallet.html" title="provides all offline wallet functionality">Wallet</a> </td></tr>
     <tr><td class="paramname">height</td><td>restore height of the wallet </td></tr>
+    <tr><td class="paramname">network</td><td>the network of the wallet </td></tr>
   </table>
   </dd>
 </dl>
 
 </div>
 </div>
-<a id="aec20e4e40eebd69e037fc853ae39ec6b" name="aec20e4e40eebd69e037fc853ae39ec6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec20e4e40eebd69e037fc853ae39ec6b">&#9670;&#160;</a></span>Wallet() <span class="overload">[2/2]</span></h2>
+<a id="ac450d2c1500d28e6c13031928bbddd09" name="ac450d2c1500d28e6c13031928bbddd09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac450d2c1500d28e6c13031928bbddd09">&#9670;&#160;</a></span>Wallet() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +299,13 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>height</em>&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
+          <td class="paramname"><em>network</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -279,6 +325,66 @@ Protected Attributes</h2></td></tr>
   <table class="params">
     <tr><td class="paramname">key</td><td>provide the key via a secret key Storage </td></tr>
     <tr><td class="paramname">height</td><td>restore height of the wallet </td></tr>
+    <tr><td class="paramname">network</td><td>the network of the wallet </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a9694a4063741b579f77a7ca67de96451" name="a9694a4063741b579f77a7ca67de96451"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9694a4063741b579f77a7ca67de96451">&#9670;&#160;</a></span>Wallet() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ots::Wallet::Wallet </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classots_1_1Account.html">Account</a> &amp;&#160;</td>
+          <td class="paramname"><em>account</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classots_1_1KeyStore.html">KeyStore</a> &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>height</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
+          <td class="paramname"><em>network</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Create a offline <a class="el" href="classots_1_1Wallet.html" title="provides all offline wallet functionality">Wallet</a> from a secret key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">account</td><td>provides the internal workings of the wallet </td></tr>
+    <tr><td class="paramname">key</td><td>provide the key via a secret key Storage </td></tr>
+    <tr><td class="paramname">height</td><td>restore height of the wallet </td></tr>
+    <tr><td class="paramname">network</td><td>the network of the wallet </td></tr>
   </table>
   </dd>
 </dl>
@@ -379,8 +485,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4bef53ec96fda9b790e2e63483c01662" name="a4bef53ec96fda9b790e2e63483c01662"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bef53ec96fda9b790e2e63483c01662">&#9670;&#160;</a></span>addressIndex() <span class="overload">[1/2]</span></h2>
+<a id="aa22c84b422e85a710f5f6e5156b9fcbf" name="aa22c84b422e85a710f5f6e5156b9fcbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa22c84b422e85a710f5f6e5156b9fcbf">&#9670;&#160;</a></span>addressIndex() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -389,8 +495,24 @@ Protected Attributes</h2></td></tr>
           <td class="memname">std::pair&lt; uint32_t, uint32_t &gt; ots::Wallet::addressIndex </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classots_1_1Address.html">Address</a> &amp;&#160;</td>
-          <td class="paramname"><em>address</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>maxAccountDepth</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>maxIndexDepth</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -413,8 +535,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a2ea2d164c4943ea85a96c2640f5feee3" name="a2ea2d164c4943ea85a96c2640f5feee3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ea2d164c4943ea85a96c2640f5feee3">&#9670;&#160;</a></span>addressIndex() <span class="overload">[2/2]</span></h2>
+<a id="a4edc55df5b92088e45b7c0ce23d7a363" name="a4edc55df5b92088e45b7c0ce23d7a363"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4edc55df5b92088e45b7c0ce23d7a363">&#9670;&#160;</a></span>addressIndex() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -423,8 +545,24 @@ Protected Attributes</h2></td></tr>
           <td class="memname">std::pair&lt; uint32_t, uint32_t &gt; ots::Wallet::addressIndex </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>address</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>maxAccountDepth</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>maxIndexDepth</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -548,14 +686,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6dea10f47088e90816cb00101dcd4e77" name="a6dea10f47088e90816cb00101dcd4e77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6dea10f47088e90816cb00101dcd4e77">&#9670;&#160;</a></span>exportKeyImages()</h2>
+<a id="aa89442c6cd58d0a193d599429c469b78" name="aa89442c6cd58d0a193d599429c469b78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa89442c6cd58d0a193d599429c469b78">&#9670;&#160;</a></span>exportKeyImages()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ots::Wallet::exportKeyImages </td>
+          <td class="memname"><a class="el" href="classots_1_1WipeableString.html">WipeableString</a> ots::Wallet::exportKeyImages </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -575,8 +713,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a4d0d21eb25eb19baba3fc4a1e13b6e1d" name="a4d0d21eb25eb19baba3fc4a1e13b6e1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d0d21eb25eb19baba3fc4a1e13b6e1d">&#9670;&#160;</a></span>hasAddress() <span class="overload">[1/2]</span></h2>
+<a id="aad8122bad3466f348fe931ca53e12539" name="aad8122bad3466f348fe931ca53e12539"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad8122bad3466f348fe931ca53e12539">&#9670;&#160;</a></span>hasAddress() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -588,8 +726,24 @@ Protected Attributes</h2></td></tr>
           <td class="memname">bool ots::Wallet::hasAddress </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classots_1_1Address.html">Address</a> &amp;&#160;</td>
-          <td class="paramname"><em>address</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>maxAccountDepth</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>maxIndexDepth</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -610,8 +764,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aefa673ec4ef177db918332091d703fea" name="aefa673ec4ef177db918332091d703fea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aefa673ec4ef177db918332091d703fea">&#9670;&#160;</a></span>hasAddress() <span class="overload">[2/2]</span></h2>
+<a id="ac8d4a08cddfb48a181430f66ffb7a019" name="ac8d4a08cddfb48a181430f66ffb7a019"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8d4a08cddfb48a181430f66ffb7a019">&#9670;&#160;</a></span>hasAddress() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -623,8 +777,24 @@ Protected Attributes</h2></td></tr>
           <td class="memname">bool ots::Wallet::hasAddress </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>address</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>maxAccountDepth</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t&#160;</td>
+          <td class="paramname"><em>maxIndexDepth</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -703,8 +873,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a76dcbd057b65c25764755c39dca4d782" name="a76dcbd057b65c25764755c39dca4d782"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76dcbd057b65c25764755c39dca4d782">&#9670;&#160;</a></span>publicSpendKey()</h2>
+<a id="a489ed2a449a5084c6489d57f7cedfa3b" name="a489ed2a449a5084c6489d57f7cedfa3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a489ed2a449a5084c6489d57f7cedfa3b">&#9670;&#160;</a></span>publicSpendKey()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -713,7 +883,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ots::Wallet::publicSpendKey </td>
+          <td class="memname"><a class="el" href="classots_1_1WipeableString.html">WipeableString</a> ots::Wallet::publicSpendKey </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -731,8 +901,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="af7612875a0b3e8fcf9b87f1b4c624859" name="af7612875a0b3e8fcf9b87f1b4c624859"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7612875a0b3e8fcf9b87f1b4c624859">&#9670;&#160;</a></span>publicViewKey()</h2>
+<a id="a7c44a2f6be39025759f8ed59a61d3ff1" name="a7c44a2f6be39025759f8ed59a61d3ff1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c44a2f6be39025759f8ed59a61d3ff1">&#9670;&#160;</a></span>publicViewKey()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -741,7 +911,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ots::Wallet::publicViewKey </td>
+          <td class="memname"><a class="el" href="classots_1_1WipeableString.html">WipeableString</a> ots::Wallet::publicViewKey </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -759,8 +929,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a1256bba5f65cdc7f46675231fff960b0" name="a1256bba5f65cdc7f46675231fff960b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1256bba5f65cdc7f46675231fff960b0">&#9670;&#160;</a></span>secretSpendKey()</h2>
+<a id="a9d6dda92ecb31872f652e3a16b0f0c5f" name="a9d6dda92ecb31872f652e3a16b0f0c5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d6dda92ecb31872f652e3a16b0f0c5f">&#9670;&#160;</a></span>secretSpendKey()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -769,7 +939,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ots::Wallet::secretSpendKey </td>
+          <td class="memname"><a class="el" href="classots_1_1WipeableString.html">WipeableString</a> ots::Wallet::secretSpendKey </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -787,8 +957,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7d48df58257f74364deb70839408a332" name="a7d48df58257f74364deb70839408a332"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d48df58257f74364deb70839408a332">&#9670;&#160;</a></span>secretViewKey()</h2>
+<a id="a2709d26980fa0ae04add3f391e9147ea" name="a2709d26980fa0ae04add3f391e9147ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2709d26980fa0ae04add3f391e9147ea">&#9670;&#160;</a></span>secretViewKey()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -797,7 +967,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string ots::Wallet::secretViewKey </td>
+          <td class="memname"><a class="el" href="classots_1_1WipeableString.html">WipeableString</a> ots::Wallet::secretViewKey </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -816,7 +986,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a77c699316f3af22f9e3e7ba8606ef669" name="a77c699316f3af22f9e3e7ba8606ef669"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77c699316f3af22f9e3e7ba8606ef669">&#9670;&#160;</a></span>signData()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a77c699316f3af22f9e3e7ba8606ef669">&#9670;&#160;</a></span>signData() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -847,6 +1017,140 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>signature of the message </dd></dl>
+
+</div>
+</div>
+<a id="a70a37f12ec5c40a7f18a054b93295e24" name="a70a37f12ec5c40a7f18a054b93295e24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70a37f12ec5c40a7f18a054b93295e24">&#9670;&#160;</a></span>signData() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ots::Wallet::signData </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classots_1_1Address.html">Address</a> &amp;&#160;</td>
+          <td class="paramname"><em>address</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sign a message with the provided address of the wallet </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>the message to sign </td></tr>
+    <tr><td class="paramname">address</td><td>the address of the wallet </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the signature of the message </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1address_1_1Invalid.html" title="The provided string is not a valid Monero address.">ots::exception::address::Invalid</a></td><td>if the address is not valid </td></tr>
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1BufferOverflowException.html" title="size is bigger then buffer">ots::exception::BufferOverflowException</a></td><td>if tools:write_varint fails in Account::hashData() (should not happen) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aea90e3fb1ddd64e6abd90b2e4c236abd" name="aea90e3fb1ddd64e6abd90b2e4c236abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea90e3fb1ddd64e6abd90b2e4c236abd">&#9670;&#160;</a></span>signData() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ots::Wallet::signData </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::pair&lt; uint32_t, uint32_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>index</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sign a message with subindex address of the wallet </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>the message to sign </td></tr>
+    <tr><td class="paramname">index</td><td>the account and index to sign with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the signature of the message </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1BufferOverflowException.html" title="size is bigger then buffer">ots::exception::BufferOverflowException</a></td><td>if tools:write_varint fails in Account::hashData() (should not happen) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a799a6cf95aa2c03b4756d60daa56d215" name="a799a6cf95aa2c03b4756d60daa56d215"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a799a6cf95aa2c03b4756d60daa56d215">&#9670;&#160;</a></span>signData() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string ots::Wallet::signData </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>address</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>sign a message with the provided address of the wallet </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>the message to sign </td></tr>
+    <tr><td class="paramname">address</td><td>the address of the wallet </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the signature of the message </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1address_1_1Invalid.html" title="The provided string is not a valid Monero address.">ots::exception::address::Invalid</a></td><td>if the address is not valid </td></tr>
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1BufferOverflowException.html" title="size is bigger then buffer">ots::exception::BufferOverflowException</a></td><td>if tools:write_varint fails in Account::hashData() (should not happen) </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -936,11 +1240,138 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abe4c7e8ec9947ab24d6e5340041c530c" name="abe4c7e8ec9947ab24d6e5340041c530c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe4c7e8ec9947ab24d6e5340041c530c">&#9670;&#160;</a></span>verifyData()</h2>
+<a id="a66d158098d932e44bcb7c0b9ae3e1eea" name="a66d158098d932e44bcb7c0b9ae3e1eea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66d158098d932e44bcb7c0b9ae3e1eea">&#9670;&#160;</a></span>verifyData() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ots::Wallet::verifyData </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classots_1_1Address.html">Address</a> &amp;&#160;</td>
+          <td class="paramname"><em>address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>signature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>legacyFallback</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Verify a signed message. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>String of the message to sign </td></tr>
+    <tr><td class="paramname">address</td><td>public Monero address </td></tr>
+    <tr><td class="paramname">signature</td><td>for the message </td></tr>
+    <tr><td class="paramname">legacyFallback</td><td>if true, will try to verify with legacy signature </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1address_1_1Invalid.html" title="The provided string is not a valid Monero address.">ots::exception::address::Invalid</a></td><td>if the address is not valid </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the signature is valid </dd></dl>
+
+</div>
+</div>
+<a id="a07136a5f95a9796ae1c9bb5eb7f530ce" name="a07136a5f95a9796ae1c9bb5eb7f530ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07136a5f95a9796ae1c9bb5eb7f530ce">&#9670;&#160;</a></span>verifyData() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ots::Wallet::verifyData </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::pair&lt; uint32_t, uint32_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>signature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>legacyFallback</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verify a signed message. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>String of the message to sign </td></tr>
+    <tr><td class="paramname">address</td><td>index of the account and subaddress </td></tr>
+    <tr><td class="paramname">signature</td><td>for the message </td></tr>
+    <tr><td class="paramname">legacyFallback</td><td>if true, will try to verify with legacy signature </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1address_1_1Invalid.html" title="The provided string is not a valid Monero address.">ots::exception::address::Invalid</a></td><td>if the address is not valid </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the signature is valid </dd></dl>
+
+</div>
+</div>
+<a id="a12876a3f0bf8d6f11ca70ccd11eba3cb" name="a12876a3f0bf8d6f11ca70ccd11eba3cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12876a3f0bf8d6f11ca70ccd11eba3cb">&#9670;&#160;</a></span>verifyData() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">bool ots::Wallet::verifyData </td>
@@ -958,7 +1389,69 @@ Protected Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>signature</em>&#160;</td>
+          <td class="paramname"><em>signature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>legacyFallback</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Verify a signed message. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>String of the message to sign </td></tr>
+    <tr><td class="paramname">address</td><td>public Monero address as string </td></tr>
+    <tr><td class="paramname">signature</td><td>for the message </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1address_1_1Invalid.html" title="The provided string is not a valid Monero address.">ots::exception::address::Invalid</a></td><td>if the address is not valid </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the signature is valid </dd></dl>
+
+</div>
+</div>
+<a id="a4034889464e36c6b8804ef7ccb6dbc40" name="a4034889464e36c6b8804ef7ccb6dbc40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4034889464e36c6b8804ef7ccb6dbc40">&#9670;&#160;</a></span>verifyData() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ots::Wallet::verifyData </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>signature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>legacyFallback</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -968,12 +1461,12 @@ Protected Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Verify a signed message. </p>
+<p>Verify a signed message, for the wallet address. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">data</td><td>String of the message to sign </td></tr>
-    <tr><td class="paramname">address</td><td>Monero address as string </td></tr>
-    <tr><td class="paramname">signature</td><td>the provided signature for the message </td></tr>
+    <tr><td class="paramname">signature</td><td>for the message </td></tr>
+    <tr><td class="paramname">legacyFallback</td><td>if true, will try to verify with legacy signature </td></tr>
   </table>
   </dd>
 </dl>
@@ -988,6 +1481,28 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a05c46d6ec803f8c8bacf4d2376628c0e" name="a05c46d6ec803f8c8bacf4d2376628c0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05c46d6ec803f8c8bacf4d2376628c0e">&#9670;&#160;</a></span>m_account</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classots_1_1Account.html">Account</a>, <a class="el" href="structots_1_1AccountDeleter.html">AccountDeleter</a>&gt; ots::Wallet::m_account</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af77194621640f4987b879d767d42fb05" name="af77194621640f4987b879d767d42fb05"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af77194621640f4987b879d767d42fb05">&#9670;&#160;</a></span>m_height</h2>
 
@@ -1010,8 +1525,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abf7fbc8e4ab3e5efb2a5e71d2ff6a46b" name="abf7fbc8e4ab3e5efb2a5e71d2ff6a46b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf7fbc8e4ab3e5efb2a5e71d2ff6a46b">&#9670;&#160;</a></span>m_key</h2>
+<a id="aabaf75fed5c2e51dc00ad417af83a4dd" name="aabaf75fed5c2e51dc00ad417af83a4dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabaf75fed5c2e51dc00ad417af83a4dd">&#9670;&#160;</a></span>m_key</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1020,7 +1535,29 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classots_1_1KeyStore.html">KeyStore</a>&gt; ots::Wallet::m_key</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classots_1_1KeyStore.html">KeyStore</a>, <a class="el" href="structots_1_1KeyStoreDeleter.html">KeyStoreDeleter</a>&gt; ots::Wallet::m_key</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5776d6c35a37a150c7fbcacd128696cf" name="a5776d6c35a37a150c7fbcacd128696cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5776d6c35a37a150c7fbcacd128696cf">&#9670;&#160;</a></span>m_network</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> ots::Wallet::m_network</td>
         </tr>
       </table>
   </td>

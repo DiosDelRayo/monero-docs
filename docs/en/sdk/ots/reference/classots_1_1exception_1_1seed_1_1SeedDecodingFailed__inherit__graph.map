@@ -1,0 +1,15 @@
+<map id="ots::exception::seed::SeedDecodingFailed" name="ots::exception::seed::SeedDecodingFailed">
+<area shape="rect" id="Node000001" title="a seed could not be encoded" alt="" coords="77,299,227,339"/>
+<area shape="rect" id="Node000007" href="$classots_1_1exception_1_1legacyseed_1_1InvalidSeedFormat.html" title=" " alt="" coords="63,387,241,427"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="155,353,155,386,149,386,149,353"/>
+<area shape="rect" id="Node000002" href="$classots_1_1exception_1_1DomainError.html" title="errors related to the library use itself" alt="" coords="59,225,245,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,264,155,299,149,299,149,264"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,128,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="92,184,140,223,136,227,89,188"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="13,79,121,104"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="69,118,69,152,64,152,64,118"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="15,5,119,31"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="69,44,69,79,64,79,64,44"/>
+<area shape="rect" id="Node000006" href="$classots_1_1exception_1_1Exception.html" title=" " alt="" coords="152,152,323,177"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="215,188,168,227,164,223,212,184"/>
+</map>

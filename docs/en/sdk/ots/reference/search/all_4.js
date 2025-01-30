@@ -1,10 +1,20 @@
 var searchData=
 [
-  ['encrypt_0',['encrypt',['../classots_1_1EncryptableSeed.html#ab46320bf78ce47ac8a4d7c2571cabe92',1,'ots::EncryptableSeed::encrypt()'],['../classots_1_1MoneroSeed.html#a3a7338eafa488d7b9ff8929ee7ad8a9a',1,'ots::MoneroSeed::encrypt()'],['../classots_1_1Polyseed.html#a51b957fd35e58017924691f43a3dfab4',1,'ots::Polyseed::encrypt()']]],
-  ['encryptableseed_1',['encryptableseed',['../classots_1_1EncryptableSeed.html',1,'ots::EncryptableSeed'],['../classots_1_1EncryptableSeed.html#a8b779e830f32877aeabdc0d8975d65b6',1,'ots::EncryptableSeed::EncryptableSeed()']]],
-  ['encrypted_2',['encrypted',['../classots_1_1Seed.html#a7b55976aefc957a343768fbe651d3bec',1,'ots::Seed::encrypted()'],['../classots_1_1MoneroSeed.html#a44c2063b4f84109ff6b13c417f9bc79f',1,'ots::MoneroSeed::encrypted()'],['../classots_1_1Polyseed.html#acee933cff7c5980ab75790e8d2ce78db',1,'ots::Polyseed::encrypted()']]],
-  ['englishname_3',['englishName',['../classots_1_1SeedLanguage.html#a5f98e08082fa77277227b479268d97ad',1,'ots::SeedLanguage']]],
-  ['error_4',['error',['../structots__result__t.html#a46fe95565d04ab5de9f933ad319f3fc4',1,'ots_result_t']]],
-  ['exportkeyimages_5',['exportkeyimages',['../classots_1_1exception_1_1wallet_1_1ExportKeyImages.html',1,'ots::exception::wallet::ExportKeyImages'],['../classots_1_1Wallet.html#a6dea10f47088e90816cb00101dcd4e77',1,'ots::Wallet::exportKeyImages()'],['../classots_1_1exception_1_1wallet_1_1ExportKeyImages.html#a515e45d6e28cc09c16af8a8928441180',1,'ots::exception::wallet::ExportKeyImages::ExportKeyImages()'],['../classots_1_1exception_1_1wallet_1_1ExportKeyImages.html#a729322ac1314b6b88c18bd9614ff2369',1,'ots::exception::wallet::ExportKeyImages::ExportKeyImages(const std::string &amp;msg)']]],
-  ['extensive_20documentation_6',['Further extensive documentation',['../index.html#autotoc_md11',1,'']]]
+  ['emplace_5fback_0',['emplace_back',['../classots_1_1SeedIndices.html#a679e5a9de0e84a16b71aacc0fa2f201c',1,'ots::SeedIndices']]],
+  ['empty_1',['empty',['../classots_1_1SeedIndices.html#a3e80bd275ad9a838ca49b52cce58cf81',1,'ots::SeedIndices::empty()'],['../classots_1_1WipeableString.html#ad1141de66a25cd86f31dea84d5828553',1,'ots::WipeableString::empty()']]],
+  ['emptymessage_2',['emptymessage',['../classots_1_1exception_1_1sign_1_1EmptyMessage.html',1,'ots::exception::sign::EmptyMessage'],['../classots_1_1exception_1_1sign_1_1EmptyMessage.html#a86c50d6b28bae792a37250b326210d4a',1,'ots::exception::sign::EmptyMessage::EmptyMessage()']]],
+  ['emptysignature_3',['emptysignature',['../classots_1_1exception_1_1sign_1_1EmptySignature.html',1,'ots::exception::sign::EmptySignature'],['../classots_1_1exception_1_1sign_1_1EmptySignature.html#a740cc7947bd034f6e1e14e78a6825b6d',1,'ots::exception::sign::EmptySignature::EmptySignature()']]],
+  ['end_4',['end',['../classots_1_1SeedIndices.html#a5d7aed40991817b28e355a339e9633be',1,'ots::SeedIndices::end() noexcept'],['../classots_1_1SeedIndices.html#a86f6729fa59876a5e4f71b2e5e3e7d0b',1,'ots::SeedIndices::end() const noexcept']]],
+  ['enforceentropy_5',['enforceEntropy',['../classots_1_1OTS.html#a0061b0e511e0d40c416c5760fa09ec24',1,'ots::OTS']]],
+  ['englishname_6',['englishName',['../classots_1_1SeedLanguage.html#a70f2c6e96ec3f19c502435c686789067',1,'ots::SeedLanguage']]],
+  ['ensureentropy_7',['ensureEntropy',['../classots_1_1OTS.html#a7b80d06ae08ea61b3fd17653ae72f4b4',1,'ots::OTS']]],
+  ['entropy_8',['Entropy',['../classots_1_1Entropy.html',1,'ots']]],
+  ['entropy_2ecpp_9',['entropy.cpp',['../entropy_8cpp.html',1,'']]],
+  ['entropy_2ehpp_10',['entropy.hpp',['../entropy_8hpp.html',1,'']]],
+  ['error_11',['error',['../structots__result__t.html#a46fe95565d04ab5de9f933ad319f3fc4',1,'ots_result_t']]],
+  ['error_5fclass_12',['error_class',['../structots_1_1exception_1_1Exception_1_1RegisteredException.html#a78cd8fa4ea335525921cc8b9da84af80',1,'ots::exception::Exception::RegisteredException']]],
+  ['error_5fcode_13',['error_code',['../structots_1_1exception_1_1Exception_1_1RegisteredException.html#a57a17b3bccc0432c85751652e2e0b914',1,'ots::exception::Exception::RegisteredException']]],
+  ['exception_14',['Exception',['../classots_1_1exception_1_1Exception.html',1,'ots::exception']]],
+  ['exportkeyimages_15',['exportkeyimages',['../classots_1_1exception_1_1wallet_1_1ExportKeyImages.html',1,'ots::exception::wallet::ExportKeyImages'],['../classots_1_1Wallet.html#aa89442c6cd58d0a193d599429c469b78',1,'ots::Wallet::exportKeyImages()'],['../classots_1_1exception_1_1wallet_1_1ExportKeyImages.html#a515e45d6e28cc09c16af8a8928441180',1,'ots::exception::wallet::ExportKeyImages::ExportKeyImages()'],['../classots_1_1exception_1_1wallet_1_1ExportKeyImages.html#a729322ac1314b6b88c18bd9614ff2369',1,'ots::exception::wallet::ExportKeyImages::ExportKeyImages(const std::string &amp;msg)']]],
+  ['extensive_20documentation_16',['Further extensive documentation',['../index.html#autotoc_md11',1,'']]]
 ];

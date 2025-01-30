@@ -32,6 +32,7 @@ var NAVTREE =
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
+        [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ],
         [ "Enumerations", "namespacemembers_enum.html", null ]
       ] ]
@@ -41,17 +42,19 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ],
+        [ "Variables", "functions_vars.html", null ],
+        [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
       [ "File List", "files.html", "files_dup" ],
       [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
+        [ "All", "globals.html", "globals_dup" ],
         [ "Functions", "globals_func.html", null ],
-        [ "Typedefs", "globals_type.html", null ],
+        [ "Enumerations", "globals_enum.html", null ],
+        [ "Enumerator", "globals_eval.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
     ] ]
@@ -60,8 +63,12 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"address_8cpp.html",
-"classots_1_1exception_1_1InvalidArgument.html"
+"account_8cpp.html",
+"classots_1_1Polyseed.html#a11d99bac383bb2049f0c3a56dd2528a4",
+"classots_1_1Wallet.html#a12876a3f0bf8d6f11ca70ccd11eba3cb",
+"classots_1_1exception_1_1legacyseed_1_1InvalidSeedFormat.html",
+"key-store_8cpp.html",
+"ots_8h.html#acb679ab8ff9087b377968f54d6fd6b12"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

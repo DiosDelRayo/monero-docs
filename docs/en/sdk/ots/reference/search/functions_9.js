@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['keyfromhash_0',['keyFromHash',['../namespaceots.html#a86a6570330e3f12c4925586212460fe9',1,'ots']]],
-  ['keystore_1',['keystore',['../classots_1_1KeyStore.html#a812194475114e19ccc7c946aa027897f',1,'ots::KeyStore::KeyStore()'],['../classots_1_1KeyStore.html#acca6b8685b9dc9d91054801d5bc5e30b',1,'ots::KeyStore::KeyStore(const std::array&lt; unsigned char, 32 &gt; &amp;key)'],['../classots_1_1KeyStore.html#afd651c6d529e33eb552cb2d6b0bdd66a',1,'ots::KeyStore::KeyStore(crypto::secret_key key)']]]
+  ['keystore_0',['keystore',['../classots_1_1KeyStore.html#a64a8bfd9b1e9717ac3cad4d3462f92fa',1,'ots::KeyStore::KeyStore() noexcept'],['../classots_1_1KeyStore.html#abcf44a02e2efcd19ec1a79d3753a85ae',1,'ots::KeyStore::KeyStore(const std::array&lt; uint8_t, 32 &gt; &amp;key) noexcept'],['../classots_1_1KeyStore.html#a8680b9aefaf90e04dacd5e992a72aa5f',1,'ots::KeyStore::KeyStore(const uint8_t *key, size_t size)'],['../classots_1_1KeyStore.html#aa8beefaf9178d5476713b81bf0f87088',1,'ots::KeyStore::KeyStore(crypto::secret_key key) noexcept']]]
 ];

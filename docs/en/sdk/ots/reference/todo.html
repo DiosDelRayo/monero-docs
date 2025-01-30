@@ -95,12 +95,36 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
+<dt>File <a class="el" href="data_8hpp.html">data.hpp</a>  </dt>
+<dd><a class="anchor" id="_todo000008"></a>TODO: should search directly in monero source to collect the data from there  </dd>
+<dt>Namespace <a class="el" href="namespaceots.html">ots</a>  </dt>
+<dd><a class="anchor" id="_todo000015"></a>Think about reimplementation of polyseed library  </dd>
+<dt>Member <a class="el" href="classots_1_1Account.html#ac2bbaa85e5468d6ce1fc1cf88e1510c8">ots::Account::importOutputs</a>  (const std::tuple&lt; uint64_t, uint64_t, std::vector&lt; exported_transfer_details &gt; &gt; &amp;outputs)</dt>
+<dd><a class="anchor" id="_todo000002"></a>TODO: clarify the tuple format  </dd>
+<dt>Member <a class="el" href="classots_1_1Account.html#a4e33c6d129a7003e4e3da365a2389423">ots::Account::importOutputs</a>  (const std::tuple&lt; uint64_t, uint64_t, std::vector&lt; transfer_details &gt; &gt; &amp;outputs)</dt>
+<dd><a class="anchor" id="_todo000003"></a>TODO: clarify the tuple format  </dd>
+<dt>Member <a class="el" href="classots_1_1Account.html#a6bcc36292bf21f8edd7568d73cb10c32">ots::Account::importOutputs</a>  (const std::string &amp;outputs)</dt>
+<dd><a class="anchor" id="_todo000001"></a>TODO: continue here to make it work  </dd>
+<dt>Member <a class="el" href="namespaceots.html#a394bd08dc2d125165eb64b8b1db73023">ots::injectPolyseedDependency</a>  ()</dt>
+<dd><a class="anchor" id="_todo000019"></a>TODO: holy clusterfuck, I really dislike using the polyseed lib as is  </dd>
+<dt>Member <a class="el" href="classots_1_1LegacySeed.html#a8a7883c848bbc6f383f08fea929ced8e">ots::LegacySeed::decode</a>  (const <a class="el" href="classots_1_1SeedIndices.html" title="Secure container for seed word indices.">SeedIndices</a> &amp;indices, uint64_t height=0, uint64_t time=0, Network network=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>)</dt>
+<dd><a class="anchor" id="_todo000016"></a>TODO: should use a protected constructor LegacySeed(const char* data, uint64_t height, uint64_t time, Network network) to avoid code duplication  </dd>
+<dt>Member <a class="el" href="classots_1_1OTS.html#a1c1c9548ee18ae545087226a03eb943d">ots::OTS::verifyData</a>  (const std::string &amp;data, const std::string &amp;address, const std::string &amp;signature, bool legacyFallback=false)</dt>
+<dd><a class="anchor" id="_todo000014"></a>TODO: not sure if better in <a class="el" href="classots_1_1Wallet.html" title="provides all offline wallet functionality">Wallet</a> only or move here, or keep alias. How verification is not wallet dependent, maybe a user would search here. On the other hand, if he user uses <a class="el" href="classots_1_1Wallet.html" title="provides all offline wallet functionality">Wallet</a> to sign data, probably he would search in <a class="el" href="classots_1_1Wallet.html" title="provides all offline wallet functionality">Wallet</a> for the verification. </dd>
+<dt>Member <a class="el" href="classots_1_1Polyseed.html#a90b0c1328b9c18b11dd749e739a6d489">ots::Polyseed::create</a>  (const std::array&lt; unsigned char, 19 &gt; &amp;random, Network network=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>, uint64_t time=0, const std::string &amp;passphrase="")</dt>
+<dd><a class="anchor" id="_todo000018"></a>Maybe a PR with a refactoring of tevador/polyseed in the future and if accepted refactor here again, too.  </dd>
+<dt>Member <a class="el" href="namespaceots.html#afc97958966e8cad946b85f1ed0da56c9">ots::seedBytes</a>  (const <a class="el" href="classots_1_1SeedIndices.html" title="Secure container for seed word indices.">SeedIndices</a> &amp;indices, const size_t word_list_length=1626, const size_t bytes_per_chunk=4, const size_t words_per_chunk=3)</dt>
+<dd><p class="startdd"><a class="anchor" id="_todo000010"></a>TODO: documentation missing </p>
+<p class="enddd"><a class="anchor" id="_todo000009"></a>TODO: documentation missing  </p>
+</dd>
 <dt>Class <a class="el" href="classots_1_1SeedJar.html">ots::SeedJar</a>  </dt>
-<dd><a class="anchor" id="_todo000001"></a>check if not better include in <a class="el" href="classots_1_1OTS.html" title="General functionality.">OTS</a>  </dd>
+<dd><a class="anchor" id="_todo000011"></a>check if not better include in <a class="el" href="classots_1_1OTS.html" title="General functionality.">OTS</a>  </dd>
 <dt>Class <a class="el" href="classots_1_1TxDescription.html">ots::TxDescription</a>  </dt>
-<dd><a class="anchor" id="_todo000002"></a>Figure out how to best structure - must be done during actual implementation  </dd>
+<dd><a class="anchor" id="_todo000012"></a>Figure out how to best structure - must be done during actual implementation  </dd>
 <dt>Class <a class="el" href="classots_1_1TxWarning.html">ots::TxWarning</a>  </dt>
-<dd><a class="anchor" id="_todo000003"></a>Figure out how to best offer this kind of warnings (i18n?) </dd>
+<dd><a class="anchor" id="_todo000013"></a>Figure out how to best offer this kind of warnings (i18n?)  </dd>
+<dt>File <a class="el" href="seed-polyseed_8cpp.html">seed-polyseed.cpp</a>  </dt>
+<dd><a class="anchor" id="_todo000017"></a>Refactor, the private header file use of polyseed is ugly, the dependency injection is ugly, too. </dd>
 </dl>
 </div></div><!-- contents -->
 </div><!-- PageDoc -->

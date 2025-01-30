@@ -93,6 +93,7 @@ $(document).ready(function(){initNavTree('classots_1_1Seed.html',''); initResiza
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classots_1_1Seed-members.html">List of all members</a>  </div>
@@ -109,16 +110,13 @@ Inheritance diagram for ots::Seed:</div>
 <div class="dyncontent">
 <div class="center"><img src="classots_1_1Seed__inherit__graph.png" border="0" usemap="#aots_1_1Seed_inherit__map" alt="Inheritance graph"/></div>
 <map name="aots_1_1Seed_inherit__map" id="aots_1_1Seed_inherit__map">
-<area shape="rect" title="Abstract base class for cryptographic seed management." alt="" coords="137,5,216,31"/>
-<area shape="rect" href="classots_1_1EncryptableSeed.html" title="Abstract base class for seeds that support encryption." alt="" coords="103,79,250,104"/>
-<area shape="poly" title=" " alt="" coords="179,44,179,79,174,79,174,44"/>
-<area shape="rect" href="classots_1_1MoneroSeed.html" title="Represents a Monero 25&#45;words seed." alt="" coords="5,152,127,177"/>
-<area shape="poly" title=" " alt="" coords="142,40,116,57,93,80,83,98,76,118,70,152,64,151,71,117,78,96,89,77,112,53,139,35"/>
-<area shape="rect" href="classots_1_1LegacySeed.html" title="Represents a monero 13&#45;words seed type for backward compatibility." alt="" coords="274,79,394,104"/>
-<area shape="poly" title=" " alt="" coords="216,34,309,76,307,81,213,39"/>
-<area shape="poly" title=" " alt="" coords="149,114,86,154,83,150,146,109"/>
-<area shape="rect" href="classots_1_1Polyseed.html" title="Represents a Polyseed type." alt="" coords="151,152,253,177"/>
-<area shape="poly" title=" " alt="" coords="188,116,200,151,195,153,183,118"/>
+<area shape="rect" title="Abstract base class for cryptographic seed management." alt="" coords="171,5,250,31"/>
+<area shape="rect" href="classots_1_1LegacySeed.html" title="Represents a monero 13&#45;words seed type for backward compatibility." alt="" coords="5,79,125,104"/>
+<area shape="poly" title=" " alt="" coords="176,39,90,81,88,76,174,34"/>
+<area shape="rect" href="classots_1_1MoneroSeed.html" title="Represents a Monero 25&#45;words seed." alt="" coords="150,79,271,104"/>
+<area shape="poly" title=" " alt="" coords="213,44,213,79,208,79,208,44"/>
+<area shape="rect" href="classots_1_1Polyseed.html" title="Represents a Polyseed type." alt="" coords="295,79,398,104"/>
+<area shape="poly" title=" " alt="" coords="246,34,326,76,323,81,243,39"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -126,13 +124,28 @@ Collaboration diagram for ots::Seed:</div>
 <div class="dyncontent">
 <div class="center"><img src="classots_1_1Seed__coll__graph.png" border="0" usemap="#aots_1_1Seed_coll__map" alt="Collaboration graph"/></div>
 <map name="aots_1_1Seed_coll__map" id="aots_1_1Seed_coll__map">
-<area shape="rect" title="Abstract base class for cryptographic seed management." alt="" coords="151,196,230,221"/>
-<area shape="rect" title=" " alt="" coords="5,93,144,133"/>
-<area shape="poly" title=" " alt="" coords="110,140,178,194,174,198,107,144"/>
-<area shape="rect" href="classots_1_1KeyStore.html" title="essentialy wraps crypto::secret_key" alt="" coords="23,5,126,31"/>
-<area shape="poly" title=" " alt="" coords="77,44,77,93,72,93,72,44"/>
-<area shape="rect" title=" " alt="" coords="168,101,291,126"/>
-<area shape="poly" title=" " alt="" coords="222,140,198,197,193,195,217,138"/>
+<area shape="rect" title="Abstract base class for cryptographic seed management." alt="" coords="995,79,1073,105"/>
+<area shape="rect" title=" " alt="" coords="739,15,877,55"/>
+<area shape="poly" title=" " alt="" coords="891,51,971,71,995,77,993,83,970,76,890,56"/>
+<area shape="rect" href="classots_1_1Address.html" title="Represents a Monero address." alt="" coords="551,22,647,47"/>
+<area shape="poly" title=" " alt="" coords="660,32,738,32,738,37,660,37"/>
+<area shape="rect" title=" " alt="" coords="273,22,353,47"/>
+<area shape="poly" title=" " alt="" coords="367,32,551,32,551,37,367,37"/>
+<area shape="rect" title=" " alt="" coords="5,15,132,55"/>
+<area shape="poly" title=" " alt="" coords="146,32,273,32,273,37,146,37"/>
+<area shape="rect" title=" " alt="" coords="739,129,877,169"/>
+<area shape="poly" title=" " alt="" coords="891,140,930,133,970,123,1012,103,1014,107,972,128,932,138,891,145"/>
+<area shape="rect" href="classots_1_1Wallet.html" title="provides all offline wallet functionality" alt="" coords="557,137,641,162"/>
+<area shape="poly" title=" " alt="" coords="654,147,739,147,739,152,654,152"/>
+<area shape="rect" title=" " alt="" coords="200,80,427,120"/>
+<area shape="poly" title=" " alt="" coords="441,96,994,90,994,95,441,101"/>
+<area shape="poly" title=" " alt="" coords="434,120,451,123,557,140,556,145,450,128,434,125"/>
+<area shape="rect" href="classots_1_1KeyStore.html" title="essentialy wraps crypto::secret_key" alt="" coords="17,87,120,113"/>
+<area shape="poly" title=" " alt="" coords="134,97,200,97,200,103,134,103"/>
+<area shape="rect" title=" " alt="" coords="206,152,421,192"/>
+<area shape="poly" title=" " alt="" coords="434,175,526,168,562,160,563,165,527,173,435,180"/>
+<area shape="rect" href="classots_1_1Account.html" title="holds monero internal account and internal functions" alt="" coords="21,159,117,185"/>
+<area shape="poly" title=" " alt="" coords="131,169,206,169,206,175,131,175"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -141,30 +154,30 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5b1d1032701b0dc03ab02502d7a8c3b2" id="r_a5b1d1032701b0dc03ab02502d7a8c3b2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a5b1d1032701b0dc03ab02502d7a8c3b2">~Seed</a> ()=default</td></tr>
 <tr class="memdesc:a5b1d1032701b0dc03ab02502d7a8c3b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Virtual destructor to ensure proper cleanup of derived classes.  <br /></td></tr>
 <tr class="separator:a5b1d1032701b0dc03ab02502d7a8c3b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44298bced5f1a11998e8f55ba1a96371" id="r_a44298bced5f1a11998e8f55ba1a96371"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a44298bced5f1a11998e8f55ba1a96371">phrase</a> (const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;language) const =0</td></tr>
-<tr class="memdesc:a44298bced5f1a11998e8f55ba1a96371"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the seed phrase in a specified language.  <br /></td></tr>
-<tr class="separator:a44298bced5f1a11998e8f55ba1a96371"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ef284fc08fbd9fd05ed529b62f404d6" id="r_a0ef284fc08fbd9fd05ed529b62f404d6"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a0ef284fc08fbd9fd05ed529b62f404d6">values</a> () const</td></tr>
-<tr class="memdesc:a0ef284fc08fbd9fd05ed529b62f404d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the raw numeric values representing the seed.  <br /></td></tr>
-<tr class="separator:a0ef284fc08fbd9fd05ed529b62f404d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8376fdd4b7e4d15ff24656ed7e354267" id="r_a8376fdd4b7e4d15ff24656ed7e354267"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a8376fdd4b7e4d15ff24656ed7e354267">fingerprint</a> () const =0</td></tr>
-<tr class="memdesc:a8376fdd4b7e4d15ff24656ed7e354267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a unique fingerprint for the seed.  <br /></td></tr>
-<tr class="separator:a8376fdd4b7e4d15ff24656ed7e354267"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6af9cdb9e8cd09f3cdf7b471ed161646" id="r_a6af9cdb9e8cd09f3cdf7b471ed161646"><td class="memItemLeft" align="right" valign="top">virtual uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a6af9cdb9e8cd09f3cdf7b471ed161646">birthday</a> () const</td></tr>
-<tr class="memdesc:a6af9cdb9e8cd09f3cdf7b471ed161646"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the seed's creation timestamp.  <br /></td></tr>
-<tr class="separator:a6af9cdb9e8cd09f3cdf7b471ed161646"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1bbcd8771e02acc8795932bc83de0eb" id="r_ab1bbcd8771e02acc8795932bc83de0eb"><td class="memItemLeft" align="right" valign="top">virtual uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#ab1bbcd8771e02acc8795932bc83de0eb">height</a> () const</td></tr>
-<tr class="memdesc:ab1bbcd8771e02acc8795932bc83de0eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the blockchain height associated with the seed.  <br /></td></tr>
-<tr class="separator:ab1bbcd8771e02acc8795932bc83de0eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b55976aefc957a343768fbe651d3bec" id="r_a7b55976aefc957a343768fbe651d3bec"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a7b55976aefc957a343768fbe651d3bec">encrypted</a> () const</td></tr>
-<tr class="memdesc:a7b55976aefc957a343768fbe651d3bec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the seed is encrypted.  <br /></td></tr>
-<tr class="separator:a7b55976aefc957a343768fbe651d3bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aece7c1be1bbf7773189f9d503d384e6c" id="r_aece7c1be1bbf7773189f9d503d384e6c"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#aece7c1be1bbf7773189f9d503d384e6c">network</a> () const</td></tr>
-<tr class="memdesc:aece7c1be1bbf7773189f9d503d384e6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the network associated with the seed.  <br /></td></tr>
-<tr class="separator:aece7c1be1bbf7773189f9d503d384e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff464f0e9d3c2c9cba9f3954e2640d54" id="r_aff464f0e9d3c2c9cba9f3954e2640d54"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classots_1_1Wallet.html">Wallet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#aff464f0e9d3c2c9cba9f3954e2640d54">wallet</a> ()</td></tr>
-<tr class="memdesc:aff464f0e9d3c2c9cba9f3954e2640d54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a wallet from the seed.  <br /></td></tr>
-<tr class="separator:aff464f0e9d3c2c9cba9f3954e2640d54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66846b1fb9f5036e010d88d2174e71f3" id="r_a66846b1fb9f5036e010d88d2174e71f3"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classots_1_1WipeableString.html">WipeableString</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a66846b1fb9f5036e010d88d2174e71f3">phrase</a> (const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;language, const std::string &amp;password=&quot;&quot;) const =0</td></tr>
+<tr class="memdesc:a66846b1fb9f5036e010d88d2174e71f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates the seed phrase in a specified language.  <br /></td></tr>
+<tr class="separator:a66846b1fb9f5036e010d88d2174e71f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89427d4aecb92098108cf0e0bed91dc6" id="r_a89427d4aecb92098108cf0e0bed91dc6"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classots_1_1SeedIndices.html">SeedIndices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a89427d4aecb92098108cf0e0bed91dc6">indices</a> (const std::string &amp;password=&quot;&quot;) const =0</td></tr>
+<tr class="memdesc:a89427d4aecb92098108cf0e0bed91dc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the raw numeric values representing the seed (indices)  <br /></td></tr>
+<tr class="separator:a89427d4aecb92098108cf0e0bed91dc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af37ddd358a19140558c9de2cf901877b" id="r_af37ddd358a19140558c9de2cf901877b"><td class="memItemLeft" align="right" valign="top">virtual const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#af37ddd358a19140558c9de2cf901877b">fingerprint</a> () const noexcept</td></tr>
+<tr class="memdesc:af37ddd358a19140558c9de2cf901877b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides a unique fingerprint for the seed.  <br /></td></tr>
+<tr class="separator:af37ddd358a19140558c9de2cf901877b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17ef04ddaf887dfca2e3a98eda42ca3c" id="r_a17ef04ddaf887dfca2e3a98eda42ca3c"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="classots_1_1Address.html">Address</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a17ef04ddaf887dfca2e3a98eda42ca3c">address</a> () const noexcept</td></tr>
+<tr class="memdesc:a17ef04ddaf887dfca2e3a98eda42ca3c"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classots_1_1Address.html" title="Represents a Monero address.">Address</a> of the seed.  <br /></td></tr>
+<tr class="separator:a17ef04ddaf887dfca2e3a98eda42ca3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a062c6632d48a12552cfd55946ff19c4c" id="r_a062c6632d48a12552cfd55946ff19c4c"><td class="memItemLeft" align="right" valign="top">virtual const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a062c6632d48a12552cfd55946ff19c4c">timestamp</a> () const noexcept</td></tr>
+<tr class="memdesc:a062c6632d48a12552cfd55946ff19c4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the seed's creation timestamp.  <br /></td></tr>
+<tr class="separator:a062c6632d48a12552cfd55946ff19c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1432acb54d741e521c99598ca3488cd9" id="r_a1432acb54d741e521c99598ca3488cd9"><td class="memItemLeft" align="right" valign="top">virtual const uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a1432acb54d741e521c99598ca3488cd9">height</a> () const noexcept</td></tr>
+<tr class="memdesc:a1432acb54d741e521c99598ca3488cd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the blockchain height associated with the seed.  <br /></td></tr>
+<tr class="separator:a1432acb54d741e521c99598ca3488cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d3d3d6eefce46d4efe0faaa0ed02f2f" id="r_a4d3d3d6eefce46d4efe0faaa0ed02f2f"><td class="memItemLeft" align="right" valign="top">virtual const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a4d3d3d6eefce46d4efe0faaa0ed02f2f">network</a> () const noexcept</td></tr>
+<tr class="memdesc:a4d3d3d6eefce46d4efe0faaa0ed02f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the network associated with the seed.  <br /></td></tr>
+<tr class="separator:a4d3d3d6eefce46d4efe0faaa0ed02f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59649d84109540117759c10de74a6480" id="r_a59649d84109540117759c10de74a6480"><td class="memItemLeft" align="right" valign="top">virtual std::shared_ptr&lt; <a class="el" href="classots_1_1Wallet.html">Wallet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a59649d84109540117759c10de74a6480">wallet</a> () noexcept</td></tr>
+<tr class="memdesc:a59649d84109540117759c10de74a6480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a wallet from the seed.  <br /></td></tr>
+<tr class="separator:a59649d84109540117759c10de74a6480"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a352e3dfeb4a035c481bd0756b6fc4e61" id="r_a352e3dfeb4a035c481bd0756b6fc4e61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a352e3dfeb4a035c481bd0756b6fc4e61">Seed</a> (const <a class="el" href="classots_1_1Seed.html">Seed</a> &amp;)=delete</td></tr>
 <tr class="separator:a352e3dfeb4a035c481bd0756b6fc4e61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a548a0800e2634e9ccbf2ca5a25671255" id="r_a548a0800e2634e9ccbf2ca5a25671255"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1Seed.html">Seed</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a548a0800e2634e9ccbf2ca5a25671255">operator=</a> (const <a class="el" href="classots_1_1Seed.html">Seed</a> &amp;)=delete</td></tr>
@@ -174,6 +187,33 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7263ab8faabe62a0f97a3995a4804e6c" id="r_a7263ab8faabe62a0f97a3995a4804e6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1Seed.html">Seed</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a7263ab8faabe62a0f97a3995a4804e6c">operator=</a> (<a class="el" href="classots_1_1Seed.html">Seed</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:a7263ab8faabe62a0f97a3995a4804e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:ab5c06858c6eac77ec80ee22374470f64" id="r_ab5c06858c6eac77ec80ee22374470f64"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#ab5c06858c6eac77ec80ee22374470f64">mergeValues</a> (const std::vector&lt; uint16_t &gt; &amp;values1, const std::vector&lt; uint16_t &gt; &amp;values2)</td></tr>
+<tr class="memdesc:ab5c06858c6eac77ec80ee22374470f64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges two seed values, so you can join multiple SeedQRs to one seed.  <br /></td></tr>
+<tr class="separator:ab5c06858c6eac77ec80ee22374470f64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af809c7fa8d9bae23464f1cec6276c5ee" id="r_af809c7fa8d9bae23464f1cec6276c5ee"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#af809c7fa8d9bae23464f1cec6276c5ee">mergeValues</a> (const std::vector&lt; std::vector&lt; uint16_t &gt; &gt; &amp;values)</td></tr>
+<tr class="memdesc:af809c7fa8d9bae23464f1cec6276c5ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges multiple seed values, so you can join multiple SeedQRs to one seed.  <br /></td></tr>
+<tr class="separator:af809c7fa8d9bae23464f1cec6276c5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e6499e96be77b7c78a8c3acaaf77223" id="r_a8e6499e96be77b7c78a8c3acaaf77223"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a8e6499e96be77b7c78a8c3acaaf77223">mergeAndZeorizeValues</a> (std::vector&lt; uint16_t &gt; &amp;values1, std::vector&lt; uint16_t &gt; &amp;values2, bool del=true)</td></tr>
+<tr class="memdesc:a8e6499e96be77b7c78a8c3acaaf77223"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges two seed values, so you can join multiple SeedQRs to one seed.  <br /></td></tr>
+<tr class="separator:a8e6499e96be77b7c78a8c3acaaf77223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f26bf28edc39605073794ed625b997" id="r_a98f26bf28edc39605073794ed625b997"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a98f26bf28edc39605073794ed625b997">mergeAndZeorizeValues</a> (std::vector&lt; std::vector&lt; uint16_t &gt; &gt; &amp;values, bool del=true)</td></tr>
+<tr class="memdesc:a98f26bf28edc39605073794ed625b997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merges multiple seed values, so you can join multiple SeedQRs to one seed.  <br /></td></tr>
+<tr class="separator:a98f26bf28edc39605073794ed625b997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e1da0c0fcb100d2ee52dd86094228bd" id="r_a3e1da0c0fcb100d2ee52dd86094228bd"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a3e1da0c0fcb100d2ee52dd86094228bd">mergeWithPassword</a> (const std::string &amp;password, const std::vector&lt; uint16_t &gt; &amp;values)</td></tr>
+<tr class="memdesc:a3e1da0c0fcb100d2ee52dd86094228bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge password with seed values.  <br /></td></tr>
+<tr class="separator:a3e1da0c0fcb100d2ee52dd86094228bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad29eff145611ed540fef0593266e7bb7" id="r_ad29eff145611ed540fef0593266e7bb7"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#ad29eff145611ed540fef0593266e7bb7">mergeWithPasswordAndZeorize</a> (std::string &amp;password, std::vector&lt; uint16_t &gt; &amp;values, bool del=true)</td></tr>
+<tr class="memdesc:ad29eff145611ed540fef0593266e7bb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge password with seed values and zeroize password.  <br /></td></tr>
+<tr class="separator:ad29eff145611ed540fef0593266e7bb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a617dd281515dab7ff4e29a4a92d16004" id="r_a617dd281515dab7ff4e29a4a92d16004"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a617dd281515dab7ff4e29a4a92d16004">mergeWithPassword</a> (const <a class="el" href="classots_1_1WipeableString.html">WipeableString</a> &amp;password, const std::vector&lt; uint16_t &gt; &amp;values)</td></tr>
+<tr class="memdesc:a617dd281515dab7ff4e29a4a92d16004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge password with seed values.  <br /></td></tr>
+<tr class="separator:a617dd281515dab7ff4e29a4a92d16004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80d879bc852992d00cdff6a1e316b71c" id="r_a80d879bc852992d00cdff6a1e316b71c"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; uint16_t &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a80d879bc852992d00cdff6a1e316b71c">mergeWithPasswordAndZeorize</a> (const <a class="el" href="classots_1_1WipeableString.html">WipeableString</a> &amp;password, std::vector&lt; uint16_t &gt; &amp;values, bool del=true)</td></tr>
+<tr class="memdesc:a80d879bc852992d00cdff6a1e316b71c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Merge password with seed values and zeroize values.  <br /></td></tr>
+<tr class="separator:a80d879bc852992d00cdff6a1e316b71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa90588a8f85493f517f7a5ebdbf9cc17" id="r_aa90588a8f85493f517f7a5ebdbf9cc17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#aa90588a8f85493f517f7a5ebdbf9cc17">Seed</a> ()</td></tr>
@@ -181,14 +221,16 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a9b7e1918056fa3c3591a5b7db635729b" id="r_a9b7e1918056fa3c3591a5b7db635729b"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a9b7e1918056fa3c3591a5b7db635729b">m_birthday</a> = 0</td></tr>
-<tr class="separator:a9b7e1918056fa3c3591a5b7db635729b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe208fcff3c5f4d8adfc998a9f3ec734" id="r_afe208fcff3c5f4d8adfc998a9f3ec734"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classots_1_1Address.html">Address</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#afe208fcff3c5f4d8adfc998a9f3ec734">m_address</a></td></tr>
+<tr class="separator:afe208fcff3c5f4d8adfc998a9f3ec734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f262312b40f029eaf4a9c0e2f73efe" id="r_aa6f262312b40f029eaf4a9c0e2f73efe"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classots_1_1Wallet.html">Wallet</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#aa6f262312b40f029eaf4a9c0e2f73efe">m_wallet</a></td></tr>
+<tr class="separator:aa6f262312b40f029eaf4a9c0e2f73efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b4dcd05249937a3d5c61619efbf4333" id="r_a5b4dcd05249937a3d5c61619efbf4333"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a5b4dcd05249937a3d5c61619efbf4333">m_timestamp</a> = 0</td></tr>
+<tr class="separator:a5b4dcd05249937a3d5c61619efbf4333"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc89451a4d8b13a855a6292ad5fd39a1" id="r_abc89451a4d8b13a855a6292ad5fd39a1"><td class="memItemLeft" align="right" valign="top">uint64_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#abc89451a4d8b13a855a6292ad5fd39a1">m_height</a> = 0</td></tr>
 <tr class="separator:abc89451a4d8b13a855a6292ad5fd39a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc807ca4bf1dfdbbacf2697797f79255" id="r_abc807ca4bf1dfdbbacf2697797f79255"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classots_1_1KeyStore.html">KeyStore</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#abc807ca4bf1dfdbbacf2697797f79255">m_key</a></td></tr>
-<tr class="separator:abc807ca4bf1dfdbbacf2697797f79255"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a594c3bb2cd659970ed83e440b639b202" id="r_a594c3bb2cd659970ed83e440b639b202"><td class="memItemLeft" align="right" valign="top">std::vector&lt; int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a594c3bb2cd659970ed83e440b639b202">m_values</a></td></tr>
-<tr class="separator:a594c3bb2cd659970ed83e440b639b202"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9953f74f68e43c94323b4180ea51873e" id="r_a9953f74f68e43c94323b4180ea51873e"><td class="memItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classots_1_1KeyStore.html">KeyStore</a>, <a class="el" href="structots_1_1KeyStoreDeleter.html">KeyStoreDeleter</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a9953f74f68e43c94323b4180ea51873e">m_key</a></td></tr>
+<tr class="separator:a9953f74f68e43c94323b4180ea51873e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4de98be0d877d3fa59ab2f42a0bbcc22" id="r_a4de98be0d877d3fa59ab2f42a0bbcc22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html#a4de98be0d877d3fa59ab2f42a0bbcc22">m_network</a></td></tr>
 <tr class="separator:a4de98be0d877d3fa59ab2f42a0bbcc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -301,8 +343,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6af9cdb9e8cd09f3cdf7b471ed161646" name="a6af9cdb9e8cd09f3cdf7b471ed161646"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6af9cdb9e8cd09f3cdf7b471ed161646">&#9670;&#160;</a></span>birthday()</h2>
+<a id="a17ef04ddaf887dfca2e3a98eda42ca3c" name="a17ef04ddaf887dfca2e3a98eda42ca3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a17ef04ddaf887dfca2e3a98eda42ca3c">&#9670;&#160;</a></span>address()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,7 +353,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t ots::Seed::birthday </td>
+          <td class="memname">const <a class="el" href="classots_1_1Address.html">Address</a> &amp; ots::Seed::address </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -319,19 +361,19 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the seed's creation timestamp. </p>
-<dl class="section return"><dt>Returns</dt><dd>uint64_t <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> creation timestamp</dd></dl>
-<p>For <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> this is more exact as <a class="el" href="classots_1_1Seed.html#ab1bbcd8771e02acc8795932bc83de0eb" title="Gets the blockchain height associated with the seed.">height()</a> For Monero seeds it depends what was provided by the user, if there date was provided it will be more accurate, in case the block height on creation was provide this is also only a rough estimation </p>
+<p><a class="el" href="classots_1_1Address.html" title="Represents a Monero address.">Address</a> of the seed. </p>
+<dl class="section return"><dt>Returns</dt><dd>reference to the address of the seed</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Can't thow exception, because on constructing a seed address must be valid or throw and exception. </dd></dl>
 
 </div>
 </div>
-<a id="a7b55976aefc957a343768fbe651d3bec" name="a7b55976aefc957a343768fbe651d3bec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b55976aefc957a343768fbe651d3bec">&#9670;&#160;</a></span>encrypted()</h2>
+<a id="af37ddd358a19140558c9de2cf901877b" name="af37ddd358a19140558c9de2cf901877b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af37ddd358a19140558c9de2cf901877b">&#9670;&#160;</a></span>fingerprint()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,7 +382,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool ots::Seed::encrypted </td>
+          <td class="memname">const std::string &amp; ots::Seed::fingerprint </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -348,20 +390,21 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Checks if the seed is encrypted. </p>
-<dl class="section return"><dt>Returns</dt><dd>bool True if the seed is encrypted, false otherwise </dd></dl>
-
-<p>Reimplemented in <a class="el" href="classots_1_1MoneroSeed.html#a44c2063b4f84109ff6b13c417f9bc79f">ots::MoneroSeed</a>, and <a class="el" href="classots_1_1Polyseed.html#acee933cff7c5980ab75790e8d2ce78db">ots::Polyseed</a>.</p>
+<p>Provides a unique fingerprint for the seed. </p>
+<dl class="section return"><dt>Returns</dt><dd>std::string <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> fingerprint</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Fingerprint is the last 6 digits of sha256(address) as uppercase hex </dd>
+<dd>
+Can't thow exception, because on constructing a seed address must be valid or throw and exception. And with valid address the fingerprint is also valid. </dd></dl>
 
 </div>
 </div>
-<a id="a8376fdd4b7e4d15ff24656ed7e354267" name="a8376fdd4b7e4d15ff24656ed7e354267"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8376fdd4b7e4d15ff24656ed7e354267">&#9670;&#160;</a></span>fingerprint()</h2>
+<a id="a1432acb54d741e521c99598ca3488cd9" name="a1432acb54d741e521c99598ca3488cd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1432acb54d741e521c99598ca3488cd9">&#9670;&#160;</a></span>height()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -370,7 +413,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string ots::Seed::fingerprint </td>
+          <td class="memname">const uint64_t ots::Seed::height </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -378,37 +421,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Generates a unique fingerprint for the seed. </p>
-<dl class="section return"><dt>Returns</dt><dd>std::string <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> fingerprint </dd></dl>
-
-<p>Implemented in <a class="el" href="classots_1_1LegacySeed.html#abb32798320b060f6edd90c7f4b9f62ab">ots::LegacySeed</a>, <a class="el" href="classots_1_1MoneroSeed.html#af6da1fbdfc808ed0f8502020fa973350">ots::MoneroSeed</a>, and <a class="el" href="classots_1_1Polyseed.html#a61054d040447a73cd85be584ebe54d12">ots::Polyseed</a>.</p>
-
-</div>
-</div>
-<a id="ab1bbcd8771e02acc8795932bc83de0eb" name="ab1bbcd8771e02acc8795932bc83de0eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1bbcd8771e02acc8795932bc83de0eb">&#9670;&#160;</a></span>height()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">uint64_t ots::Seed::height </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -419,8 +432,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aece7c1be1bbf7773189f9d503d384e6c" name="aece7c1be1bbf7773189f9d503d384e6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aece7c1be1bbf7773189f9d503d384e6c">&#9670;&#160;</a></span>network()</h2>
+<a id="a89427d4aecb92098108cf0e0bed91dc6" name="a89427d4aecb92098108cf0e0bed91dc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89427d4aecb92098108cf0e0bed91dc6">&#9670;&#160;</a></span>indices()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -429,7 +442,469 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> ots::Seed::network </td>
+          <td class="memname">virtual const <a class="el" href="classots_1_1SeedIndices.html">SeedIndices</a> ots::Seed::indices </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em> = <code>&quot;&quot;</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the raw numeric values representing the seed (indices) </p>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> numeric representation </dd></dl>
+
+<p>Implemented in <a class="el" href="classots_1_1MoneroSeed.html#a5e7f853f6c1977223910f500393083b1">ots::MoneroSeed</a>, <a class="el" href="classots_1_1LegacySeed.html#ae788171c202a14982459085a67d6638e">ots::LegacySeed</a>, and <a class="el" href="classots_1_1Polyseed.html#a507ca7be190f4e0b480d05e2d0522c03">ots::Polyseed</a>.</p>
+
+</div>
+</div>
+<a id="a98f26bf28edc39605073794ed625b997" name="a98f26bf28edc39605073794ed625b997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98f26bf28edc39605073794ed625b997">&#9670;&#160;</a></span>mergeAndZeorizeValues() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; uint16_t &gt; ots::Seed::mergeAndZeorizeValues </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; std::vector&lt; uint16_t &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>del</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Merges multiple seed values, so you can join multiple SeedQRs to one seed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values</td><td>the collection of seed values to merge </td></tr>
+    <tr><td class="paramname">del</td><td>will delete all values after merging and zeroize them, default is true </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;uint16_t&gt; Merged seed values </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1LengthMismatch.html" title="a seed expected has a different length, and is used instead of WordCount on merging Values/seed phras...">ots::exception::seed::LengthMismatch</a></td><td>If the seeds are not of the same size </td></tr>
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1TooFewValues.html" title="you need at least two values to merge.">ots::exception::seed::TooFewValues</a></td><td>if not at least two values are provided</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The vectors need to have the same size, and at least two values need to be provided </dd></dl>
+
+</div>
+</div>
+<a id="a8e6499e96be77b7c78a8c3acaaf77223" name="a8e6499e96be77b7c78a8c3acaaf77223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e6499e96be77b7c78a8c3acaaf77223">&#9670;&#160;</a></span>mergeAndZeorizeValues() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; uint16_t &gt; ots::Seed::mergeAndZeorizeValues </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; uint16_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>values1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; uint16_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>values2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>del</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Merges two seed values, so you can join multiple SeedQRs to one seed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values1</td><td>First seed values to merge </td></tr>
+    <tr><td class="paramname">values2</td><td>Second seed values to merge </td></tr>
+    <tr><td class="paramname">del</td><td>will delete both values after merging and zeroize them, default is true </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;uint16_t&gt; Merged seed values </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1LengthMismatch.html" title="a seed expected has a different length, and is used instead of WordCount on merging Values/seed phras...">ots::exception::seed::LengthMismatch</a></td><td>If the seeds are not of the same size</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The vectors need to have the same size </dd></dl>
+
+</div>
+</div>
+<a id="af809c7fa8d9bae23464f1cec6276c5ee" name="af809c7fa8d9bae23464f1cec6276c5ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af809c7fa8d9bae23464f1cec6276c5ee">&#9670;&#160;</a></span>mergeValues() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; uint16_t &gt; ots::Seed::mergeValues </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; std::vector&lt; uint16_t &gt; &gt; &amp;&#160;</td>
+          <td class="paramname"><em>values</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Merges multiple seed values, so you can join multiple SeedQRs to one seed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values</td><td>the collection of seed values to merge </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;uint16_t&gt; Merged seed values </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1LengthMismatch.html" title="a seed expected has a different length, and is used instead of WordCount on merging Values/seed phras...">ots::exception::seed::LengthMismatch</a></td><td>If the seeds are not of the same size </td></tr>
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1TooFewValues.html" title="you need at least two values to merge.">ots::exception::seed::TooFewValues</a></td><td>if not at least two values are provided</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The vectors need to have the same size, and at least two values need to be provided </dd></dl>
+
+</div>
+</div>
+<a id="ab5c06858c6eac77ec80ee22374470f64" name="ab5c06858c6eac77ec80ee22374470f64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5c06858c6eac77ec80ee22374470f64">&#9670;&#160;</a></span>mergeValues() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; uint16_t &gt; ots::Seed::mergeValues </td>
+          <td>(</td>
+          <td class="paramtype">const std::vector&lt; uint16_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>values1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; uint16_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>values2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Merges two seed values, so you can join multiple SeedQRs to one seed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">values1</td><td>First seed values to merge </td></tr>
+    <tr><td class="paramname">values2</td><td>Second seed values to merge </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;uint16_t&gt; Merged seed values </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1LengthMismatch.html" title="a seed expected has a different length, and is used instead of WordCount on merging Values/seed phras...">ots::exception::seed::LengthMismatch</a></td><td>If the seeds are not of the same size</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section note"><dt>Note</dt><dd>The vectors need to have the same size </dd></dl>
+
+</div>
+</div>
+<a id="a3e1da0c0fcb100d2ee52dd86094228bd" name="a3e1da0c0fcb100d2ee52dd86094228bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e1da0c0fcb100d2ee52dd86094228bd">&#9670;&#160;</a></span>mergeWithPassword() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; uint16_t &gt; ots::Seed::mergeWithPassword </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; uint16_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>values</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Merge password with seed values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">password</td><td>for the seed ^ PBKDF2_SHA256(password) operation </td></tr>
+    <tr><td class="paramname">values</td><td>seed values to merge </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Merged values </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1MergeError.html" title="a seed index could not be merged">ots::exception::seed::MergeError</a></td><td>On failures </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a617dd281515dab7ff4e29a4a92d16004" name="a617dd281515dab7ff4e29a4a92d16004"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a617dd281515dab7ff4e29a4a92d16004">&#9670;&#160;</a></span>mergeWithPassword() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; uint16_t &gt; ots::Seed::mergeWithPassword </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classots_1_1WipeableString.html">WipeableString</a> &amp;&#160;</td>
+          <td class="paramname"><em>password</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::vector&lt; uint16_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>values</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Merge password with seed values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">password</td><td>for the seed ^ PBKDF2 </td></tr>
+    <tr><td class="paramname">values</td><td>seed values to merge </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Merged values </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1MergeError.html" title="a seed index could not be merged">ots::exception::seed::MergeError</a></td><td>On failures </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a80d879bc852992d00cdff6a1e316b71c" name="a80d879bc852992d00cdff6a1e316b71c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80d879bc852992d00cdff6a1e316b71c">&#9670;&#160;</a></span>mergeWithPasswordAndZeorize() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; uint16_t &gt; ots::Seed::mergeWithPasswordAndZeorize </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classots_1_1WipeableString.html">WipeableString</a> &amp;&#160;</td>
+          <td class="paramname"><em>password</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; uint16_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>del</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Merge password with seed values and zeroize values. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">password</td><td>for the seed ^ PBKDF2 </td></tr>
+    <tr><td class="paramname">values</td><td>seed values to merge and zeroize </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Merged values </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1MergeError.html" title="a seed index could not be merged">ots::exception::seed::MergeError</a></td><td>On failures </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ad29eff145611ed540fef0593266e7bb7" name="ad29eff145611ed540fef0593266e7bb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad29eff145611ed540fef0593266e7bb7">&#9670;&#160;</a></span>mergeWithPasswordAndZeorize() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; uint16_t &gt; ots::Seed::mergeWithPasswordAndZeorize </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; uint16_t &gt; &amp;&#160;</td>
+          <td class="paramname"><em>values</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>del</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Merge password with seed values and zeroize password. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">password</td><td>for the seed ^ PBKDF2_SHA256(password) operation </td></tr>
+    <tr><td class="paramname">values</td><td>seed values to merge </td></tr>
+    <tr><td class="paramname">del</td><td>will delete password and values after merging and zeroize it, default is true </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Merged values </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1MergeError.html" title="a seed index could not be merged">ots::exception::seed::MergeError</a></td><td>On failures </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4d3d3d6eefce46d4efe0faaa0ed02f2f" name="a4d3d3d6eefce46d4efe0faaa0ed02f2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d3d3d6eefce46d4efe0faaa0ed02f2f">&#9670;&#160;</a></span>network()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> &amp; ots::Seed::network </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -437,7 +912,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -500,8 +975,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a44298bced5f1a11998e8f55ba1a96371" name="a44298bced5f1a11998e8f55ba1a96371"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44298bced5f1a11998e8f55ba1a96371">&#9670;&#160;</a></span>phrase()</h2>
+<a id="a66846b1fb9f5036e010d88d2174e71f3" name="a66846b1fb9f5036e010d88d2174e71f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66846b1fb9f5036e010d88d2174e71f3">&#9670;&#160;</a></span>phrase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -510,11 +985,21 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::string ots::Seed::phrase </td>
+          <td class="memname">virtual const <a class="el" href="classots_1_1WipeableString.html">WipeableString</a> ots::Seed::phrase </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;&#160;</td>
-          <td class="paramname"><em>language</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"><em>language</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>password</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -531,14 +1016,20 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>std::string <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> phrase </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> phrase </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ots::exception::seed::UnsupportedLanguage</td><td>If the language is not supported </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>Implemented in <a class="el" href="classots_1_1LegacySeed.html#a6ade50ac82d7cf77855d0604b19a1d59">ots::LegacySeed</a>, <a class="el" href="classots_1_1MoneroSeed.html#a718cafd24338ca14bdf1def1fcdd8f90">ots::MoneroSeed</a>, and <a class="el" href="classots_1_1Polyseed.html#a169adbd22c8d3c5e5bb34c406d25f865">ots::Polyseed</a>.</p>
+<p>Implemented in <a class="el" href="classots_1_1MoneroSeed.html#ab8dae234d7e93fcf78bbae799835f4fc">ots::MoneroSeed</a>, <a class="el" href="classots_1_1LegacySeed.html#aa135cd3b4d0571197a0e8053a4612138">ots::LegacySeed</a>, and <a class="el" href="classots_1_1Polyseed.html#a9f2612fb65df291487c46b9e0cf41e01">ots::Polyseed</a>.</p>
 
 </div>
 </div>
-<a id="a0ef284fc08fbd9fd05ed529b62f404d6" name="a0ef284fc08fbd9fd05ed529b62f404d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ef284fc08fbd9fd05ed529b62f404d6">&#9670;&#160;</a></span>values()</h2>
+<a id="a062c6632d48a12552cfd55946ff19c4c" name="a062c6632d48a12552cfd55946ff19c4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a062c6632d48a12552cfd55946ff19c4c">&#9670;&#160;</a></span>timestamp()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -547,7 +1038,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::vector&lt; int &gt; ots::Seed::values </td>
+          <td class="memname">const uint64_t ots::Seed::timestamp </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -555,20 +1046,19 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Gets the raw numeric values representing the seed. </p>
-<dl class="section return"><dt>Returns</dt><dd>std::vector&lt;int&gt; <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> numeric representation </dd></dl>
-
-<p>Reimplemented in <a class="el" href="classots_1_1LegacySeed.html#a2b270d5db746f1d1ee4ffca09d29b66f">ots::LegacySeed</a>, <a class="el" href="classots_1_1MoneroSeed.html#aac3e0da29851c1d8ce7ba5b8cc213c29">ots::MoneroSeed</a>, and <a class="el" href="classots_1_1Polyseed.html#a03ec0e3269cfef4ae2390cba0db43ad1">ots::Polyseed</a>.</p>
+<p>Gets the seed's creation timestamp. </p>
+<dl class="section return"><dt>Returns</dt><dd>uint64_t <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> creation timestamp</dd></dl>
+<p>For <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> this is more exact as <a class="el" href="classots_1_1Seed.html#a1432acb54d741e521c99598ca3488cd9" title="Gets the blockchain height associated with the seed.">height()</a> For Monero seeds it depends what was provided by the user, if there date was provided it will be more accurate, in case the block height on creation was provide this is also only a rough estimation </p>
 
 </div>
 </div>
-<a id="aff464f0e9d3c2c9cba9f3954e2640d54" name="aff464f0e9d3c2c9cba9f3954e2640d54"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff464f0e9d3c2c9cba9f3954e2640d54">&#9670;&#160;</a></span>wallet()</h2>
+<a id="a59649d84109540117759c10de74a6480" name="a59649d84109540117759c10de74a6480"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59649d84109540117759c10de74a6480">&#9670;&#160;</a></span>wallet()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -577,7 +1067,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::shared_ptr&lt; <a class="el" href="classots_1_1Wallet.html">Wallet</a> &gt; ots::Seed::wallet </td>
+          <td class="memname">std::shared_ptr&lt; <a class="el" href="classots_1_1Wallet.html">Wallet</a> &gt; ots::Seed::wallet </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -585,7 +1075,7 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -597,8 +1087,8 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a9b7e1918056fa3c3591a5b7db635729b" name="a9b7e1918056fa3c3591a5b7db635729b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b7e1918056fa3c3591a5b7db635729b">&#9670;&#160;</a></span>m_birthday</h2>
+<a id="afe208fcff3c5f4d8adfc998a9f3ec734" name="afe208fcff3c5f4d8adfc998a9f3ec734"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe208fcff3c5f4d8adfc998a9f3ec734">&#9670;&#160;</a></span>m_address</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -607,7 +1097,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint64_t ots::Seed::m_birthday = 0</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classots_1_1Address.html">Address</a>&gt; ots::Seed::m_address</td>
         </tr>
       </table>
   </td>
@@ -641,8 +1131,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abc807ca4bf1dfdbbacf2697797f79255" name="abc807ca4bf1dfdbbacf2697797f79255"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc807ca4bf1dfdbbacf2697797f79255">&#9670;&#160;</a></span>m_key</h2>
+<a id="a9953f74f68e43c94323b4180ea51873e" name="a9953f74f68e43c94323b4180ea51873e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9953f74f68e43c94323b4180ea51873e">&#9670;&#160;</a></span>m_key</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -651,7 +1141,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classots_1_1KeyStore.html">KeyStore</a>&gt; ots::Seed::m_key</td>
+          <td class="memname">std::unique_ptr&lt;<a class="el" href="classots_1_1KeyStore.html">KeyStore</a>, <a class="el" href="structots_1_1KeyStoreDeleter.html">KeyStoreDeleter</a>&gt; ots::Seed::m_key</td>
         </tr>
       </table>
   </td>
@@ -685,8 +1175,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a594c3bb2cd659970ed83e440b639b202" name="a594c3bb2cd659970ed83e440b639b202"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a594c3bb2cd659970ed83e440b639b202">&#9670;&#160;</a></span>m_values</h2>
+<a id="a5b4dcd05249937a3d5c61619efbf4333" name="a5b4dcd05249937a3d5c61619efbf4333"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b4dcd05249937a3d5c61619efbf4333">&#9670;&#160;</a></span>m_timestamp</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -695,7 +1185,29 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;int&gt; ots::Seed::m_values</td>
+          <td class="memname">uint64_t ots::Seed::m_timestamp = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa6f262312b40f029eaf4a9c0e2f73efe" name="aa6f262312b40f029eaf4a9c0e2f73efe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6f262312b40f029eaf4a9c0e2f73efe">&#9670;&#160;</a></span>m_wallet</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;<a class="el" href="classots_1_1Wallet.html">Wallet</a>&gt; ots::Seed::m_wallet</td>
         </tr>
       </table>
   </td>

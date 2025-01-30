@@ -1,13 +1,15 @@
 var classots_1_1Polyseed =
 [
-    [ "create", "classots_1_1Polyseed.html#a975efd8d016ce28b9feccd0850d1d85a", null ],
-    [ "decode", "classots_1_1Polyseed.html#a679eea86b74c5212844a58acb4e9ad54", null ],
-    [ "decode", "classots_1_1Polyseed.html#aa5aef05bbd62c3335c1ef59ab0d477fb", null ],
-    [ "decode", "classots_1_1Polyseed.html#a15d9a36e40b929f7cbd320e8d39be8af", null ],
-    [ "decrypt", "classots_1_1Polyseed.html#ace9d0bf680a0eb8871df0850c592508e", null ],
-    [ "encrypt", "classots_1_1Polyseed.html#a51b957fd35e58017924691f43a3dfab4", null ],
-    [ "encrypted", "classots_1_1Polyseed.html#acee933cff7c5980ab75790e8d2ce78db", null ],
-    [ "fingerprint", "classots_1_1Polyseed.html#a61054d040447a73cd85be584ebe54d12", null ],
-    [ "phrase", "classots_1_1Polyseed.html#a169adbd22c8d3c5e5bb34c406d25f865", null ],
-    [ "values", "classots_1_1Polyseed.html#a03ec0e3269cfef4ae2390cba0db43ad1", null ]
+    [ "Polyseed", "classots_1_1Polyseed.html#a9ded9b7b5e7b7ae8aafbf12916428b23", null ],
+    [ "create", "classots_1_1Polyseed.html#a90b0c1328b9c18b11dd749e739a6d489", null ],
+    [ "create", "classots_1_1Polyseed.html#a7202cd2d5962ab7ae5bd7a2a8c5090dd", null ],
+    [ "decode", "classots_1_1Polyseed.html#aa19dc052875bcc79dd8ac48453e46041", null ],
+    [ "decode", "classots_1_1Polyseed.html#a72ba0f180ea8a902d6143d645be71aba", null ],
+    [ "decode", "classots_1_1Polyseed.html#a11d99bac383bb2049f0c3a56dd2528a4", null ],
+    [ "decode", "classots_1_1Polyseed.html#ac00f9670dd5651616a4f53494603feee", null ],
+    [ "generate", "classots_1_1Polyseed.html#a50259dc8980341db2ecc270b0b28c7f2", null ],
+    [ "indices", "classots_1_1Polyseed.html#a507ca7be190f4e0b480d05e2d0522c03", null ],
+    [ "moneroSeed", "classots_1_1Polyseed.html#ab460829ef780fa55839a95c0bb0aa520", null ],
+    [ "phrase", "classots_1_1Polyseed.html#a9f2612fb65df291487c46b9e0cf41e01", null ],
+    [ "m_seed", "classots_1_1Polyseed.html#a8b39b761862b70129041cc6df3e31ddb", null ]
 ];

@@ -1,10 +1,19 @@
 var searchData=
 [
   ['ots_0',['ots',['../namespaceots.html',1,'']]],
-  ['ots_3a_3aexception_1',['exception',['../namespaceots_1_1exception.html',1,'ots']]],
-  ['ots_3a_3aexception_3a_3aaddress_2',['address',['../namespaceots_1_1exception_1_1address.html',1,'ots::exception']]],
-  ['ots_3a_3aexception_3a_3aseed_3',['seed',['../namespaceots_1_1exception_1_1seed.html',1,'ots::exception']]],
-  ['ots_3a_3aexception_3a_3aseedjar_4',['seedjar',['../namespaceots_1_1exception_1_1seedjar.html',1,'ots::exception']]],
-  ['ots_3a_3aexception_3a_3atx_5',['tx',['../namespaceots_1_1exception_1_1tx.html',1,'ots::exception']]],
-  ['ots_3a_3aexception_3a_3awallet_6',['wallet',['../namespaceots_1_1exception_1_1wallet.html',1,'ots::exception']]]
+  ['ots_3a_3adata_1',['data',['../namespaceots_1_1data.html',1,'ots']]],
+  ['ots_3a_3aexception_2',['exception',['../namespaceots_1_1exception.html',1,'ots']]],
+  ['ots_3a_3aexception_3a_3aaccount_3',['account',['../namespaceots_1_1exception_1_1account.html',1,'ots::exception']]],
+  ['ots_3a_3aexception_3a_3aaddress_4',['address',['../namespaceots_1_1exception_1_1address.html',1,'ots::exception']]],
+  ['ots_3a_3aexception_3a_3akeystore_5',['keystore',['../namespaceots_1_1exception_1_1keystore.html',1,'ots::exception']]],
+  ['ots_3a_3aexception_3a_3akeystore_3a_3apolyseed_6',['polyseed',['../namespaceots_1_1exception_1_1keystore_1_1polyseed.html',1,'ots::exception::keystore']]],
+  ['ots_3a_3aexception_3a_3alegacyseed_7',['legacyseed',['../namespaceots_1_1exception_1_1legacyseed.html',1,'ots::exception']]],
+  ['ots_3a_3aexception_3a_3apolyseed_8',['polyseed',['../namespaceots_1_1exception_1_1polyseed.html',1,'ots::exception']]],
+  ['ots_3a_3aexception_3a_3aseed_9',['seed',['../namespaceots_1_1exception_1_1seed.html',1,'ots::exception']]],
+  ['ots_3a_3aexception_3a_3aseedjar_10',['seedjar',['../namespaceots_1_1exception_1_1seedjar.html',1,'ots::exception']]],
+  ['ots_3a_3aexception_3a_3asign_11',['sign',['../namespaceots_1_1exception_1_1sign.html',1,'ots::exception']]],
+  ['ots_3a_3aexception_3a_3atx_12',['tx',['../namespaceots_1_1exception_1_1tx.html',1,'ots::exception']]],
+  ['ots_3a_3aexception_3a_3awallet_13',['wallet',['../namespaceots_1_1exception_1_1wallet.html',1,'ots::exception']]],
+  ['ots_3a_3aexception_3a_3awipeablestring_14',['wipeablestring',['../namespaceots_1_1exception_1_1wipeablestring.html',1,'ots::exception']]],
+  ['ots_3a_3aexception_3a_3awipeablevector_15',['wipeablevector',['../namespaceots_1_1exception_1_1wipeablevector.html',1,'ots::exception']]]
 ];

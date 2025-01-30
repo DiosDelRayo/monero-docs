@@ -1,0 +1,5 @@
+<map id="/projects/monerosigner/monero/ots/include/seed&#45;polyseed&#45;internal.hpp" name="/projects/monerosigner/monero/ots/include/seed&#45;polyseed&#45;internal.hpp">
+<area shape="rect" id="Node000001" title="Internal polyseed functions, to not expose polyseed internals to the library user." alt="" coords="35,5,203,60"/>
+<area shape="rect" id="Node000002" href="$seed-polyseed_8cpp.html" title="Implementation of the Polyseed class." alt="" coords="5,108,232,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="121,74,121,108,116,108,116,74"/>
+</map>

@@ -1,5 +1,5 @@
 <map id="/projects/monerosigner/monero/ots/include/ots.h" name="/projects/monerosigner/monero/ots/include/ots.h">
-<area shape="rect" id="Node000001" title="Header for the C ABI library." alt="" coords="11,5,181,45"/>
+<area shape="rect" id="Node000001" title="Header for the C ABI (Application Binary Interface) library." alt="" coords="11,5,181,45"/>
 <area shape="rect" id="Node000002" href="$ots-abi_8cpp.html" title=" " alt="" coords="5,93,187,133"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,59,99,93,93,93,93,59"/>
 </map>

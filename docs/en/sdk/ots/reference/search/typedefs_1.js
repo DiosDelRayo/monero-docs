@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['ots_5fctx_5fst_0',['ots_ctx_st',['../ots_8h.html#a2cc2eb12816d2fe8efd53c1e2851e3b3',1,'ots.h']]]
+  ['seed_5fhandle_5ft_0',['seed_handle_t',['../namespaceots.html#a0ae85bced26ccd7d76f9c95c360283d8',1,'ots']]]
 ];

@@ -1,8 +1,12 @@
 var searchData=
 [
-  ['ots_0',['OTS',['../classots_1_1OTS.html',1,'ots']]],
-  ['ots_5fctx_5fst_1',['ots_ctx_st',['../structots__ctx__st.html',1,'']]],
-  ['ots_5ferror_5ft_2',['ots_error_t',['../structots__error__t.html',1,'']]],
-  ['ots_5fresult_5ft_3',['ots_result_t',['../structots__result__t.html',1,'']]],
-  ['outofrange_4',['OutOfRange',['../classots_1_1exception_1_1OutOfRange.html',1,'ots::exception']]]
+  ['languagenotfound_0',['LanguageNotFound',['../classots_1_1exception_1_1seed_1_1LanguageNotFound.html',1,'ots::exception::seed']]],
+  ['languagenotsupportedbyseedtype_1',['LanguageNotSupportedBySeedType',['../classots_1_1exception_1_1seed_1_1LanguageNotSupportedBySeedType.html',1,'ots::exception::seed']]],
+  ['legacyseed_2',['LegacySeed',['../classots_1_1LegacySeed.html',1,'ots']]],
+  ['lengthmismatch_3',['LengthMismatch',['../classots_1_1exception_1_1seed_1_1LengthMismatch.html',1,'ots::exception::seed']]],
+  ['lockedaccessattempt_4',['LockedAccessAttempt',['../classots_1_1exception_1_1keystore_1_1LockedAccessAttempt.html',1,'ots::exception::keystore']]],
+  ['lockedwriteattempt_5',['LockedWriteAttempt',['../classots_1_1exception_1_1keystore_1_1LockedWriteAttempt.html',1,'ots::exception::keystore']]],
+  ['logicerror_6',['LogicError',['../classots_1_1exception_1_1LogicError.html',1,'ots::exception']]],
+  ['lowentropy_7',['LowEntropy',['../classots_1_1exception_1_1LowEntropy.html',1,'ots::exception']]],
+  ['lr_8',['LR',['../structots_1_1Account_1_1multisig__info_1_1LR.html',1,'ots::Account::multisig_info']]]
 ];

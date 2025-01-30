@@ -96,7 +96,8 @@ $(document).ready(function(){initNavTree('namespaceots.html',''); initResizable(
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">ots Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -106,20 +107,29 @@ $(document).ready(function(){initNavTree('namespaceots.html',''); initResizable(
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespaceots_1_1data" id="r_namespaceots_1_1data"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots_1_1data.html">data</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceots_1_1exception" id="r_namespaceots_1_1exception"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots_1_1exception.html">exception</a></td></tr>
 <tr class="memdesc:namespaceots_1_1exception"><td class="mdescLeft">&#160;</td><td class="mdescRight">All ots library related exceptions are in this namespace. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Account.html">Account</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">holds monero internal account and internal functions  <a href="classots_1_1Account.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structots_1_1AccountDeleter.html">AccountDeleter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Address.html">Address</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a Monero address.  <a href="classots_1_1Address.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1EncryptableSeed.html">EncryptableSeed</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for seeds that support encryption.  <a href="classots_1_1EncryptableSeed.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Entropy.html">Entropy</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classots_1_1Entropy.html" title="Entropy check functions.">Entropy</a> check functions.  <a href="classots_1_1Entropy.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1KeyStore.html">KeyStore</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">essentialy wraps crypto::secret_key  <a href="classots_1_1KeyStore.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structots_1_1KeyStoreDeleter.html">KeyStoreDeleter</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1LegacySeed.html">LegacySeed</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a monero 13-words seed type for backward compatibility.  <a href="classots_1_1LegacySeed.html#details">More...</a><br /></td></tr>
@@ -133,8 +143,16 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Represents a <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> type.  <a href="classots_1_1Polyseed.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1PolyseedKeyStore.html">PolyseedKeyStore</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Extends <a class="el" href="classots_1_1KeyStore.html" title="essentialy wraps crypto::secret_key">KeyStore</a> with specific functionality for polyseed-based cryptographic operations.  <a href="classots_1_1PolyseedKeyStore.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structots_1_1PolyseedKeyStoreDeleter.html">PolyseedKeyStoreDeleter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Seed.html">Seed</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract base class for cryptographic seed management.  <a href="classots_1_1Seed.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1SeedIndices.html">SeedIndices</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Secure container for seed word indices.  <a href="classots_1_1SeedIndices.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1SeedJar.html">SeedJar</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Storage for the <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> objects, mainly for the purpose of the C ABI.  <a href="classots_1_1SeedJar.html#details">More...</a><br /></td></tr>
@@ -150,6 +168,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1Wallet.html">Wallet</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides all offline wallet functionality  <a href="classots_1_1Wallet.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1WipeableString.html">WipeableString</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">String class that wipes its memory on destruction.  <a href="classots_1_1WipeableString.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classots_1_1ZeroizeReferenceCopy.html">ZeroizeReferenceCopy</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A class to handle a reference copy of a value and zeroize it on destruction.  <a href="classots_1_1ZeroizeReferenceCopy.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
@@ -181,37 +205,67 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a86a6570330e3f12c4925586212460fe9" id="r_a86a6570330e3f12c4925586212460fe9"><td class="memItemLeft" align="right" valign="top">crypto::secret_key&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a86a6570330e3f12c4925586212460fe9">keyFromHash</a> (const std::vector&lt; unsigned char &gt; &amp;data)</td></tr>
-<tr class="separator:a86a6570330e3f12c4925586212460fe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a7e6385636645ee30f06498a2b2d67f" id="r_a2a7e6385636645ee30f06498a2b2d67f"><td class="memItemLeft" align="right" valign="top">crypto::secret_key&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a2a7e6385636645ee30f06498a2b2d67f">randomKey</a> ()</td></tr>
-<tr class="separator:a2a7e6385636645ee30f06498a2b2d67f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2a2e083e73fcafb12851e59f45bccdc" id="r_ab2a2e083e73fcafb12851e59f45bccdc"><td class="memItemLeft" align="right" valign="top">epee::wipeable_string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#ab2a2e083e73fcafb12851e59f45bccdc">seedPhraseFromKey</a> (const crypto::secret_key &amp;key, const std::string &amp;language)</td></tr>
-<tr class="separator:ab2a2e083e73fcafb12851e59f45bccdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9fc38fd03f0de8480c6977f11155751e" id="r_a9fc38fd03f0de8480c6977f11155751e"><td class="memItemLeft" align="right" valign="top">epee::wipeable_string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a9fc38fd03f0de8480c6977f11155751e">phraseFromKey</a> (const crypto::secret_key &amp;key, const std::string &amp;language)</td></tr>
-<tr class="separator:a9fc38fd03f0de8480c6977f11155751e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a538594c61b6c4413d894e0f5e0324653" id="r_a538594c61b6c4413d894e0f5e0324653"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a538594c61b6c4413d894e0f5e0324653">create</a> (uint64_t time, const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;language, <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> network=<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a>)</td></tr>
-<tr class="separator:a538594c61b6c4413d894e0f5e0324653"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7a38bb807585312c894d1c593c6b310" id="r_ac7a38bb807585312c894d1c593c6b310"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#ac7a38bb807585312c894d1c593c6b310">decode</a> (const std::string &amp;phrase, <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> network)</td></tr>
-<tr class="separator:ac7a38bb807585312c894d1c593c6b310"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a27ef646a942149da6c7067e5b65f4e91" id="r_a27ef646a942149da6c7067e5b65f4e91"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a27ef646a942149da6c7067e5b65f4e91">decode</a> (const std::string &amp;phrase, const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;language, <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> network)</td></tr>
-<tr class="separator:a27ef646a942149da6c7067e5b65f4e91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9cbc2ab601f01d2addb02dc3c67e40f" id="r_ae9cbc2ab601f01d2addb02dc3c67e40f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#ae9cbc2ab601f01d2addb02dc3c67e40f">decode</a> (const std::vector&lt; int &gt; &amp;values, <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> network)</td></tr>
-<tr class="separator:ae9cbc2ab601f01d2addb02dc3c67e40f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a692653a99a030b8dd92c3ea21ba34d00" id="r_a692653a99a030b8dd92c3ea21ba34d00"><td class="memItemLeft" align="right" valign="top">cryptonote::network_type&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a692653a99a030b8dd92c3ea21ba34d00">cryptonoteNetwork</a> (<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> network) noexcept</td></tr>
+<tr class="memdesc:a692653a99a030b8dd92c3ea21ba34d00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts the network type from the library network type to cryptonote network type.  <br /></td></tr>
+<tr class="separator:a692653a99a030b8dd92c3ea21ba34d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae13565f0c3d4a9fa9b1d9a1bf9e581cf" id="r_ae13565f0c3d4a9fa9b1d9a1bf9e581cf"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#ae13565f0c3d4a9fa9b1d9a1bf9e581cf">splitString</a> (const std::string &amp;input, const std::string &amp;separator=&quot;&quot;, size_t fixedWidth=4)</td></tr>
+<tr class="memdesc:ae13565f0c3d4a9fa9b1d9a1bf9e581cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a string by a separator or fixed 4 char width.  <br /></td></tr>
+<tr class="separator:ae13565f0c3d4a9fa9b1d9a1bf9e581cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71a2b85184d2caa89d4778b85c499b39" id="r_a71a2b85184d2caa89d4778b85c499b39"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classots_1_1SeedIndices.html">SeedIndices</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a71a2b85184d2caa89d4778b85c499b39">seedIndices</a> (const unsigned char *bytes, size_t byte_length, size_t word_list_length=1626, size_t bytes_per_chunk=4, size_t words_per_chunk=3)</td></tr>
+<tr class="memdesc:a71a2b85184d2caa89d4778b85c499b39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the indices of a seed phrase.  <br /></td></tr>
+<tr class="separator:a71a2b85184d2caa89d4778b85c499b39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc97958966e8cad946b85f1ed0da56c9" id="r_afc97958966e8cad946b85f1ed0da56c9"><td class="memTemplParams" colspan="2">template&lt;size_t byte_count&gt; </td></tr>
+<tr class="memitem:afc97958966e8cad946b85f1ed0da56c9"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; unsigned char, byte_count &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceots.html#afc97958966e8cad946b85f1ed0da56c9">seedBytes</a> (const <a class="el" href="classots_1_1SeedIndices.html">SeedIndices</a> &amp;indices, const size_t word_list_length=1626, const size_t bytes_per_chunk=4, const size_t words_per_chunk=3)</td></tr>
+<tr class="separator:afc97958966e8cad946b85f1ed0da56c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13394504624bad275242dea0245ea3b4" id="r_a13394504624bad275242dea0245ea3b4"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structots_1_1data_1_1NetworkData.html">ots::data::NetworkData</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a13394504624bad275242dea0245ea3b4">getNetworkData</a> (<a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a> network)</td></tr>
+<tr class="separator:a13394504624bad275242dea0245ea3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18f4b73cf405624f720b530b5eef257a" id="r_a18f4b73cf405624f720b530b5eef257a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a18f4b73cf405624f720b530b5eef257a">onPolyseedStatusNotOkThrowException</a> (const polyseed_status &amp;status)</td></tr>
+<tr class="memdesc:a18f4b73cf405624f720b530b5eef257a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translates status to <a class="el" href="namespaceots_1_1exception.html" title="All ots library related exceptions are in this namespace.">ots::exception</a>'s.  <br /></td></tr>
+<tr class="separator:a18f4b73cf405624f720b530b5eef257a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a394bd08dc2d125165eb64b8b1db73023" id="r_a394bd08dc2d125165eb64b8b1db73023"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a394bd08dc2d125165eb64b8b1db73023">injectPolyseedDependency</a> ()</td></tr>
+<tr class="memdesc:a394bd08dc2d125165eb64b8b1db73023"><td class="mdescLeft">&#160;</td><td class="mdescRight">makes sure dependencies are injected before first use, injection happens only once - first time.  <br /></td></tr>
+<tr class="separator:a394bd08dc2d125165eb64b8b1db73023"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a755a4f3e16c5ef0f9a01f4bcf21ad8db" id="r_a755a4f3e16c5ef0f9a01f4bcf21ad8db"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a755a4f3e16c5ef0f9a01f4bcf21ad8db">polyseed_random_wrapper</a> (void *result, size_t n)</td></tr>
+<tr class="memdesc:a755a4f3e16c5ef0f9a01f4bcf21ad8db"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides random bytes to polyseed library  <br /></td></tr>
+<tr class="separator:a755a4f3e16c5ef0f9a01f4bcf21ad8db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29e80a59a92adc3716e8a021231dd04e" id="r_a29e80a59a92adc3716e8a021231dd04e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a29e80a59a92adc3716e8a021231dd04e">polyseed_pbkdf2_wrapper</a> (const uint8_t *pw, size_t pwlen, const uint8_t *salt, size_t saltlen, uint64_t iterations, uint8_t *key, size_t keylen)</td></tr>
+<tr class="memdesc:a29e80a59a92adc3716e8a021231dd04e"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides pbkdf2-sha256 to polyseed library  <br /></td></tr>
+<tr class="separator:a29e80a59a92adc3716e8a021231dd04e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28b8a6cb39bc619c01fa2cb0d7fe0ebc" id="r_a28b8a6cb39bc619c01fa2cb0d7fe0ebc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a28b8a6cb39bc619c01fa2cb0d7fe0ebc">polyseed_memwipe_wrapper</a> (void *const ptr, const size_t len)</td></tr>
+<tr class="memdesc:a28b8a6cb39bc619c01fa2cb0d7fe0ebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides memory wipe to polyseed library  <br /></td></tr>
+<tr class="separator:a28b8a6cb39bc619c01fa2cb0d7fe0ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34fb716829e7c6956b778c0c0a1431d" id="r_ac34fb716829e7c6956b778c0c0a1431d"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#ac34fb716829e7c6956b778c0c0a1431d">utf8_nfc</a> (const char *str, polyseed_str norm)</td></tr>
+<tr class="memdesc:ac34fb716829e7c6956b778c0c0a1431d"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides utf8 normalization to polyseed library at the moment utf8proc is used, because it seems that boost::locale will drag more dependencies with in.  <br /></td></tr>
+<tr class="separator:ac34fb716829e7c6956b778c0c0a1431d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7d3d7cda29de7dad53c3a7694613a33" id="r_af7d3d7cda29de7dad53c3a7694613a33"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#af7d3d7cda29de7dad53c3a7694613a33">utf8_nfkd</a> (const char *str, polyseed_str norm)</td></tr>
+<tr class="memdesc:af7d3d7cda29de7dad53c3a7694613a33"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides utf8 normalization to polyseed library, uses also utf8proc  <br /></td></tr>
+<tr class="separator:af7d3d7cda29de7dad53c3a7694613a33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ac488786fa159a9966a32762023dc5c" id="r_a5ac488786fa159a9966a32762023dc5c"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a5ac488786fa159a9966a32762023dc5c">operator&lt;&lt;</a> (std::ostream &amp;os, const <a class="el" href="classots_1_1WipeableString.html">WipeableString</a> &amp;str)</td></tr>
+<tr class="separator:a5ac488786fa159a9966a32762023dc5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a7e248aa667e68a7714685f624e4048fc" id="r_a7e248aa667e68a7714685f624e4048fc"><td class="memItemLeft" align="right" valign="top">const std::map&lt; <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>, <a class="el" href="structots_1_1data_1_1NetworkData.html">ots::data::NetworkData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html#a7e248aa667e68a7714685f624e4048fc">NETWORK_DATA_MAP</a></td></tr>
+<tr class="separator:a7e248aa667e68a7714685f624e4048fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The library exists complete only in this namespace. </p>
 <p>This header file provides following features for the ots library for C++:</p>
 <ul>
-<li>Legacy <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> (13 words) handling - except generating, omited on purpose</li>
-<li>Monero <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> (25 words) handling</li>
-<li><a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> (16 words) handling</li>
-<li><a class="el" href="classots_1_1Address.html" title="Represents a Monero address.">Address</a> management</li>
-<li><a class="el" href="classots_1_1Address.html" title="Represents a Monero address.">Address</a> verification</li>
-<li>Import of outputs</li>
-<li>Export of key images</li>
-<li>inspect unsigned transaction</li>
-<li>sign a unsigned transaction </li>
+<li>[x] Legacy <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> (13 words) handling - except generating, omited on purpose</li>
+<li>[x] Monero <a class="el" href="classots_1_1Seed.html" title="Abstract base class for cryptographic seed management.">Seed</a> (25 words) handling</li>
+<li>[x] <a class="el" href="classots_1_1Polyseed.html" title="Represents a Polyseed type.">Polyseed</a> (16 words) handling</li>
+<li>[x] <a class="el" href="classots_1_1Address.html" title="Represents a Monero address.">Address</a> management</li>
+<li>[x] <a class="el" href="classots_1_1Address.html" title="Represents a Monero address.">Address</a> verification</li>
+<li>[ ] Import of outputs</li>
+<li>[ ] Export of key images</li>
+<li>[ ] inspect unsigned transaction</li>
+<li>[x] sign a unsigned transaction</li>
 </ul>
+<dl class="section note"><dt>Note</dt><dd>Internal polyseed headers, are used to control variable timestamps on creation it is ugly as fuck, and without to modify or rewrite or write a own library the reasonable thing t do now. </dd>
+<dd>
+Seen now also that polyseed it LGPL, maybe a reimplementation under a free license would be also a good idea how polyseed will not be dynamically linked there could be some troube </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd>Think about reimplementation of polyseed library </dd></dl>
 </div><h2 class="groupheader">Typedef Documentation</h2>
 <a id="a2f6aed550cb94a851aa768ccfaf0a35e" name="a2f6aed550cb94a851aa768ccfaf0a35e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2f6aed550cb94a851aa768ccfaf0a35e">&#9670;&#160;</a></span>key_handle_t</h2>
@@ -347,141 +401,52 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a538594c61b6c4413d894e0f5e0324653" name="a538594c61b6c4413d894e0f5e0324653"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a538594c61b6c4413d894e0f5e0324653">&#9670;&#160;</a></span>create()</h2>
+<a id="a692653a99a030b8dd92c3ea21ba34d00" name="a692653a99a030b8dd92c3ea21ba34d00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a692653a99a030b8dd92c3ea21ba34d00">&#9670;&#160;</a></span>cryptonoteNetwork()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::create </td>
+          <td class="memname">cryptonote::network_type ots::cryptonoteNetwork </td>
           <td>(</td>
-          <td class="paramtype">uint64_t&#160;</td>
-          <td class="paramname"><em>time</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;&#160;</td>
-          <td class="paramname"><em>language</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
-          <td class="paramname"><em>network</em> = <code><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6da186495f7da296bf880df3a22a492b378">Network::MAIN</a></code>&#160;</td>
-        </tr>
-        <tr>
+          <td class="paramname"><em>network</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Converts the network type from the library network type to cryptonote network type. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">network</td><td>the library network type </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the cryptonote network type </dd></dl>
 
 </div>
 </div>
-<a id="a27ef646a942149da6c7067e5b65f4e91" name="a27ef646a942149da6c7067e5b65f4e91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a27ef646a942149da6c7067e5b65f4e91">&#9670;&#160;</a></span>decode() <span class="overload">[1/3]</span></h2>
+<a id="a13394504624bad275242dea0245ea3b4" name="a13394504624bad275242dea0245ea3b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13394504624bad275242dea0245ea3b4">&#9670;&#160;</a></span>getNetworkData()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::decode </td>
+          <td class="memname">const <a class="el" href="structots_1_1data_1_1NetworkData.html">ots::data::NetworkData</a> * ots::getNetworkData </td>
           <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>phrase</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classots_1_1SeedLanguage.html">SeedLanguage</a> &amp;&#160;</td>
-          <td class="paramname"><em>language</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
-          <td class="paramname"><em>network</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac7a38bb807585312c894d1c593c6b310" name="ac7a38bb807585312c894d1c593c6b310"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7a38bb807585312c894d1c593c6b310">&#9670;&#160;</a></span>decode() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::decode </td>
-          <td>(</td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>phrase</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
-          <td class="paramname"><em>network</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae9cbc2ab601f01d2addb02dc3c67e40f" name="ae9cbc2ab601f01d2addb02dc3c67e40f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9cbc2ab601f01d2addb02dc3c67e40f">&#9670;&#160;</a></span>decode() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classots_1_1Polyseed.html">Polyseed</a> ots::decode </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; int &gt; &amp;&#160;</td>
-          <td class="paramname"><em>values</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">Network</a>&#160;</td>
-          <td class="paramname"><em>network</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a86a6570330e3f12c4925586212460fe9" name="a86a6570330e3f12c4925586212460fe9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86a6570330e3f12c4925586212460fe9">&#9670;&#160;</a></span>keyFromHash()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">crypto::secret_key ots::keyFromHash </td>
-          <td>(</td>
-          <td class="paramtype">const std::vector&lt; unsigned char &gt; &amp;&#160;</td>
-          <td class="paramname"><em>data</em></td><td>)</td>
+          <td class="paramname"><em>network</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -489,42 +454,14 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9fc38fd03f0de8480c6977f11155751e" name="a9fc38fd03f0de8480c6977f11155751e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9fc38fd03f0de8480c6977f11155751e">&#9670;&#160;</a></span>phraseFromKey()</h2>
+<a id="a394bd08dc2d125165eb64b8b1db73023" name="a394bd08dc2d125165eb64b8b1db73023"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a394bd08dc2d125165eb64b8b1db73023">&#9670;&#160;</a></span>injectPolyseedDependency()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">epee::wipeable_string ots::phraseFromKey </td>
-          <td>(</td>
-          <td class="paramtype">const crypto::secret_key &amp;&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>language</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2a7e6385636645ee30f06498a2b2d67f" name="a2a7e6385636645ee30f06498a2b2d67f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a7e6385636645ee30f06498a2b2d67f">&#9670;&#160;</a></span>randomKey()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">crypto::secret_key ots::randomKey </td>
+          <td class="memname">void ots::injectPolyseedDependency </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -532,25 +469,48 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>makes sure dependencies are injected before first use, injection happens only once - first time. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>TODO: holy clusterfuck, I really dislike using the polyseed lib as is </dd></dl>
+
 </div>
 </div>
-<a id="ab2a2e083e73fcafb12851e59f45bccdc" name="ab2a2e083e73fcafb12851e59f45bccdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2a2e083e73fcafb12851e59f45bccdc">&#9670;&#160;</a></span>seedPhraseFromKey()</h2>
+<a id="a18f4b73cf405624f720b530b5eef257a" name="a18f4b73cf405624f720b530b5eef257a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18f4b73cf405624f720b530b5eef257a">&#9670;&#160;</a></span>onPolyseedStatusNotOkThrowException()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">epee::wipeable_string ots::seedPhraseFromKey </td>
+          <td class="memname">void ots::onPolyseedStatusNotOkThrowException </td>
           <td>(</td>
-          <td class="paramtype">const crypto::secret_key &amp;&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
+          <td class="paramtype">const polyseed_status &amp;&#160;</td>
+          <td class="paramname"><em>status</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Translates status to <a class="el" href="namespaceots_1_1exception.html" title="All ots library related exceptions are in this namespace.">ots::exception</a>'s. </p>
+
+</div>
+</div>
+<a id="a5ac488786fa159a9966a32762023dc5c" name="a5ac488786fa159a9966a32762023dc5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ac488786fa159a9966a32762023dc5c">&#9670;&#160;</a></span>operator&lt;&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::ostream &amp; ots::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::ostream &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const std::string &amp;&#160;</td>
-          <td class="paramname"><em>language</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classots_1_1WipeableString.html">WipeableString</a> &amp;&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -560,6 +520,401 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+</div>
+</div>
+<a id="a28b8a6cb39bc619c01fa2cb0d7fe0ebc" name="a28b8a6cb39bc619c01fa2cb0d7fe0ebc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28b8a6cb39bc619c01fa2cb0d7fe0ebc">&#9670;&#160;</a></span>polyseed_memwipe_wrapper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ots::polyseed_memwipe_wrapper </td>
+          <td>(</td>
+          <td class="paramtype">void *const&#160;</td>
+          <td class="paramname"><em>ptr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>provides memory wipe to polyseed library </p>
+<dl class="section note"><dt>Note</dt><dd>we use the memwipe from monero, because I assumed it to be safe, we could use sodium_memzero, and I think memwipe is using it anyway, but I like to keep dependencies low as possible, and consistency as high as possible. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ptr</td><td>pointer to memory </td></tr>
+    <tr><td class="paramname">len</td><td>length of memory </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a29e80a59a92adc3716e8a021231dd04e" name="a29e80a59a92adc3716e8a021231dd04e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29e80a59a92adc3716e8a021231dd04e">&#9670;&#160;</a></span>polyseed_pbkdf2_wrapper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ots::polyseed_pbkdf2_wrapper </td>
+          <td>(</td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>pw</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>pwlen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const uint8_t *&#160;</td>
+          <td class="paramname"><em>salt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>saltlen</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint64_t&#160;</td>
+          <td class="paramname"><em>iterations</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t *&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>keylen</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>provides pbkdf2-sha256 to polyseed library </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">pw</td><td>password </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">pwlen</td><td>password length </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">salt</td><td>salt </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">saltlen</td><td>salt length </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">iterations</td><td>number of iterations </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">key</td><td>Output. Pre-allocated buffer where the derived key will be stored. </td></tr>
+    <tr><td class="paramdir"></td><td class="paramname">keylen</td><td>output key length </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a755a4f3e16c5ef0f9a01f4bcf21ad8db" name="a755a4f3e16c5ef0f9a01f4bcf21ad8db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a755a4f3e16c5ef0f9a01f4bcf21ad8db">&#9670;&#160;</a></span>polyseed_random_wrapper()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ots::polyseed_random_wrapper </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>result</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>provides random bytes to polyseed library </p>
+
+</div>
+</div>
+<a id="afc97958966e8cad946b85f1ed0da56c9" name="afc97958966e8cad946b85f1ed0da56c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc97958966e8cad946b85f1ed0da56c9">&#9670;&#160;</a></span>seedBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t byte_count&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; unsigned char, byte_count &gt; ots::seedBytes </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classots_1_1SeedIndices.html">SeedIndices</a> &amp;&#160;</td>
+          <td class="paramname"><em>indices</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>word_list_length</em> = <code>1626</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>bytes_per_chunk</em> = <code>4</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const size_t&#160;</td>
+          <td class="paramname"><em>words_per_chunk</em> = <code>3</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>TODO: documentation missing </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>TODO: documentation missing </dd></dl>
+
+</div>
+</div>
+<a id="a71a2b85184d2caa89d4778b85c499b39" name="a71a2b85184d2caa89d4778b85c499b39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71a2b85184d2caa89d4778b85c499b39">&#9670;&#160;</a></span>seedIndices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classots_1_1SeedIndices.html">SeedIndices</a> ots::seedIndices </td>
+          <td>(</td>
+          <td class="paramtype">const unsigned char *&#160;</td>
+          <td class="paramname"><em>bytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>byte_length</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>word_list_length</em> = <code>1626</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>bytes_per_chunk</em> = <code>4</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>words_per_chunk</em> = <code>3</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the indices of a seed phrase. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bytes</td><td>the bytes to convert </td></tr>
+    <tr><td class="paramname">byte_length</td><td>the length of the bytes </td></tr>
+    <tr><td class="paramname">word_list_length</td><td>the length of the word list, monero wordlist length is 1626 </td></tr>
+    <tr><td class="paramname">bytes_per_chunk</td><td>the number of bytes per chunk, monero uses 4 bytes per chunk is electrum default </td></tr>
+    <tr><td class="paramname">words_per_chunk</td><td>the number of words per chunk, monero uses 3 words per chunk is electrum default </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the seed indices </dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname"><a class="el" href="classots_1_1exception_1_1seed_1_1LengthMismatch.html" title="a seed expected has a different length, and is used instead of WordCount on merging Values/seed phras...">ots::exception::seed::LengthMismatch</a></td><td>If more bits provided than needed </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae13565f0c3d4a9fa9b1d9a1bf9e581cf" name="ae13565f0c3d4a9fa9b1d9a1bf9e581cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae13565f0c3d4a9fa9b1d9a1bf9e581cf">&#9670;&#160;</a></span>splitString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::string &gt; ots::splitString </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>input</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>separator</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>fixedWidth</em> = <code>4</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a string by a separator or fixed 4 char width. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">input</td><td>the string to split </td></tr>
+    <tr><td class="paramname">separator</td><td>the separator to split the string, if empty the fixed width is used </td></tr>
+    <tr><td class="paramname">fixedWidth</td><td>the fixed width to split the string, by default 4 chars </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the vector of strings </dd></dl>
+
+</div>
+</div>
+<a id="ac34fb716829e7c6956b778c0c0a1431d" name="ac34fb716829e7c6956b778c0c0a1431d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac34fb716829e7c6956b778c0c0a1431d">&#9670;&#160;</a></span>utf8_nfc()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t ots::utf8_nfc </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">polyseed_str&#160;</td>
+          <td class="paramname"><em>norm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>provides utf8 normalization to polyseed library at the moment utf8proc is used, because it seems that boost::locale will drag more dependencies with in. </p>
+<dl class="section see"><dt>See also</dt><dd>ots/external/utf8proc </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">str</td><td>input string </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">norm</td><td>output normalized string, esentially it is char[360] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://github.com/tevador/polyseed/blob/dfb05d8edb682b0e8f743b1b70c9131712ff4157/include/polyseed.h#L23">https://github.com/tevador/polyseed/blob/dfb05d8edb682b0e8f743b1b70c9131712ff4157/include/polyseed.h#L23</a> </dd></dl>
+
+</div>
+</div>
+<a id="af7d3d7cda29de7dad53c3a7694613a33" name="af7d3d7cda29de7dad53c3a7694613a33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7d3d7cda29de7dad53c3a7694613a33">&#9670;&#160;</a></span>utf8_nfkd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t ots::utf8_nfkd </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">polyseed_str&#160;</td>
+          <td class="paramname"><em>norm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>provides utf8 normalization to polyseed library, uses also utf8proc </p>
+<dl class="section see"><dt>See also</dt><dd>ots/external/utf8proc </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir"></td><td class="paramname">str</td><td>input string </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">norm</td><td>output normalized string, esentially it is char[360] </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section see"><dt>See also</dt><dd><a href="https://github.com/tevador/polyseed/blob/dfb05d8edb682b0e8f743b1b70c9131712ff4157/include/polyseed.h#L23">https://github.com/tevador/polyseed/blob/dfb05d8edb682b0e8f743b1b70c9131712ff4157/include/polyseed.h#L23</a> </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a7e248aa667e68a7714685f624e4048fc" name="a7e248aa667e68a7714685f624e4048fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e248aa667e68a7714685f624e4048fc">&#9670;&#160;</a></span>NETWORK_DATA_MAP</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::map&lt; <a class="el" href="namespaceots.html#a441a7be0c4cb74db6872b8012572cf6d">ots::Network</a>, <a class="el" href="structots_1_1data_1_1NetworkData.html">ots::data::NetworkData</a> &gt; ots::NETWORK_DATA_MAP</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div>
+<div class="line">        {Network::MAIN, <a class="code hl_variable" href="namespaceots_1_1data.html#a5eb7893c1bc1c76f6f5ec2a8aeea00ca">ots::data::MAINNET_DATA</a>},</div>
+<div class="line">        {Network::TEST, <a class="code hl_variable" href="namespaceots_1_1data.html#af68d93778a3a7c1129bf9206c151e99d">ots::data::TESTNET_DATA</a>},</div>
+<div class="line">        {Network::STAGE, <a class="code hl_variable" href="namespaceots_1_1data.html#a9fc776532122a8fa57d46c06de8823cf">ots::data::STAGENET_DATA</a>}</div>
+<div class="line">    }</div>
+<div class="ttc" id="anamespaceots_1_1data_html_a5eb7893c1bc1c76f6f5ec2a8aeea00ca"><div class="ttname"><a href="namespaceots_1_1data.html#a5eb7893c1bc1c76f6f5ec2a8aeea00ca">ots::data::MAINNET_DATA</a></div><div class="ttdeci">static const NetworkData MAINNET_DATA</div><div class="ttdef"><b>Definition</b> data.hpp:40</div></div>
+<div class="ttc" id="anamespaceots_1_1data_html_a9fc776532122a8fa57d46c06de8823cf"><div class="ttname"><a href="namespaceots_1_1data.html#a9fc776532122a8fa57d46c06de8823cf">ots::data::STAGENET_DATA</a></div><div class="ttdeci">static const NetworkData STAGENET_DATA</div><div class="ttdef"><b>Definition</b> data.hpp:54</div></div>
+<div class="ttc" id="anamespaceots_1_1data_html_af68d93778a3a7c1129bf9206c151e99d"><div class="ttname"><a href="namespaceots_1_1data.html#af68d93778a3a7c1129bf9206c151e99d">ots::data::TESTNET_DATA</a></div><div class="ttdeci">static const NetworkData TESTNET_DATA</div><div class="ttdef"><b>Definition</b> data.hpp:47</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

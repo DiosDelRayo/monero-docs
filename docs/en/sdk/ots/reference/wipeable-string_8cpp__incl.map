@@ -1,0 +1,24 @@
+<map id="/projects/monerosigner/monero/ots/src/wipeable&#45;string.cpp" name="/projects/monerosigner/monero/ots/src/wipeable&#45;string.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="255,5,423,60"/>
+<area shape="rect" id="Node000002" href="$ots_8hpp.html" title="Header for the C++ library." alt="" coords="271,108,337,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="331,61,316,96,311,94,326,59"/>
+<area shape="rect" id="Node000003" href="$ots-exceptions_8hpp.html" title="Header for the C++ library Exceptions." alt="" coords="425,181,557,207"/>
+<area shape="poly" id="edge12_Node000001_Node000003" title=" " alt="" coords="366,58,472,169,468,173,362,62"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="335,131,448,174,447,179,333,136"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="388,255,447,280"/>
+<area shape="poly" id="edge8_Node000002_Node000004" title=" " alt="" coords="315,132,402,242,398,246,311,135"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="309,255,363,280"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="309,133,333,241,328,242,304,134"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="5,181,75,207"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="272,133,89,182,87,177,270,128"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="99,181,149,207"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="276,136,163,180,161,175,274,131"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="174,181,221,207"/>
+<area shape="poly" id="edge10_Node000002_Node000009" title=" " alt="" coords="288,136,228,176,225,171,285,131"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="245,181,299,207"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="301,135,285,170,280,168,296,133"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="480,209,441,247,437,243,477,205"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="471,255,550,280"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="497,206,506,241,501,242,491,208"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="467,209,375,251,373,246,465,204"/>
+</map>

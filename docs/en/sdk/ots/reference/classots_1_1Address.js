@@ -1,10 +1,29 @@
 var classots_1_1Address =
 [
     [ "Address", "classots_1_1Address.html#a58fe87b4edebf34357d166cb733db64a", null ],
-    [ "isValid", "classots_1_1Address.html#adaf53a319a7f2595f9d808637c052646", null ],
-    [ "network", "classots_1_1Address.html#a7a5aa42ed16bd8b49cd36b66a711631f", null ],
+    [ "Address", "classots_1_1Address.html#a30977b949ffd65fb8215b74bdfc66626", null ],
+    [ "fingerprint", "classots_1_1Address.html#a1540f9121dd72b1d2ca48a8e6d7b6965", null ],
+    [ "fingerprint", "classots_1_1Address.html#a1028c208b61dd3699380809d8bcecf39", null ],
+    [ "integratedAddress", "classots_1_1Address.html#aea618147d4bba3f8775447664a877c07", null ],
+    [ "integratedAddress", "classots_1_1Address.html#a3a643405e04b9cd8ad96e9d78f76a5c6", null ],
+    [ "isIntegrated", "classots_1_1Address.html#a33c68a0efca7b0ad1115973c7313543d", null ],
+    [ "isIntegrated", "classots_1_1Address.html#afe493607782ad9443e8f4b63233ef571", null ],
+    [ "isValid", "classots_1_1Address.html#a994d9f7413693a38e02f418f321a2a5f", null ],
+    [ "length", "classots_1_1Address.html#a8fd3030a45f5d51d3eefeae0cbaa50d6", null ],
+    [ "network", "classots_1_1Address.html#a98a26257307efd8d4529cfd2bc124cf8", null ],
+    [ "network", "classots_1_1Address.html#ae450a9425aee318c777d9489ca2c74bd", null ],
+    [ "operator const std::string &", "classots_1_1Address.html#a8734462b0eb199f9ef2f3c6c910adbb3", null ],
+    [ "operator const uint8_t *", "classots_1_1Address.html#acea027d9de6ba8c4b8ec1878f506150f", null ],
     [ "operator std::string", "classots_1_1Address.html#afba7741ad09f45e8160834c84e562846", null ],
-    [ "type", "classots_1_1Address.html#afe0b9a6c79a97b4852b86a31a160226a", null ],
+    [ "operator==", "classots_1_1Address.html#afc443fbddcfe673a7c53aed1b3a44117", null ],
+    [ "operator==", "classots_1_1Address.html#ada133a879cdd6b603161521af5fd7398", null ],
+    [ "paymentID", "classots_1_1Address.html#a404331850b18140ad155b4ec1fd4e1ad", null ],
+    [ "paymentID", "classots_1_1Address.html#a67c9db14430f09741c58ff4737b40324", null ],
+    [ "type", "classots_1_1Address.html#ace1f409b4d802b2f35b98e2dc14af3ab", null ],
+    [ "type", "classots_1_1Address.html#a6a2a728492729956a5eaf90bd38d8c38", null ],
     [ "validAddress", "classots_1_1Address.html#afdbe3a459b49c26167a1a318c9e01921", null ],
-    [ "m_address", "classots_1_1Address.html#af127561899fec956590c95206392d284", null ]
+    [ "m_address", "classots_1_1Address.html#af127561899fec956590c95206392d284", null ],
+    [ "m_fingerprint", "classots_1_1Address.html#a00621ca8fc1b2e98cd80329ad73fe346", null ],
+    [ "m_network", "classots_1_1Address.html#a4275bc209e41f16977910a55e5874557", null ],
+    [ "m_type", "classots_1_1Address.html#a88996e582efaf86bddca2c4108d124d4", null ]
 ];

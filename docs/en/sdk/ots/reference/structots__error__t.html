@@ -98,18 +98,23 @@ $(document).ready(function(){initNavTree('structots__error__t.html',''); initRes
 </div><!--header-->
 <div class="contents">
 
+<p>Error structure for exception handling.  
+ <a href="structots__error__t.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="ots_8h_source.html">ots.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:aa1fa0e9f698260c40ff5812aa4df57de" id="r_aa1fa0e9f698260c40ff5812aa4df57de"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structots__error__t.html#aa1fa0e9f698260c40ff5812aa4df57de">code</a></td></tr>
 <tr class="separator:aa1fa0e9f698260c40ff5812aa4df57de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a0edd3d3070a768d9e2246317adf569" id="r_a6a0edd3d3070a768d9e2246317adf569"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structots__error__t.html#a6a0edd3d3070a768d9e2246317adf569">message</a> [256]</td></tr>
-<tr class="separator:a6a0edd3d3070a768d9e2246317adf569"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f864c172ef1f0d284659d3e1c063254" id="r_a8f864c172ef1f0d284659d3e1c063254"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structots__error__t.html#a8f864c172ef1f0d284659d3e1c063254">location</a> [64]</td></tr>
-<tr class="separator:a8f864c172ef1f0d284659d3e1c063254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6be5559758290e7841856dd0e75346c4" id="r_a6be5559758290e7841856dd0e75346c4"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structots__error__t.html#a6be5559758290e7841856dd0e75346c4">message</a> [<a class="el" href="ots_8h.html#a9f1aa39adb983515d0b186ac864e33cb">OTS_MAX_ERROR_MESSAGE</a>]</td></tr>
+<tr class="separator:a6be5559758290e7841856dd0e75346c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ef427ce92e9c759d6cc1587ef8d3223" id="r_a2ef427ce92e9c759d6cc1587ef8d3223"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structots__error__t.html#a2ef427ce92e9c759d6cc1587ef8d3223">location</a> [<a class="el" href="ots_8h.html#a71db4accb40cdd78e699e847ceb50e86">OTS_MAX_ERROR_LOCATION</a>]</td></tr>
+<tr class="separator:a2ef427ce92e9c759d6cc1587ef8d3223"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Error structure for exception handling. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
 <a id="aa1fa0e9f698260c40ff5812aa4df57de" name="aa1fa0e9f698260c40ff5812aa4df57de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa1fa0e9f698260c40ff5812aa4df57de">&#9670;&#160;</a></span>code</h2>
 
@@ -121,34 +126,37 @@ Public Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Error code, 0 for success </p>
 
 </div>
 </div>
-<a id="a8f864c172ef1f0d284659d3e1c063254" name="a8f864c172ef1f0d284659d3e1c063254"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f864c172ef1f0d284659d3e1c063254">&#9670;&#160;</a></span>location</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">char ots_error_t::location[64]</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6a0edd3d3070a768d9e2246317adf569" name="a6a0edd3d3070a768d9e2246317adf569"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a0edd3d3070a768d9e2246317adf569">&#9670;&#160;</a></span>message</h2>
+<a id="a2ef427ce92e9c759d6cc1587ef8d3223" name="a2ef427ce92e9c759d6cc1587ef8d3223"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ef427ce92e9c759d6cc1587ef8d3223">&#9670;&#160;</a></span>location</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char ots_error_t::message[256]</td>
+          <td class="memname">char ots_error_t::location[<a class="el" href="ots_8h.html#a71db4accb40cdd78e699e847ceb50e86">OTS_MAX_ERROR_LOCATION</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Error location </p>
+
+</div>
+</div>
+<a id="a6be5559758290e7841856dd0e75346c4" name="a6be5559758290e7841856dd0e75346c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6be5559758290e7841856dd0e75346c4">&#9670;&#160;</a></span>message</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char ots_error_t::message[<a class="el" href="ots_8h.html#a9f1aa39adb983515d0b186ac864e33cb">OTS_MAX_ERROR_MESSAGE</a>]</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Error message </p>
 
 </div>
 </div>

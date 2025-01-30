@@ -1,11 +1,27 @@
 <map id="ots::LegacySeed" name="ots::LegacySeed">
-<area shape="rect" id="Node000001" title="Represents a monero 13&#45;words seed type for backward compatibility." alt="" coords="131,271,251,296"/>
-<area shape="rect" id="Node000002" href="$classots_1_1Seed.html" title="Abstract base class for cryptographic seed management." alt="" coords="151,196,230,221"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,236,193,270,188,270,188,236"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="5,93,144,133"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="110,140,178,194,174,198,107,144"/>
-<area shape="rect" id="Node000004" href="$classots_1_1KeyStore.html" title="essentialy wraps crypto::secret_key" alt="" coords="23,5,126,31"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="77,44,77,93,72,93,72,44"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="168,101,291,126"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="222,140,198,197,193,195,217,138"/>
+<area shape="rect" id="Node000001" title="Represents a monero 13&#45;words seed type for backward compatibility." alt="" coords="75,491,195,516"/>
+<area shape="rect" id="Node000002" href="$classots_1_1Seed.html" title="Abstract base class for cryptographic seed management." alt="" coords="205,416,283,441"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,451,154,493,151,488,213,447"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="436,313,575,353"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="441,360,345,395,277,418,276,413,343,389,439,355"/>
+<area shape="rect" id="Node000004" href="$classots_1_1Address.html" title="Represents a Monero address." alt="" coords="476,225,572,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="522,264,512,314,507,313,516,263"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="496,115,576,141"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="536,155,528,225,523,225,531,154"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="473,5,599,45"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="539,59,539,115,533,115,533,59"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="244,313,383,353"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="293,366,255,417,251,414,289,363"/>
+<area shape="rect" id="Node000008" href="$classots_1_1Wallet.html" title="provides all offline wallet functionality" alt="" coords="271,225,355,251"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="316,264,316,313,311,313,311,264"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="5,108,232,148"/>
+<area shape="poly" id="edge13_Node000001_Node000009" title=" " alt="" coords="121,162,121,237,121,430,125,463,133,490,128,491,120,464,116,430,116,237,116,162"/>
+<area shape="poly" id="edge12_Node000002_Node000009" title=" " alt="" coords="135,160,140,171,242,415,237,417,135,173,130,162"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="187,151,227,170,268,197,301,223,298,227,265,201,224,174,185,156"/>
+<area shape="rect" id="Node000010" href="$classots_1_1KeyStore.html" title="essentialy wraps crypto::secret_key" alt="" coords="67,13,170,38"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="121,52,121,108,116,108,116,52"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="257,108,471,148"/>
+<area shape="poly" id="edge10_Node000008_Node000011" title=" " alt="" coords="352,162,321,226,317,224,347,159"/>
+<area shape="rect" id="Node000012" href="$classots_1_1Account.html" title="holds monero internal account and internal functions" alt="" coords="316,13,412,38"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="367,52,367,108,361,108,361,52"/>
 </map>

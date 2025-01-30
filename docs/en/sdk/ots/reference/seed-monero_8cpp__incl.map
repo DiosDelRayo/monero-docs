@@ -1,26 +1,51 @@
 <map id="/projects/monerosigner/monero/ots/src/seed&#45;monero.cpp" name="/projects/monerosigner/monero/ots/src/seed&#45;monero.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="319,5,536,45"/>
-<area shape="rect" id="Node000002" href="$ots_8hpp.html" title="Header for the C++ library." alt="" coords="341,93,407,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="417,47,392,83,388,80,412,44"/>
-<area shape="rect" id="Node000011" href="$key-store_8hpp.html" title="decoupling of crypto/crypto.h of the monero source" alt="" coords="523,93,625,119"/>
-<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="464,43,542,84,539,89,461,48"/>
-<area shape="rect" id="Node000003" href="$ots-exceptions_8hpp.html" title="Header for the C++ library Exceptions." alt="" coords="5,167,137,192"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="342,118,134,166,133,161,340,112"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="141,240,196,265"/>
-<area shape="poly" id="edge6_Node000002_Node000005" title=" " alt="" coords="342,113,309,119,272,129,235,145,203,169,184,197,175,227,170,226,179,194,199,165,232,140,270,124,308,113,341,108"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="213,167,282,192"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="355,121,281,162,279,157,352,116"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="306,167,365,192"/>
-<area shape="poly" id="edge7_Node000002_Node000007" title=" " alt="" coords="370,120,350,156,346,153,365,118"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="389,167,439,192"/>
-<area shape="poly" id="edge8_Node000002_Node000008" title=" " alt="" coords="383,118,403,153,398,156,378,120"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="464,167,511,192"/>
-<area shape="poly" id="edge9_Node000002_Node000009" title=" " alt="" coords="394,116,459,157,456,162,391,121"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="535,167,589,192"/>
-<area shape="poly" id="edge10_Node000002_Node000010" title=" " alt="" coords="405,116,523,161,521,166,403,121"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="32,240,111,265"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="74,192,74,226,69,226,69,192"/>
-<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="89,190,143,229,140,234,85,194"/>
-<area shape="rect" id="Node000012" title=" " alt="" coords="613,167,722,192"/>
-<area shape="poly" id="edge12_Node000011_Node000012" title=" " alt="" coords="591,117,643,156,640,160,587,121"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="689,5,907,45"/>
+<area shape="rect" id="Node000002" href="$ots_8hpp.html" title="Header for the C++ library." alt="" coords="265,189,331,214"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="710,48,626,69,538,96,425,141,334,185,332,180,423,136,536,91,624,64,709,43"/>
+<area shape="rect" id="Node000003" href="$ots-exceptions_8hpp.html" title="Header for the C++ library Exceptions." alt="" coords="5,269,137,295"/>
+<area shape="poly" id="edge19_Node000001_Node000003" title=" " alt="" coords="689,41,565,62,498,77,434,96,381,116,342,135,254,184,105,265,102,260,251,179,339,130,379,111,432,91,497,72,564,57,689,36"/>
+<area shape="rect" id="Node000011" href="$ots-internal_8hpp.html" title="Internal declarations for library." alt="" coords="549,101,660,126"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="757,48,644,98,642,93,754,43"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="663,189,752,214"/>
+<area shape="poly" id="edge27_Node000001_Node000014" title=" " alt="" coords="790,47,722,177,717,175,786,44"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="776,189,844,214"/>
+<area shape="poly" id="edge22_Node000001_Node000015" title=" " alt="" coords="793,46,782,87,780,110,782,133,799,175,794,177,777,134,774,110,777,86,788,45"/>
+<area shape="rect" id="Node000017" href="$key-store_8hpp.html" title="decoupling of crypto/crypto.h of the monero source" alt="" coords="791,101,893,126"/>
+<area shape="poly" id="edge20_Node000001_Node000017" title=" " alt="" coords="810,44,832,87,827,89,805,47"/>
+<area shape="rect" id="Node000019" title=" " alt="" coords="917,93,1060,133"/>
+<area shape="poly" id="edge23_Node000001_Node000019" title=" " alt="" coords="841,43,936,85,933,90,839,48"/>
+<area shape="rect" id="Node000020" title=" " alt="" coords="1085,101,1207,126"/>
+<area shape="poly" id="edge24_Node000001_Node000020" title=" " alt="" coords="877,43,1073,91,1089,95,1088,100,1072,96,876,48"/>
+<area shape="rect" id="Node000021" title=" " alt="" coords="1231,93,1418,133"/>
+<area shape="poly" id="edge25_Node000001_Node000021" title=" " alt="" coords="907,41,1218,90,1217,96,906,46"/>
+<area shape="rect" id="Node000022" title=" " alt="" coords="1443,101,1625,126"/>
+<area shape="poly" id="edge26_Node000001_Node000022" title=" " alt="" coords="907,33,1147,56,1430,91,1462,96,1461,101,1430,96,1147,62,907,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="266,217,118,267,116,262,264,211"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="115,343,174,368"/>
+<area shape="poly" id="edge8_Node000002_Node000004" title=" " alt="" coords="288,216,168,335,164,331,285,212"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="199,343,253,368"/>
+<area shape="poly" id="edge7_Node000002_Node000006" title=" " alt="" coords="290,216,272,240,254,271,242,301,234,330,229,329,237,299,249,268,267,237,286,213"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="263,269,333,295"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="301,214,301,255,295,255,295,214"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="357,269,407,295"/>
+<area shape="poly" id="edge9_Node000002_Node000008" title=" " alt="" coords="312,212,361,258,358,262,309,216"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="432,269,479,295"/>
+<area shape="poly" id="edge10_Node000002_Node000009" title=" " alt="" coords="322,212,421,261,419,266,320,216"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="503,269,557,295"/>
+<area shape="poly" id="edge11_Node000002_Node000010" title=" " alt="" coords="326,212,344,219,491,267,489,272,342,224,324,217"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="85,293,125,331,121,335,82,297"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="12,343,91,368"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="71,296,61,330,56,329,65,294"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="97,292,189,334,187,339,95,297"/>
+<area shape="poly" id="edge13_Node000011_Node000002" title=" " alt="" coords="552,129,454,152,344,184,338,186,336,181,343,179,453,147,550,123"/>
+<area shape="rect" id="Node000012" href="$data_8hpp.html" title="Constants for the Monero network to calculate the height from a timestamp and reverse." alt="" coords="566,189,638,214"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="607,126,605,174,600,174,602,126"/>
+<area shape="poly" id="edge16_Node000011_Node000014" title=" " alt="" coords="620,124,684,178,681,182,617,128"/>
+<area shape="poly" id="edge17_Node000011_Node000015" title=" " alt="" coords="633,124,771,181,769,186,631,129"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="355,181,542,221"/>
+<area shape="poly" id="edge18_Node000011_Node000016" title=" " alt="" coords="585,129,496,177,494,172,582,124"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="581,269,642,295"/>
+<area shape="poly" id="edge15_Node000012_Node000013" title=" " alt="" coords="606,214,611,255,606,256,601,214"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="869,189,978,214"/>
+<area shape="poly" id="edge21_Node000017_Node000018" title=" " alt="" coords="855,124,904,176,901,180,851,128"/>
 </map>

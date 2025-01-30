@@ -92,41 +92,75 @@ $(document).ready(function(){initNavTree('seed-monero_8cpp.html',''); initResiza
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle"><div class="title">seed-monero.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="ots_8hpp_source.html">ots.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ots-internal_8hpp_source.html">ots-internal.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="ots-exceptions_8hpp_source.html">ots-exceptions.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="key-store_8hpp_source.html">key-store.hpp</a>&quot;</code><br />
+<code>#include &quot;int-util.h&quot;</code><br />
+<code>#include &quot;mnemonics/electrum-words.h&quot;</code><br />
+<code>#include &quot;wipeable_string.h&quot;</code><br />
+<code>#include &quot;cryptonote_basic/cryptonote_format_utils.h&quot;</code><br />
+<code>#include &quot;cryptonote_basic/account.h&quot;</code><br />
+<code>#include &quot;memwipe.h&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for seed-monero.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="seed-monero_8cpp__incl.png" border="0" usemap="#a_2projects_2monerosigner_2monero_2ots_2src_2seed-monero_8cpp" alt=""/></div>
 <map name="a_2projects_2monerosigner_2monero_2ots_2src_2seed-monero_8cpp" id="a_2projects_2monerosigner_2monero_2ots_2src_2seed-monero_8cpp">
-<area shape="rect" title=" " alt="" coords="319,5,536,45"/>
-<area shape="rect" href="ots_8hpp.html" title="Header for the C++ library." alt="" coords="341,93,407,119"/>
-<area shape="poly" title=" " alt="" coords="417,47,392,83,388,80,412,44"/>
-<area shape="rect" href="key-store_8hpp.html" title="decoupling of crypto/crypto.h of the monero source" alt="" coords="523,93,625,119"/>
-<area shape="poly" title=" " alt="" coords="464,43,542,84,539,89,461,48"/>
-<area shape="rect" href="ots-exceptions_8hpp.html" title="Header for the C++ library Exceptions." alt="" coords="5,167,137,192"/>
-<area shape="poly" title=" " alt="" coords="342,118,134,166,133,161,340,112"/>
-<area shape="rect" title=" " alt="" coords="141,240,196,265"/>
-<area shape="poly" title=" " alt="" coords="342,113,309,119,272,129,235,145,203,169,184,197,175,227,170,226,179,194,199,165,232,140,270,124,308,113,341,108"/>
-<area shape="rect" title=" " alt="" coords="213,167,282,192"/>
-<area shape="poly" title=" " alt="" coords="355,121,281,162,279,157,352,116"/>
-<area shape="rect" title=" " alt="" coords="306,167,365,192"/>
-<area shape="poly" title=" " alt="" coords="370,120,350,156,346,153,365,118"/>
-<area shape="rect" title=" " alt="" coords="389,167,439,192"/>
-<area shape="poly" title=" " alt="" coords="383,118,403,153,398,156,378,120"/>
-<area shape="rect" title=" " alt="" coords="464,167,511,192"/>
-<area shape="poly" title=" " alt="" coords="394,116,459,157,456,162,391,121"/>
-<area shape="rect" title=" " alt="" coords="535,167,589,192"/>
-<area shape="poly" title=" " alt="" coords="405,116,523,161,521,166,403,121"/>
-<area shape="rect" title=" " alt="" coords="32,240,111,265"/>
-<area shape="poly" title=" " alt="" coords="74,192,74,226,69,226,69,192"/>
-<area shape="poly" title=" " alt="" coords="89,190,143,229,140,234,85,194"/>
-<area shape="rect" title=" " alt="" coords="613,167,722,192"/>
-<area shape="poly" title=" " alt="" coords="591,117,643,156,640,160,587,121"/>
+<area shape="rect" title=" " alt="" coords="689,5,907,45"/>
+<area shape="rect" href="ots_8hpp.html" title="Header for the C++ library." alt="" coords="265,189,331,214"/>
+<area shape="poly" title=" " alt="" coords="710,48,626,69,538,96,425,141,334,185,332,180,423,136,536,91,624,64,709,43"/>
+<area shape="rect" href="ots-exceptions_8hpp.html" title="Header for the C++ library Exceptions." alt="" coords="5,269,137,295"/>
+<area shape="poly" title=" " alt="" coords="689,41,565,62,498,77,434,96,381,116,342,135,254,184,105,265,102,260,251,179,339,130,379,111,432,91,497,72,564,57,689,36"/>
+<area shape="rect" href="ots-internal_8hpp.html" title="Internal declarations for library." alt="" coords="549,101,660,126"/>
+<area shape="poly" title=" " alt="" coords="757,48,644,98,642,93,754,43"/>
+<area shape="rect" title=" " alt="" coords="663,189,752,214"/>
+<area shape="poly" title=" " alt="" coords="790,47,722,177,717,175,786,44"/>
+<area shape="rect" title=" " alt="" coords="776,189,844,214"/>
+<area shape="poly" title=" " alt="" coords="793,46,782,87,780,110,782,133,799,175,794,177,777,134,774,110,777,86,788,45"/>
+<area shape="rect" href="key-store_8hpp.html" title="decoupling of crypto/crypto.h of the monero source" alt="" coords="791,101,893,126"/>
+<area shape="poly" title=" " alt="" coords="810,44,832,87,827,89,805,47"/>
+<area shape="rect" title=" " alt="" coords="917,93,1060,133"/>
+<area shape="poly" title=" " alt="" coords="841,43,936,85,933,90,839,48"/>
+<area shape="rect" title=" " alt="" coords="1085,101,1207,126"/>
+<area shape="poly" title=" " alt="" coords="877,43,1073,91,1089,95,1088,100,1072,96,876,48"/>
+<area shape="rect" title=" " alt="" coords="1231,93,1418,133"/>
+<area shape="poly" title=" " alt="" coords="907,41,1218,90,1217,96,906,46"/>
+<area shape="rect" title=" " alt="" coords="1443,101,1625,126"/>
+<area shape="poly" title=" " alt="" coords="907,33,1147,56,1430,91,1462,96,1461,101,1430,96,1147,62,907,38"/>
+<area shape="poly" title=" " alt="" coords="266,217,118,267,116,262,264,211"/>
+<area shape="rect" title=" " alt="" coords="115,343,174,368"/>
+<area shape="poly" title=" " alt="" coords="288,216,168,335,164,331,285,212"/>
+<area shape="rect" title=" " alt="" coords="199,343,253,368"/>
+<area shape="poly" title=" " alt="" coords="290,216,272,240,254,271,242,301,234,330,229,329,237,299,249,268,267,237,286,213"/>
+<area shape="rect" title=" " alt="" coords="263,269,333,295"/>
+<area shape="poly" title=" " alt="" coords="301,214,301,255,295,255,295,214"/>
+<area shape="rect" title=" " alt="" coords="357,269,407,295"/>
+<area shape="poly" title=" " alt="" coords="312,212,361,258,358,262,309,216"/>
+<area shape="rect" title=" " alt="" coords="432,269,479,295"/>
+<area shape="poly" title=" " alt="" coords="322,212,421,261,419,266,320,216"/>
+<area shape="rect" title=" " alt="" coords="503,269,557,295"/>
+<area shape="poly" title=" " alt="" coords="326,212,344,219,491,267,489,272,342,224,324,217"/>
+<area shape="poly" title=" " alt="" coords="85,293,125,331,121,335,82,297"/>
+<area shape="rect" title=" " alt="" coords="12,343,91,368"/>
+<area shape="poly" title=" " alt="" coords="71,296,61,330,56,329,65,294"/>
+<area shape="poly" title=" " alt="" coords="97,292,189,334,187,339,95,297"/>
+<area shape="poly" title=" " alt="" coords="552,129,454,152,344,184,338,186,336,181,343,179,453,147,550,123"/>
+<area shape="rect" href="data_8hpp.html" title="Constants for the Monero network to calculate the height from a timestamp and reverse." alt="" coords="566,189,638,214"/>
+<area shape="poly" title=" " alt="" coords="607,126,605,174,600,174,602,126"/>
+<area shape="poly" title=" " alt="" coords="620,124,684,178,681,182,617,128"/>
+<area shape="poly" title=" " alt="" coords="633,124,771,181,769,186,631,129"/>
+<area shape="rect" title=" " alt="" coords="355,181,542,221"/>
+<area shape="poly" title=" " alt="" coords="585,129,496,177,494,172,582,124"/>
+<area shape="rect" title=" " alt="" coords="581,269,642,295"/>
+<area shape="poly" title=" " alt="" coords="606,214,611,255,606,256,601,214"/>
+<area shape="rect" title=" " alt="" coords="869,189,978,214"/>
+<area shape="poly" title=" " alt="" coords="855,124,904,176,901,180,851,128"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -135,7 +169,43 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceots" id="r_namespaceots"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceots.html">ots</a></td></tr>
 <tr class="memdesc:namespaceots"><td class="mdescLeft">&#160;</td><td class="mdescRight">The library exists complete only in this namespace. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a96a5e89a61d8035a77994aa34b65ab99" id="r_a96a5e89a61d8035a77994aa34b65ab99"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="seed-monero_8cpp.html#a96a5e89a61d8035a77994aa34b65ab99">MONERO_SEED_BYTES</a>&#160;&#160;&#160;32</td></tr>
+<tr class="separator:a96a5e89a61d8035a77994aa34b65ab99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0c6a6e281c8b1335bbf9ac74b165694" id="r_ae0c6a6e281c8b1335bbf9ac74b165694"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="seed-monero_8cpp.html#ae0c6a6e281c8b1335bbf9ac74b165694">MONERO_SEED_INDICES</a>&#160;&#160;&#160;24</td></tr>
+<tr class="separator:ae0c6a6e281c8b1335bbf9ac74b165694"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="a96a5e89a61d8035a77994aa34b65ab99" name="a96a5e89a61d8035a77994aa34b65ab99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96a5e89a61d8035a77994aa34b65ab99">&#9670;&#160;</a></span>MONERO_SEED_BYTES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MONERO_SEED_BYTES&#160;&#160;&#160;32</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae0c6a6e281c8b1335bbf9ac74b165694" name="ae0c6a6e281c8b1335bbf9ac74b165694"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0c6a6e281c8b1335bbf9ac74b165694">&#9670;&#160;</a></span>MONERO_SEED_INDICES</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define MONERO_SEED_INDICES&#160;&#160;&#160;24</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

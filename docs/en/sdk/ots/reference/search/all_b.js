@@ -1,12 +1,22 @@
 var searchData=
 [
-  ['languagenotfound_0',['languagenotfound',['../classots_1_1exception_1_1seed_1_1LanguageNotFound.html',1,'ots::exception::seed::LanguageNotFound'],['../classots_1_1exception_1_1seed_1_1LanguageNotFound.html#a40117a03b5d2468f06372e186f19390f',1,'ots::exception::seed::LanguageNotFound::LanguageNotFound()']]],
-  ['languages_1',['Other languages',['../index.html#autotoc_md3',1,'']]],
-  ['legacyseed_2',['LegacySeed',['../classots_1_1LegacySeed.html',1,'ots']]],
-  ['library_3',['library',['../index.html',1,'About the OTS library'],['../index.html#autotoc_md2',1,'C ABI library'],['../index.html#autotoc_md1',1,'C++ library'],['../index.html#autotoc_md9',1,'Devices, Applications and Apps using this library'],['../index.html#autotoc_md7',1,'OTS library']]],
-  ['library_20for_20python_4',['OTS library for Python',['../index.html#autotoc_md8',1,'']]],
-  ['list_5',['list',['../classots_1_1SeedJar.html#ab813f9532428a60770cb0f5d503a6b62',1,'ots::SeedJar::list()'],['../classots_1_1SeedLanguage.html#a7419a0e58f3532f61619739f93790484',1,'ots::SeedLanguage::list()'],['../todo.html',1,'Todo List']]],
-  ['listfor_6',['listFor',['../classots_1_1SeedLanguage.html#a29f2e8fc0a376e02ba2042b36d0b30ca',1,'ots::SeedLanguage']]],
-  ['location_7',['location',['../structots__error__t.html#a8f864c172ef1f0d284659d3e1c063254',1,'ots_error_t']]],
-  ['logicerror_8',['logicerror',['../classots_1_1exception_1_1LogicError.html#abb94b88ae5a38f2c1d9774215ffb7fdd',1,'ots::exception::LogicError::LogicError()'],['../classots_1_1exception_1_1LogicError.html',1,'ots::exception::LogicError']]]
+  ['languagenotfound_0',['languagenotfound',['../classots_1_1exception_1_1seed_1_1LanguageNotFound.html#ae39d8873f5ba4ff11a973a55fc6537d0',1,'ots::exception::seed::LanguageNotFound::LanguageNotFound(const std::string &amp;msg)'],['../classots_1_1exception_1_1seed_1_1LanguageNotFound.html#a40117a03b5d2468f06372e186f19390f',1,'ots::exception::seed::LanguageNotFound::LanguageNotFound()'],['../classots_1_1exception_1_1seed_1_1LanguageNotFound.html',1,'ots::exception::seed::LanguageNotFound']]],
+  ['languagenotsupportedbyseedtype_1',['languagenotsupportedbyseedtype',['../classots_1_1exception_1_1seed_1_1LanguageNotSupportedBySeedType.html',1,'ots::exception::seed::LanguageNotSupportedBySeedType'],['../classots_1_1exception_1_1seed_1_1LanguageNotSupportedBySeedType.html#a9c451b75c35b1c92ce879b5df4fd68e9',1,'ots::exception::seed::LanguageNotSupportedBySeedType::LanguageNotSupportedBySeedType()']]],
+  ['languages_2',['Other languages',['../index.html#autotoc_md3',1,'']]],
+  ['legacy_5fseed_5fbytes_3',['LEGACY_SEED_BYTES',['../seed-legacy_8cpp.html#a83bd06ea79b8201a780c4d880f8340d5',1,'seed-legacy.cpp']]],
+  ['legacy_5fseed_5fwords_4',['LEGACY_SEED_WORDS',['../seed-legacy_8cpp.html#a6c1452802ae2255754c6eaef1011f53b',1,'seed-legacy.cpp']]],
+  ['legacyseed_5',['legacyseed',['../classots_1_1LegacySeed.html',1,'ots::LegacySeed'],['../classots_1_1KeyStore.html#af8fd92d6af0bd2ff5549bd0e082ccbf5',1,'ots::KeyStore::LegacySeed'],['../classots_1_1LegacySeed.html#a18b07c78b60d31668639dbf37cdb1bd3',1,'ots::LegacySeed::LegacySeed()']]],
+  ['length_6',['length',['../structots__wipeable__string__t.html#a84462ed9fad51b39d3d395f8cbaa5e62',1,'ots_wipeable_string_t::length'],['../classots_1_1Address.html#a8fd3030a45f5d51d3eefeae0cbaa50d6',1,'ots::Address::length()']]],
+  ['lengthmismatch_7',['lengthmismatch',['../classots_1_1exception_1_1seed_1_1LengthMismatch.html',1,'ots::exception::seed::LengthMismatch'],['../classots_1_1exception_1_1seed_1_1LengthMismatch.html#a4ce8ce4b9652ed04ccbc60b7131d7542',1,'ots::exception::seed::LengthMismatch::LengthMismatch()']]],
+  ['library_8',['library',['../index.html',1,'About the OTS library'],['../index.html#autotoc_md2',1,'C ABI library'],['../index.html#autotoc_md1',1,'C++ library'],['../index.html#autotoc_md9',1,'Devices, Applications and Apps using this library'],['../index.html#autotoc_md7',1,'OTS library']]],
+  ['library_20for_20python_9',['OTS library for Python',['../index.html#autotoc_md8',1,'']]],
+  ['list_10',['list',['../classots_1_1SeedLanguage.html#a60ee97635cd0e2a553f3b25a54386422',1,'ots::SeedLanguage::list()'],['../classots_1_1SeedJar.html#ab813f9532428a60770cb0f5d503a6b62',1,'ots::SeedJar::list()'],['../todo.html',1,'Todo List']]],
+  ['listfor_11',['listFor',['../classots_1_1SeedLanguage.html#aebf5bdce11db9e771c6f736b02f4ae44',1,'ots::SeedLanguage']]],
+  ['location_12',['location',['../structots__error__t.html#a2ef427ce92e9c759d6cc1587ef8d3223',1,'ots_error_t']]],
+  ['lockedaccessattempt_13',['lockedaccessattempt',['../classots_1_1exception_1_1keystore_1_1LockedAccessAttempt.html#a1c63a29774c4e27ddefb3b28cae88fd5',1,'ots::exception::keystore::LockedAccessAttempt::LockedAccessAttempt(const std::string &amp;msg)'],['../classots_1_1exception_1_1keystore_1_1LockedAccessAttempt.html#a660ddb7000591089994b64f28513867f',1,'ots::exception::keystore::LockedAccessAttempt::LockedAccessAttempt()'],['../classots_1_1exception_1_1keystore_1_1LockedAccessAttempt.html',1,'ots::exception::keystore::LockedAccessAttempt']]],
+  ['lockedwriteattempt_14',['lockedwriteattempt',['../classots_1_1exception_1_1keystore_1_1LockedWriteAttempt.html#a545781a161b45dca89e0a02ce8e9212e',1,'ots::exception::keystore::LockedWriteAttempt::LockedWriteAttempt()'],['../classots_1_1exception_1_1keystore_1_1LockedWriteAttempt.html',1,'ots::exception::keystore::LockedWriteAttempt']]],
+  ['lockinsecure_15',['lockInsecure',['../classots_1_1KeyStore.html#ae27963a2c87e7d4e71c1eeed7ef20986',1,'ots::KeyStore']]],
+  ['logicerror_16',['logicerror',['../classots_1_1exception_1_1LogicError.html#abb94b88ae5a38f2c1d9774215ffb7fdd',1,'ots::exception::LogicError::LogicError()'],['../classots_1_1exception_1_1LogicError.html',1,'ots::exception::LogicError']]],
+  ['lowentropy_17',['lowentropy',['../classots_1_1exception_1_1LowEntropy.html#a9eb3d273bf791e8a2b71eb2890cfab6b',1,'ots::exception::LowEntropy::LowEntropy()'],['../classots_1_1OTS.html#a19556d6871ffe7aaf352f1438e0fd6c7',1,'ots::OTS::lowEntropy()'],['../classots_1_1exception_1_1LowEntropy.html',1,'ots::exception::LowEntropy']]],
+  ['lr_18',['LR',['../structots_1_1Account_1_1multisig__info_1_1LR.html',1,'ots::Account::multisig_info']]]
 ];

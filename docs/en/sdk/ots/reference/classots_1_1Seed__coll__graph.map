@@ -1,9 +1,24 @@
 <map id="ots::Seed" name="ots::Seed">
-<area shape="rect" id="Node000001" title="Abstract base class for cryptographic seed management." alt="" coords="151,196,230,221"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,144,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="110,140,178,194,174,198,107,144"/>
-<area shape="rect" id="Node000003" href="$classots_1_1KeyStore.html" title="essentialy wraps crypto::secret_key" alt="" coords="23,5,126,31"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="77,44,77,93,72,93,72,44"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="168,101,291,126"/>
-<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="222,140,198,197,193,195,217,138"/>
+<area shape="rect" id="Node000001" title="Abstract base class for cryptographic seed management." alt="" coords="995,79,1073,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="739,15,877,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="891,51,971,71,995,77,993,83,970,76,890,56"/>
+<area shape="rect" id="Node000003" href="$classots_1_1Address.html" title="Represents a Monero address." alt="" coords="551,22,647,47"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="660,32,738,32,738,37,660,37"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="273,22,353,47"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="367,32,551,32,551,37,367,37"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,15,132,55"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="146,32,273,32,273,37,146,37"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="739,129,877,169"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="891,140,930,133,970,123,1012,103,1014,107,972,128,932,138,891,145"/>
+<area shape="rect" id="Node000007" href="$classots_1_1Wallet.html" title="provides all offline wallet functionality" alt="" coords="557,137,641,162"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="654,147,739,147,739,152,654,152"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="200,80,427,120"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="441,96,994,90,994,95,441,101"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="434,120,451,123,557,140,556,145,450,128,434,125"/>
+<area shape="rect" id="Node000009" href="$classots_1_1KeyStore.html" title="essentialy wraps crypto::secret_key" alt="" coords="17,87,120,113"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="134,97,200,97,200,103,134,103"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="206,152,421,192"/>
+<area shape="poly" id="edge9_Node000007_Node000010" title=" " alt="" coords="434,175,526,168,562,160,563,165,527,173,435,180"/>
+<area shape="rect" id="Node000011" href="$classots_1_1Account.html" title="holds monero internal account and internal functions" alt="" coords="21,159,117,185"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="131,169,206,169,206,175,131,175"/>
 </map>

@@ -98,43 +98,55 @@ $(document).ready(function(){initNavTree('structots__result__t.html',''); initRe
 </div><!--header-->
 <div class="contents">
 
+<p>Result structure combining handle and error.  
+ <a href="structots__result__t.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="ots_8h_source.html">ots.h</a>&gt;</code></p>
 <div class="dynheader">
 Collaboration diagram for ots_result_t:</div>
 <div class="dyncontent">
 <div class="center"><img src="structots__result__t__coll__graph.png" border="0" usemap="#aots__result__t_coll__map" alt="Collaboration graph"/></div>
 <map name="aots__result__t_coll__map" id="aots__result__t_coll__map">
-<area shape="rect" title=" " alt="" coords="84,284,175,309"/>
-<area shape="rect" href="structots__ctx__st.html" title=" " alt="" coords="33,196,116,221"/>
-<area shape="poly" title=" " alt="" coords="92,231,124,282,119,285,87,234"/>
-<area shape="rect" title=" " alt="" coords="5,93,144,133"/>
-<area shape="poly" title=" " alt="" coords="77,147,77,196,72,196,72,147"/>
-<area shape="rect" href="classots_1_1OTS.html" title="General functionality." alt="" coords="37,5,112,31"/>
-<area shape="poly" title=" " alt="" coords="77,44,77,93,72,93,72,44"/>
-<area shape="rect" href="structots__error__t.html" title=" " alt="" coords="141,196,225,221"/>
-<area shape="poly" title=" " alt="" coords="170,235,139,285,134,282,166,232"/>
+<area shape="rect" title="Result structure combining handle and error." alt="" coords="65,93,156,119"/>
+<area shape="rect" href="structots__handle__t.html" title="Handle structure for C objects." alt="" coords="5,5,101,31"/>
+<area shape="poly" title=" " alt="" coords="71,41,105,91,100,94,66,44"/>
+<area shape="rect" href="structots__error__t.html" title="Error structure for exception handling." alt="" coords="126,5,210,31"/>
+<area shape="poly" title=" " alt="" coords="155,44,137,71,121,94,116,91,132,68,151,41"/>
 </map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a3e57bcae5e0aa7b77bbc5e550c3a992a" id="r_a3e57bcae5e0aa7b77bbc5e550c3a992a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="ots_8h.html#a2cc2eb12816d2fe8efd53c1e2851e3b3">ots_ctx_st</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structots__result__t.html#a3e57bcae5e0aa7b77bbc5e550c3a992a">ctx</a></td></tr>
-<tr class="separator:a3e57bcae5e0aa7b77bbc5e550c3a992a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a683223efa332fd9b2909665346b83593" id="r_a683223efa332fd9b2909665346b83593"><td class="memItemLeft" >union {&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27175ec108ebc964e768713fd05c35ca" id="r_a27175ec108ebc964e768713fd05c35ca"><td class="memItemLeft" >&#160;&#160;&#160;<a class="el" href="structots__handle__t.html">ots_handle_t</a>&#160;&#160;&#160;<a class="el" href="structots__result__t.html#a0aff8b0e82480fc6dc35cdb1c8a7865c">handle</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a27175ec108ebc964e768713fd05c35ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fde025a648f22e8b8922548a321f3c3" id="r_a9fde025a648f22e8b8922548a321f3c3"><td class="memItemLeft" >&#160;&#160;&#160;void *&#160;&#160;&#160;<a class="el" href="structots__result__t.html#a0a4bcef6ea2bc13b0be2d98a78d7f562">ptr</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a9fde025a648f22e8b8922548a321f3c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ad0ffbf0871fba2d6aa3c31c53215b9" id="r_a8ad0ffbf0871fba2d6aa3c31c53215b9"><td class="memItemLeft" >&#160;&#160;&#160;bool&#160;&#160;&#160;<a class="el" href="structots__result__t.html#a42260b42a1a47cb612e731aaa77de43e">boolean</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a8ad0ffbf0871fba2d6aa3c31c53215b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03dde4e7f0ff6d6563d99dc2479c44a3" id="r_a03dde4e7f0ff6d6563d99dc2479c44a3"><td class="memItemLeft" >&#160;&#160;&#160;int64_t&#160;&#160;&#160;<a class="el" href="structots__result__t.html#a808f0550ff663a9e99393349d20c76de">number</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a03dde4e7f0ff6d6563d99dc2479c44a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a683223efa332fd9b2909665346b83593" id="r_a683223efa332fd9b2909665346b83593"><td class="memItemLeft" valign="top">}&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structots__result__t.html#a683223efa332fd9b2909665346b83593">result</a>&#160;</td><td class="memItemRight" valign="bottom"></td></tr>
+<tr class="separator:a683223efa332fd9b2909665346b83593"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46fe95565d04ab5de9f933ad319f3fc4" id="r_a46fe95565d04ab5de9f933ad319f3fc4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="structots__error__t.html">ots_error_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structots__result__t.html#a46fe95565d04ab5de9f933ad319f3fc4">error</a></td></tr>
 <tr class="separator:a46fe95565d04ab5de9f933ad319f3fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3e57bcae5e0aa7b77bbc5e550c3a992a" name="a3e57bcae5e0aa7b77bbc5e550c3a992a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e57bcae5e0aa7b77bbc5e550c3a992a">&#9670;&#160;</a></span>ctx</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Result structure combining handle and error. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a42260b42a1a47cb612e731aaa77de43e" name="a42260b42a1a47cb612e731aaa77de43e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42260b42a1a47cb612e731aaa77de43e">&#9670;&#160;</a></span>boolean</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="ots_8h.html#a2cc2eb12816d2fe8efd53c1e2851e3b3">ots_ctx_st</a>* ots_result_t::ctx</td>
+          <td class="memname">bool ots_result_t::boolean</td>
         </tr>
       </table>
 </div><div class="memdoc">
+<p>Boolean result </p>
 
 </div>
 </div>
@@ -146,6 +158,66 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="structots__error__t.html">ots_error_t</a> ots_result_t::error</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Error information </p>
+
+</div>
+</div>
+<a id="a0aff8b0e82480fc6dc35cdb1c8a7865c" name="a0aff8b0e82480fc6dc35cdb1c8a7865c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0aff8b0e82480fc6dc35cdb1c8a7865c">&#9670;&#160;</a></span>handle</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structots__handle__t.html">ots_handle_t</a> ots_result_t::handle</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Handle for created objects </p>
+
+</div>
+</div>
+<a id="a808f0550ff663a9e99393349d20c76de" name="a808f0550ff663a9e99393349d20c76de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a808f0550ff663a9e99393349d20c76de">&#9670;&#160;</a></span>number</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int64_t ots_result_t::number</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Numeric result </p>
+
+</div>
+</div>
+<a id="a0a4bcef6ea2bc13b0be2d98a78d7f562" name="a0a4bcef6ea2bc13b0be2d98a78d7f562"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a4bcef6ea2bc13b0be2d98a78d7f562">&#9670;&#160;</a></span>ptr</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void* ots_result_t::ptr</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Pointer for returned data </p>
+
+</div>
+</div>
+<a id="a683223efa332fd9b2909665346b83593" name="a683223efa332fd9b2909665346b83593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a683223efa332fd9b2909665346b83593">&#9670;&#160;</a></span>[union]</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">union  { ... }  ots_result_t::result</td>
         </tr>
       </table>
 </div><div class="memdoc">

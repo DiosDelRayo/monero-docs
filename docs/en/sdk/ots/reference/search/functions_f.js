@@ -1,13 +1,10 @@
 var searchData=
 [
-  ['secretspendkey_0',['secretSpendKey',['../classots_1_1Wallet.html#a1256bba5f65cdc7f46675231fff960b0',1,'ots::Wallet']]],
-  ['secretviewkey_1',['secretViewKey',['../classots_1_1Wallet.html#a7d48df58257f74364deb70839408a332',1,'ots::Wallet']]],
-  ['seed_2',['seed',['../classots_1_1Seed.html#a352e3dfeb4a035c481bd0756b6fc4e61',1,'ots::Seed::Seed(const Seed &amp;)=delete'],['../classots_1_1Seed.html#a2ffd2706143e67acb8436f04329cfded',1,'ots::Seed::Seed(Seed &amp;&amp;) noexcept=default'],['../classots_1_1Seed.html#aa90588a8f85493f517f7a5ebdbf9cc17',1,'ots::Seed::Seed()']]],
-  ['seednotfound_3',['SeedNotFound',['../classots_1_1exception_1_1seedjar_1_1SeedNotFound.html#a57b54ab384a114a15e757345e4e77cfe',1,'ots::exception::seedjar::SeedNotFound']]],
-  ['seedphrasefromkey_4',['seedPhraseFromKey',['../namespaceots.html#ab2a2e083e73fcafb12851e59f45bccdc',1,'ots']]],
-  ['signdata_5',['signData',['../classots_1_1Wallet.html#a77c699316f3af22f9e3e7ba8606ef669',1,'ots::Wallet']]],
-  ['signtransaction_6',['signTransaction',['../classots_1_1Wallet.html#a33ef66851a8b40de19d55cb53a71da3d',1,'ots::Wallet']]],
-  ['store_7',['store',['../classots_1_1SeedJar.html#aba9b37c6e74613566fb051153320318e',1,'ots::SeedJar']]],
-  ['subaddresses_8',['subAddresses',['../classots_1_1Wallet.html#aceefe4eb7428c83a38a7596e52fca9a4',1,'ots::Wallet']]],
-  ['supported_9',['supported',['../classots_1_1SeedLanguage.html#aeb784ab0011d44e96caf71d2f3bb83c8',1,'ots::SeedLanguage']]]
+  ['random_0',['random',['../classots_1_1OTS.html#a9455f0b90afd912f6419d679f0ce89ce',1,'ots::OTS::random()'],['../classots_1_1OTS.html#aec8ed0e7124ba43f9007c7868025f566',1,'ots::OTS::random(size_t size, uint8_t *bytes)']]],
+  ['rangeerror_1',['RangeError',['../classots_1_1exception_1_1RangeError.html#a927ef68f610bb6707eeebc14d9d86e2e',1,'ots::exception::RangeError']]],
+  ['registerexception_2',['registerException',['../classots_1_1exception_1_1Exception.html#a3a3fa91ba5f7d7f585edb14f6a32cd7b',1,'ots::exception::Exception']]],
+  ['registry_3',['registry',['../classots_1_1exception_1_1Exception.html#abeee3ccedf662e8b28849d2e64b8607e',1,'ots::exception::Exception']]],
+  ['reserve_4',['reserve',['../classots_1_1WipeableString.html#a7085fb5a641ed6f67ac059fb58e976d9',1,'ots::WipeableString::reserve()'],['../classots_1_1SeedIndices.html#a26833ce4c5e9c01641c926c9e25461ea',1,'ots::SeedIndices::reserve()']]],
+  ['resetmaxdepth_5',['resetMaxDepth',['../classots_1_1OTS.html#a285bd5e97b6f5d16debf5b647dc4cc48',1,'ots::OTS']]],
+  ['runtimeerror_6',['RuntimeError',['../classots_1_1exception_1_1RuntimeError.html#aab5ce229a517405d58552d516046c472',1,'ots::exception::RuntimeError']]]
 ];

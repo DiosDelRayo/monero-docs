@@ -1,0 +1,99 @@
+<map id="ots::exception::Exception" name="ots::exception::Exception">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,2075,176,2101"/>
+<area shape="rect" id="Node000002" href="$classots_1_1exception_1_1DomainError.html" title="errors related to the library use itself" alt="" coords="245,941,430,966"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="95,2062,331,966,336,967,100,2063"/>
+<area shape="rect" id="Node000034" href="$classots_1_1exception_1_1InvalidArgument.html" title="provided an invalid argument" alt="" coords="234,1901,441,1926"/>
+<area shape="poly" id="edge32_Node000001_Node000034" title=" " alt="" coords="120,2065,316,1924,320,1928,123,2069"/>
+<area shape="rect" id="Node000039" href="$classots_1_1exception_1_1LogicError.html" title="violation of logical preconditions or class invariants" alt="" coords="252,2026,423,2051"/>
+<area shape="poly" id="edge37_Node000001_Node000039" title=" " alt="" coords="167,2070,272,2049,273,2054,168,2075"/>
+<area shape="rect" id="Node000040" href="$classots_1_1exception_1_1NotImplementedYet.html" title="Sole purpose of this exception is to create already the stub and mark as incomplete,..." alt="" coords="224,2075,451,2101"/>
+<area shape="poly" id="edge38_Node000001_Node000040" title=" " alt="" coords="190,2085,224,2085,224,2091,190,2091"/>
+<area shape="rect" id="Node000041" href="$classots_1_1exception_1_1OutOfRange.html" title="arguments outside of expected range. Needle not in Haystack ;)" alt="" coords="245,2125,430,2150"/>
+<area shape="poly" id="edge39_Node000001_Node000041" title=" " alt="" coords="168,2101,273,2122,272,2127,167,2106"/>
+<area shape="rect" id="Node000049" href="$classots_1_1exception_1_1RangeError.html" title="range error in internal computation" alt="" coords="248,2174,427,2199"/>
+<area shape="poly" id="edge45_Node000001_Node000049" title=" " alt="" coords="123,2106,170,2133,225,2159,266,2171,264,2176,223,2164,168,2138,121,2110"/>
+<area shape="rect" id="Node000050" href="$classots_1_1exception_1_1RuntimeError.html" title="Conditions only detectable at runtime." alt="" coords="243,2349,432,2374"/>
+<area shape="poly" id="edge46_Node000001_Node000050" title=" " alt="" coords="115,2109,326,2346,322,2350,111,2113"/>
+<area shape="rect" id="Node000003" href="$classots_1_1exception_1_1SecurityException.html" title="Any security realted issue." alt="" coords="539,69,699,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="337,927,349,764,377,522,398,396,425,280,457,185,476,148,497,119,516,105,537,95,539,100,518,109,501,123,481,150,462,187,430,282,403,397,382,523,355,765,343,927"/>
+<area shape="rect" id="Node000008" href="$classots_1_1exception_1_1UnknownNetwork.html" title="a network is not known" alt="" coords="511,134,727,159"/>
+<area shape="poly" id="edge6_Node000002_Node000008" title=" " alt="" coords="338,927,350,772,379,544,400,426,426,318,458,230,477,196,497,170,514,157,517,162,501,174,481,199,463,232,431,320,405,427,384,545,356,772,343,927"/>
+<area shape="rect" id="Node000009" href="$classots_1_1exception_1_1account_1_1GenerationFailed.html" title="account generation failed" alt="" coords="539,184,698,224"/>
+<area shape="poly" id="edge7_Node000002_Node000009" title=" " alt="" coords="338,927,354,784,384,576,406,468,431,370,462,289,479,258,497,234,516,219,538,210,540,215,519,224,501,238,483,261,466,292,436,372,411,470,389,577,359,784,344,927"/>
+<area shape="rect" id="Node000010" href="$classots_1_1exception_1_1keystore_1_1polyseed_1_1ActivePolyseedDataSession.html" title="a process tried to start a new session during an active session ongoing" alt="" coords="514,249,723,303"/>
+<area shape="poly" id="edge8_Node000002_Node000010" title=" " alt="" coords="339,926,357,798,390,614,412,520,437,433,465,362,481,334,497,313,512,300,515,304,501,317,485,337,470,364,442,435,417,521,396,615,363,799,345,927"/>
+<area shape="rect" id="Node000011" href="$classots_1_1exception_1_1keystore_1_1polyseed_1_1NoActivePolyseedDataSession.html" title="no active session ongoing which could be commited or discarded" alt="" coords="505,327,732,382"/>
+<area shape="poly" id="edge9_Node000002_Node000011" title=" " alt="" coords="335,927,339,828,346,760,359,685,379,607,407,529,446,456,470,423,497,391,510,380,514,384,501,395,474,426,451,459,412,531,384,608,364,686,351,761,344,829,341,927"/>
+<area shape="rect" id="Node000012" href="$classots_1_1exception_1_1keystore_1_1polyseed_1_1PolyseedDataReadOnlySession.html" title="write attempt while read only session" alt="" coords="503,406,734,461"/>
+<area shape="poly" id="edge10_Node000002_Node000012" title=" " alt="" coords="337,926,345,840,355,782,369,719,389,653,417,587,452,526,497,471,512,459,516,463,501,475,457,529,422,590,394,654,374,720,360,783,350,841,342,927"/>
+<area shape="rect" id="Node000013" href="$classots_1_1exception_1_1polyseed_1_1AmbigousLanguage.html" title="Seed phrase language is ambigous. Language must be explicit specified." alt="" coords="537,485,701,525"/>
+<area shape="poly" id="edge11_Node000002_Node000013" title=" " alt="" coords="338,927,349,850,375,744,395,688,422,632,456,580,497,535,515,523,535,514,537,519,518,527,500,539,460,584,427,635,400,690,380,746,354,851,343,927"/>
+<area shape="rect" id="Node000014" href="$classots_1_1exception_1_1polyseed_1_1ChecksumMismatch.html" title="a checksum mismatch detected" alt="" coords="537,549,701,589"/>
+<area shape="poly" id="edge12_Node000002_Node000014" title=" " alt="" coords="340,927,355,860,383,772,404,725,430,679,460,636,497,599,515,587,536,578,538,583,518,592,500,603,464,640,434,682,409,727,388,774,360,862,345,928"/>
+<area shape="rect" id="Node000015" href="$classots_1_1exception_1_1polyseed_1_1InvalidSeedFormat.html" title="a seed phrase is not in the expected format" alt="" coords="537,613,701,653"/>
+<area shape="poly" id="edge13_Node000002_Node000015" title=" " alt="" coords="343,927,361,872,392,800,437,726,465,693,497,663,535,643,538,648,500,668,469,696,441,729,397,803,366,873,348,928"/>
+<area shape="rect" id="Node000016" href="$classots_1_1exception_1_1polyseed_1_1NoPasswordProvided.html" title="Seed encrypted, but no password provided." alt="" coords="537,677,701,717"/>
+<area shape="poly" id="edge14_Node000002_Node000016" title=" " alt="" coords="347,926,369,883,402,829,445,774,470,749,497,727,535,709,537,714,500,732,473,753,449,777,406,832,374,885,352,929"/>
+<area shape="rect" id="Node000017" href="$classots_1_1exception_1_1polyseed_1_1UnsupportedFeatures.html" title="a feature is not supported by polyseed" alt="" coords="537,741,701,781"/>
+<area shape="poly" id="edge15_Node000002_Node000017" title=" " alt="" coords="354,927,412,860,453,823,497,791,535,775,538,779,500,796,456,827,416,863,358,931"/>
+<area shape="rect" id="Node000018" href="$classots_1_1exception_1_1seed_1_1LanguageNotSupportedBySeedType.html" title="a language is not supported by the seed type" alt="" coords="499,805,739,845"/>
+<area shape="poly" id="edge16_Node000002_Node000018" title=" " alt="" coords="366,930,425,892,498,855,531,843,532,848,500,860,428,897,369,935"/>
+<area shape="rect" id="Node000019" href="$classots_1_1exception_1_1seed_1_1LengthMismatch.html" title="a seed expected has a different length, and is used instead of WordCount on merging Values/seed phras..." alt="" coords="549,869,689,909"/>
+<area shape="poly" id="edge17_Node000002_Node000019" title=" " alt="" coords="407,935,548,903,549,908,408,940"/>
+<area shape="rect" id="Node000020" href="$classots_1_1exception_1_1seed_1_1MergeError.html" title="a seed index could not be merged" alt="" coords="549,933,689,973"/>
+<area shape="poly" id="edge18_Node000002_Node000020" title=" " alt="" coords="444,951,549,951,549,956,444,956"/>
+<area shape="rect" id="Node000021" href="$classots_1_1exception_1_1seed_1_1NoDefaultLanguageSet.html" title="a default language is expected but not set" alt="" coords="536,997,701,1037"/>
+<area shape="poly" id="edge19_Node000002_Node000021" title=" " alt="" coords="408,967,536,996,535,1001,407,972"/>
+<area shape="rect" id="Node000022" href="$classots_1_1exception_1_1seed_1_1PasswordNotSupported.html" title="a password is not supported for the seed type" alt="" coords="535,1061,703,1101"/>
+<area shape="poly" id="edge20_Node000002_Node000022" title=" " alt="" coords="369,972,428,1010,500,1047,536,1060,534,1065,498,1052,425,1014,366,976"/>
+<area shape="rect" id="Node000023" href="$classots_1_1exception_1_1seed_1_1SeedDecodingFailed.html" title="a seed could not be encoded" alt="" coords="543,1125,694,1165"/>
+<area shape="poly" id="edge21_Node000002_Node000023" title=" " alt="" coords="358,976,416,1043,456,1080,500,1111,544,1129,542,1134,497,1116,453,1084,412,1047,354,979"/>
+<area shape="rect" id="Node000025" href="$classots_1_1exception_1_1seed_1_1SeedEncodingFailed.html" title="a seed could not be encoded" alt="" coords="544,1189,693,1229"/>
+<area shape="poly" id="edge23_Node000002_Node000025" title=" " alt="" coords="352,978,374,1021,406,1075,449,1129,473,1154,500,1175,521,1187,545,1195,543,1200,519,1192,497,1180,470,1158,445,1133,402,1078,369,1024,347,980"/>
+<area shape="rect" id="Node000026" href="$classots_1_1exception_1_1seed_1_1TooFewValues.html" title="you need at least two values to merge." alt="" coords="549,1253,689,1293"/>
+<area shape="poly" id="edge24_Node000002_Node000026" title=" " alt="" coords="348,978,366,1033,397,1104,441,1177,469,1210,500,1239,523,1253,549,1262,547,1267,521,1258,497,1243,465,1214,437,1180,392,1106,361,1035,343,980"/>
+<area shape="rect" id="Node000027" href="$classots_1_1exception_1_1sign_1_1EmptyMessage.html" title="a message is empty" alt="" coords="551,1317,687,1357"/>
+<area shape="poly" id="edge25_Node000002_Node000027" title=" " alt="" coords="345,979,360,1045,388,1133,409,1179,434,1225,464,1267,500,1303,524,1318,551,1327,549,1332,522,1323,497,1307,460,1270,430,1228,404,1182,383,1135,355,1046,340,980"/>
+<area shape="rect" id="Node000028" href="$classots_1_1exception_1_1sign_1_1EmptySignature.html" title="a signature is empty" alt="" coords="551,1381,687,1421"/>
+<area shape="poly" id="edge26_Node000002_Node000028" title=" " alt="" coords="343,979,354,1056,380,1161,400,1217,427,1272,460,1323,500,1367,524,1383,551,1392,549,1397,522,1387,497,1371,456,1326,422,1274,395,1219,375,1162,349,1057,338,980"/>
+<area shape="rect" id="Node000029" href="$classots_1_1exception_1_1sign_1_1InvalidSignature.html" title="a signature is invalid" alt="" coords="551,1445,687,1485"/>
+<area shape="poly" id="edge27_Node000002_Node000029" title=" " alt="" coords="342,980,349,1066,358,1125,372,1188,392,1254,419,1319,455,1379,500,1431,524,1447,551,1457,550,1462,522,1452,497,1435,451,1382,415,1321,387,1256,367,1190,353,1126,344,1067,337,980"/>
+<area shape="rect" id="Node000030" href="$classots_1_1exception_1_1wallet_1_1CiphertextAuthenticationFailed.html" title="the provided ciphertext is not valid" alt="" coords="515,1509,723,1549"/>
+<area shape="poly" id="edge28_Node000002_Node000030" title=" " alt="" coords="341,980,344,1077,351,1143,364,1215,384,1291,412,1365,451,1435,474,1466,500,1495,516,1507,513,1511,497,1499,470,1470,446,1438,407,1368,379,1293,359,1217,346,1143,339,1077,335,980"/>
+<area shape="rect" id="Node000031" href="$classots_1_1exception_1_1wallet_1_1ExportKeyImages.html" title="export key images failed" alt="" coords="545,1573,692,1613"/>
+<area shape="poly" id="edge29_Node000002_Node000031" title=" " alt="" coords="345,980,363,1103,397,1278,418,1367,443,1448,471,1515,485,1540,501,1559,521,1574,546,1584,544,1589,519,1579,497,1563,481,1543,466,1517,438,1450,413,1369,391,1279,358,1104,339,980"/>
+<area shape="rect" id="Node000032" href="$classots_1_1exception_1_1wallet_1_1InternalError.html" title="an internal error occurred (monero specific)" alt="" coords="545,1637,692,1677"/>
+<area shape="poly" id="edge30_Node000002_Node000032" title=" " alt="" coords="344,979,361,1114,392,1308,414,1408,439,1499,468,1574,484,1602,501,1623,521,1639,546,1648,544,1653,519,1643,497,1627,479,1605,463,1576,434,1501,409,1409,387,1309,355,1115,339,980"/>
+<area shape="rect" id="Node000033" href="$classots_1_1exception_1_1wallet_1_1InvalidCiphertext.html" title="the provided ciphertext is not valid" alt="" coords="545,1701,692,1741"/>
+<area shape="poly" id="edge31_Node000002_Node000033" title=" " alt="" coords="343,979,358,1125,388,1339,410,1449,435,1550,466,1632,483,1664,501,1687,521,1703,546,1712,544,1717,519,1707,497,1691,478,1667,461,1634,430,1551,404,1450,383,1340,353,1126,338,980"/>
+<area shape="rect" id="Node000004" href="$classots_1_1exception_1_1keystore_1_1LockedAccessAttempt.html" title="a process tried to access locked key data" alt="" coords="805,5,967,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="711,65,804,42,805,47,712,70"/>
+<area shape="rect" id="Node000006" href="$classots_1_1exception_1_1wipeablestring_1_1UnsafeConversion.html" title="a conversion to std::string is not allowed" alt="" coords="789,69,983,109"/>
+<area shape="poly" id="edge4_Node000003_Node000006" title=" " alt="" coords="712,87,788,87,788,92,712,92"/>
+<area shape="rect" id="Node000007" href="$classots_1_1exception_1_1wipeablevector_1_1UnsafeConversion.html" title="a conversion to std::vector is not allowed" alt="" coords="787,133,985,173"/>
+<area shape="poly" id="edge5_Node000003_Node000007" title=" " alt="" coords="713,109,802,131,801,136,711,114"/>
+<area shape="rect" id="Node000024" href="$classots_1_1exception_1_1legacyseed_1_1InvalidSeedFormat.html" title=" " alt="" coords="797,1125,975,1165"/>
+<area shape="poly" id="edge22_Node000023_Node000024" title=" " alt="" coords="707,1143,797,1143,797,1148,707,1148"/>
+<area shape="rect" id="Node000035" href="$classots_1_1exception_1_1address_1_1Invalid.html" title="The provided string is not a valid Monero address." alt="" coords="539,1765,698,1805"/>
+<area shape="poly" id="edge33_Node000034_Node000035" title=" " alt="" coords="366,1890,425,1852,498,1815,538,1801,540,1806,500,1820,428,1857,369,1895"/>
+<area shape="rect" id="Node000036" href="$classots_1_1exception_1_1address_1_1NotIntegrated.html" title="The provided string is not an integrated address." alt="" coords="539,1829,698,1869"/>
+<area shape="poly" id="edge34_Node000034_Node000036" title=" " alt="" coords="407,1895,538,1865,539,1870,408,1900"/>
+<area shape="rect" id="Node000037" href="$classots_1_1exception_1_1tx_1_1Invalid.html" title="the provided unsigned transaction is not valid" alt="" coords="557,1893,680,1933"/>
+<area shape="poly" id="edge35_Node000034_Node000037" title=" " alt="" coords="454,1911,557,1911,557,1916,454,1916"/>
+<area shape="rect" id="Node000038" href="$classots_1_1exception_1_1wallet_1_1ImportOutputs.html" title="Import outputs failed." alt="" coords="545,1957,692,1997"/>
+<area shape="poly" id="edge36_Node000034_Node000038" title=" " alt="" coords="408,1926,546,1958,545,1963,407,1932"/>
+<area shape="rect" id="Node000042" href="$classots_1_1exception_1_1BufferOverflowException.html" title="size is bigger then buffer" alt="" coords="519,2021,718,2061"/>
+<area shape="poly" id="edge40_Node000041_Node000042" title=" " alt="" coords="429,2118,449,2110,463,2101,473,2091,483,2081,497,2071,526,2059,528,2064,500,2076,486,2085,477,2095,467,2105,452,2114,431,2123"/>
+<area shape="rect" id="Node000043" href="$classots_1_1exception_1_1seed_1_1LanguageNotFound.html" title="a language expected if not found" alt="" coords="547,2085,690,2125"/>
+<area shape="poly" id="edge41_Node000041_Node000043" title=" " alt="" coords="444,2123,547,2111,548,2116,444,2128"/>
+<area shape="rect" id="Node000045" href="$classots_1_1exception_1_1seed_1_1WordCount.html" title="a seed expected has a different word count. Polyseed are 16 words, Monero Seeds are 25 words,..." alt="" coords="549,2149,689,2189"/>
+<area shape="poly" id="edge42_Node000041_Node000045" title=" " alt="" coords="444,2147,549,2159,548,2164,443,2152"/>
+<area shape="rect" id="Node000047" href="$classots_1_1exception_1_1seedjar_1_1SeedNotFound.html" title="a seed expected if not found" alt="" coords="541,2213,696,2253"/>
+<area shape="poly" id="edge43_Node000041_Node000047" title=" " alt="" coords="435,2152,452,2159,467,2169,477,2179,486,2189,500,2199,542,2215,540,2220,497,2204,483,2193,473,2183,464,2173,449,2164,433,2157"/>
+<area shape="rect" id="Node000048" href="$classots_1_1exception_1_1wallet_1_1AddressNotFound.html" title="wallet does not contain the provided address" alt="" coords="545,2277,692,2317"/>
+<area shape="poly" id="edge44_Node000041_Node000048" title=" " alt="" coords="444,2153,452,2159,465,2172,472,2185,478,2212,483,2239,489,2251,500,2263,522,2277,546,2286,544,2291,519,2282,497,2267,485,2254,478,2241,472,2213,467,2187,460,2175,449,2163,441,2158"/>
+<area shape="rect" id="Node000051" href="$classots_1_1exception_1_1MemoryAllocationError.html" title="Could not allocate memory." alt="" coords="511,2341,727,2381"/>
+<area shape="poly" id="edge47_Node000050_Node000051" title=" " alt="" coords="446,2359,511,2359,511,2364,446,2364"/>
+<area shape="rect" id="Node000053" href="$classots_1_1exception_1_1SecurityError.html" title="Any security realted error: like no random generator available." alt="" coords="539,2405,699,2445"/>
+<area shape="poly" id="edge48_Node000050_Node000053" title=" " alt="" coords="408,2374,539,2405,538,2410,406,2380"/>
+</map>

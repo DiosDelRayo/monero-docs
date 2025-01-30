@@ -1,15 +1,19 @@
 <map id="ots::exception::InvalidArgument" name="ots::exception::InvalidArgument">
-<area shape="rect" id="Node000001" title="provided an invalid argument" alt="" coords="508,77,715,102"/>
-<area shape="rect" id="Node000005" href="$classots_1_1exception_1_1address_1_1Invalid.html" title="The provided string is not a valid Monero address." alt="" coords="763,5,921,45"/>
-<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="671,70,768,43,770,48,672,75"/>
-<area shape="rect" id="Node000006" href="$classots_1_1exception_1_1tx_1_1Invalid.html" title="the provided unsigned transaction is not valid" alt="" coords="781,69,903,109"/>
-<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="729,87,780,87,780,92,729,92"/>
-<area shape="rect" id="Node000007" href="$classots_1_1exception_1_1wallet_1_1ImportOutputs.html" title="Import outputs failed." alt="" coords="769,133,915,173"/>
-<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="672,103,770,131,768,136,671,108"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="313,77,460,102"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="473,87,508,87,508,92,473,92"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="157,77,265,102"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="279,87,313,87,313,92,279,92"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="5,77,109,102"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,87,157,87,157,92,123,92"/>
+<area shape="rect" id="Node000001" title="provided an invalid argument" alt="" coords="532,109,739,134"/>
+<area shape="rect" id="Node000006" href="$classots_1_1exception_1_1address_1_1Invalid.html" title="The provided string is not a valid Monero address." alt="" coords="787,5,945,45"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="678,101,786,55,815,43,817,48,788,60,680,106"/>
+<area shape="rect" id="Node000007" href="$classots_1_1exception_1_1address_1_1NotIntegrated.html" title="The provided string is not an integrated address." alt="" coords="787,69,945,109"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="740,104,786,98,787,103,741,109"/>
+<area shape="rect" id="Node000008" href="$classots_1_1exception_1_1tx_1_1Invalid.html" title="the provided unsigned transaction is not valid" alt="" coords="805,133,927,173"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="741,133,805,142,804,148,741,139"/>
+<area shape="rect" id="Node000009" href="$classots_1_1exception_1_1wallet_1_1ImportOutputs.html" title="Import outputs failed." alt="" coords="793,197,939,237"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="680,137,788,183,817,195,815,200,786,188,678,142"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="325,83,472,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="486,103,532,108,531,113,485,108"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="157,83,265,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="279,93,325,93,325,99,279,99"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="5,83,109,109"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,93,157,93,157,99,123,99"/>
+<area shape="rect" id="Node000005" href="$classots_1_1exception_1_1Exception.html" title=" " alt="" coords="313,133,484,158"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="498,133,531,129,532,134,498,138"/>
 </map>

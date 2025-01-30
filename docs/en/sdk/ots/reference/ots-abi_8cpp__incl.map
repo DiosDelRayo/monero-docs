@@ -1,27 +1,38 @@
 <map id="/projects/monerosigner/monero/ots/src/ots&#45;abi.cpp" name="/projects/monerosigner/monero/ots/src/ots&#45;abi.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="176,5,357,45"/>
-<area shape="rect" id="Node000002" href="$ots_8h.html" title="Header for the C ABI library." alt="" coords="144,93,195,119"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="245,48,196,87,193,82,241,43"/>
-<area shape="rect" id="Node000003" href="$ots_8hpp.html" title="Header for the C++ library." alt="" coords="270,93,335,119"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="278,44,294,79,289,82,273,47"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="5,167,75,192"/>
-<area shape="poly" id="edge13_Node000001_Node000007" title=" " alt="" coords="261,47,241,84,226,104,208,121,187,133,157,145,89,167,87,162,155,140,185,128,205,117,222,100,236,81,257,44"/>
-<area shape="rect" id="Node000012" title=" " alt="" coords="360,93,421,119"/>
-<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="298,43,362,84,359,88,295,48"/>
-<area shape="rect" id="Node000004" href="$ots-exceptions_8hpp.html" title="Header for the C++ library Exceptions." alt="" coords="99,167,231,192"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="282,121,201,163,199,158,279,116"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="235,240,290,265"/>
-<area shape="poly" id="edge7_Node000003_Node000006" title=" " alt="" coords="302,120,272,227,267,226,297,118"/>
-<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="271,119,89,168,87,163,269,114"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="307,167,365,192"/>
-<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="311,118,327,153,322,155,306,120"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="389,167,440,192"/>
-<area shape="poly" id="edge9_Node000003_Node000009" title=" " alt="" coords="322,116,386,157,383,161,319,121"/>
-<area shape="rect" id="Node000010" title=" " alt="" coords="465,167,511,192"/>
-<area shape="poly" id="edge10_Node000003_Node000010" title=" " alt="" coords="333,116,452,162,450,166,331,121"/>
-<area shape="rect" id="Node000011" title=" " alt="" coords="536,167,589,192"/>
-<area shape="poly" id="edge11_Node000003_Node000011" title=" " alt="" coords="336,113,523,164,522,169,335,118"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="126,240,205,265"/>
-<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="168,192,168,226,163,226,163,192"/>
-<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="183,190,237,229,234,234,179,194"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="563,5,744,45"/>
+<area shape="rect" id="Node000002" href="$ots_8h.html" title="Header for the C ABI (Application Binary Interface) library." alt="" coords="180,93,231,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="563,45,245,100,244,95,562,40"/>
+<area shape="rect" id="Node000007" href="$ots_8hpp.html" title="Header for the C++ library." alt="" coords="621,93,686,119"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="656,46,656,79,651,79,651,46"/>
+<area shape="rect" id="Node000008" href="$ots-exceptions_8hpp.html" title="Header for the C++ library Exceptions." alt="" coords="361,167,493,192"/>
+<area shape="poly" id="edge18_Node000001_Node000008" title=" " alt="" coords="627,48,457,161,454,157,624,43"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="843,167,912,192"/>
+<area shape="poly" id="edge20_Node000001_Node000012" title=" " alt="" coords="671,44,706,80,751,116,792,140,834,159,831,164,790,145,748,121,703,84,668,47"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="761,93,823,119"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="688,43,761,84,758,89,685,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="168,167,243,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="208,119,208,153,203,153,203,119"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="267,167,336,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="222,117,276,156,273,160,219,121"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="58,240,123,265"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="197,121,158,168,110,231,105,227,154,165,193,117"/>
+<area shape="rect" id="Node000006" href="$ots-errors_8h.html" title="Error codes for the C ABI." alt="" coords="5,167,93,192"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="181,121,88,163,86,158,179,116"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="58,191,79,227,75,229,54,194"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="621,120,477,165,475,160,620,115"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="592,240,651,265"/>
+<area shape="poly" id="edge14_Node000007_Node000009" title=" " alt="" coords="679,116,701,130,722,148,735,169,736,181,732,193,718,210,702,224,665,242,663,237,699,219,715,206,727,191,731,181,730,171,718,152,698,135,676,121"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="726,240,781,265"/>
+<area shape="poly" id="edge13_Node000007_Node000011" title=" " alt="" coords="687,116,722,135,739,149,752,165,761,196,761,227,755,227,756,197,747,168,735,152,719,139,685,121"/>
+<area shape="poly" id="edge12_Node000007_Node000012" title=" " alt="" coords="687,115,830,160,828,165,686,120"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="517,167,568,192"/>
+<area shape="poly" id="edge15_Node000007_Node000013" title=" " alt="" coords="637,121,574,161,571,157,634,116"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="593,167,639,192"/>
+<area shape="poly" id="edge16_Node000007_Node000014" title=" " alt="" coords="650,120,631,156,626,153,645,118"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="664,167,717,192"/>
+<area shape="poly" id="edge17_Node000007_Node000015" title=" " alt="" coords="662,118,681,153,676,156,657,120"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="459,190,580,233,578,238,457,195"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="387,240,466,265"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="429,192,429,226,424,226,424,192"/>
+<area shape="poly" id="edge11_Node000008_Node000011" title=" " alt="" coords="480,189,713,240,712,245,479,195"/>
 </map>

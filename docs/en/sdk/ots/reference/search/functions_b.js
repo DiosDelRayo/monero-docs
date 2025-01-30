@@ -1,7 +1,13 @@
 var searchData=
 [
-  ['name_0',['name',['../classots_1_1SeedLanguage.html#af8b998fe5074b37ff05068cf9d24288a',1,'ots::SeedLanguage']]],
-  ['network_1',['network',['../classots_1_1Seed.html#aece7c1be1bbf7773189f9d503d384e6c',1,'ots::Seed::network()'],['../classots_1_1Address.html#a7a5aa42ed16bd8b49cd36b66a711631f',1,'ots::Address::network()']]],
-  ['nodefaultlanguageset_2',['NoDefaultLanguageSet',['../classots_1_1exception_1_1seed_1_1NoDefaultLanguageSet.html#a63a8a1ad8ccb762936bc29f00f177af7',1,'ots::exception::seed::NoDefaultLanguageSet']]],
-  ['notimplementedyet_3',['notimplementedyet',['../classots_1_1exception_1_1NotImplementedYet.html#a4adeab02352d5e1fb279cfe7e77caf27',1,'ots::exception::NotImplementedYet::NotImplementedYet()'],['../classots_1_1exception_1_1NotImplementedYet.html#acb8f2a9ec7e776af3700efd0eda731ae',1,'ots::exception::NotImplementedYet::NotImplementedYet(const std::string &amp;msg)']]]
+  ['maxaccountdepth_0',['maxAccountDepth',['../classots_1_1OTS.html#aa0864074b20a32e9bba69af4fb6fd95c',1,'ots::OTS']]],
+  ['maxindexdepth_1',['maxIndexDepth',['../classots_1_1OTS.html#a46e16fb8c623e8d099debb8e21dbfbd0',1,'ots::OTS']]],
+  ['memoryallocationerror_2',['MemoryAllocationError',['../classots_1_1exception_1_1MemoryAllocationError.html#a169e591a7fe0b82a60d6a71cdfd2436f',1,'ots::exception::MemoryAllocationError']]],
+  ['mergeandzeorizevalues_3',['mergeandzeorizevalues',['../classots_1_1Seed.html#a8e6499e96be77b7c78a8c3acaaf77223',1,'ots::Seed::mergeAndZeorizeValues(std::vector&lt; uint16_t &gt; &amp;values1, std::vector&lt; uint16_t &gt; &amp;values2, bool del=true)'],['../classots_1_1Seed.html#a98f26bf28edc39605073794ed625b997',1,'ots::Seed::mergeAndZeorizeValues(std::vector&lt; std::vector&lt; uint16_t &gt; &gt; &amp;values, bool del=true)']]],
+  ['mergeerror_4',['MergeError',['../classots_1_1exception_1_1seed_1_1MergeError.html#a2bf8d67c32588a602f48a0135e14fc1a',1,'ots::exception::seed::MergeError']]],
+  ['mergevalues_5',['mergevalues',['../classots_1_1Seed.html#ab5c06858c6eac77ec80ee22374470f64',1,'ots::Seed::mergeValues(const std::vector&lt; uint16_t &gt; &amp;values1, const std::vector&lt; uint16_t &gt; &amp;values2)'],['../classots_1_1Seed.html#af809c7fa8d9bae23464f1cec6276c5ee',1,'ots::Seed::mergeValues(const std::vector&lt; std::vector&lt; uint16_t &gt; &gt; &amp;values)']]],
+  ['mergewithpassword_6',['mergewithpassword',['../classots_1_1Seed.html#a3e1da0c0fcb100d2ee52dd86094228bd',1,'ots::Seed::mergeWithPassword(const std::string &amp;password, const std::vector&lt; uint16_t &gt; &amp;values)'],['../classots_1_1Seed.html#a617dd281515dab7ff4e29a4a92d16004',1,'ots::Seed::mergeWithPassword(const WipeableString &amp;password, const std::vector&lt; uint16_t &gt; &amp;values)']]],
+  ['mergewithpasswordandzeorize_7',['mergewithpasswordandzeorize',['../classots_1_1Seed.html#ad29eff145611ed540fef0593266e7bb7',1,'ots::Seed::mergeWithPasswordAndZeorize(std::string &amp;password, std::vector&lt; uint16_t &gt; &amp;values, bool del=true)'],['../classots_1_1Seed.html#a80d879bc852992d00cdff6a1e316b71c',1,'ots::Seed::mergeWithPasswordAndZeorize(const WipeableString &amp;password, std::vector&lt; uint16_t &gt; &amp;values, bool del=true)']]],
+  ['moneroseed_8',['moneroseed',['../classots_1_1MoneroSeed.html#af0501c005d9a861d06095f7066326e7e',1,'ots::MoneroSeed::MoneroSeed()'],['../classots_1_1Polyseed.html#ab460829ef780fa55839a95c0bb0aa520',1,'ots::Polyseed::moneroSeed()']]],
+  ['mostlyextremes_9',['mostlyExtremes',['../classots_1_1Entropy.html#ae8682dc9afcb9fd043be0f31995bf99b',1,'ots::Entropy']]]
 ];

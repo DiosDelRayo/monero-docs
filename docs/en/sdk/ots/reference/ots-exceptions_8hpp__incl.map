@@ -1,7 +1,9 @@
 <map id="/projects/monerosigner/monero/ots/include/ots&#45;exceptions.hpp" name="/projects/monerosigner/monero/ots/include/ots&#45;exceptions.hpp">
-<area shape="rect" id="Node000001" title="Header for the C++ library Exceptions." alt="" coords="11,5,169,60"/>
-<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,84,133"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="79,61,59,97,55,95,74,59"/>
-<area shape="rect" id="Node000003" title=" " alt="" coords="108,108,163,133"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="106,59,125,95,121,97,101,61"/>
+<area shape="rect" id="Node000001" title="Header for the C++ library Exceptions." alt="" coords="49,5,207,60"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,108,64,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,62,59,100,56,96,98,58"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="89,108,167,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,60,131,94,125,94,125,60"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="191,108,246,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="158,58,198,96,195,100,154,62"/>
 </map>

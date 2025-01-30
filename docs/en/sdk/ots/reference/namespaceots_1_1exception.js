@@ -1,15 +1,29 @@
 var namespaceots_1_1exception =
 [
+    [ "account", "namespaceots_1_1exception_1_1account.html", "namespaceots_1_1exception_1_1account" ],
     [ "address", "namespaceots_1_1exception_1_1address.html", "namespaceots_1_1exception_1_1address" ],
+    [ "keystore", "namespaceots_1_1exception_1_1keystore.html", "namespaceots_1_1exception_1_1keystore" ],
+    [ "legacyseed", "namespaceots_1_1exception_1_1legacyseed.html", "namespaceots_1_1exception_1_1legacyseed" ],
+    [ "polyseed", "namespaceots_1_1exception_1_1polyseed.html", "namespaceots_1_1exception_1_1polyseed" ],
     [ "seed", "namespaceots_1_1exception_1_1seed.html", "namespaceots_1_1exception_1_1seed" ],
     [ "seedjar", "namespaceots_1_1exception_1_1seedjar.html", "namespaceots_1_1exception_1_1seedjar" ],
+    [ "sign", "namespaceots_1_1exception_1_1sign.html", "namespaceots_1_1exception_1_1sign" ],
     [ "tx", "namespaceots_1_1exception_1_1tx.html", "namespaceots_1_1exception_1_1tx" ],
     [ "wallet", "namespaceots_1_1exception_1_1wallet.html", "namespaceots_1_1exception_1_1wallet" ],
+    [ "wipeablestring", "namespaceots_1_1exception_1_1wipeablestring.html", "namespaceots_1_1exception_1_1wipeablestring" ],
+    [ "wipeablevector", "namespaceots_1_1exception_1_1wipeablevector.html", "namespaceots_1_1exception_1_1wipeablevector" ],
+    [ "BufferOverflowException", "classots_1_1exception_1_1BufferOverflowException.html", "classots_1_1exception_1_1BufferOverflowException" ],
     [ "DomainError", "classots_1_1exception_1_1DomainError.html", "classots_1_1exception_1_1DomainError" ],
+    [ "Exception", "classots_1_1exception_1_1Exception.html", "classots_1_1exception_1_1Exception" ],
     [ "InvalidArgument", "classots_1_1exception_1_1InvalidArgument.html", "classots_1_1exception_1_1InvalidArgument" ],
     [ "LogicError", "classots_1_1exception_1_1LogicError.html", "classots_1_1exception_1_1LogicError" ],
+    [ "LowEntropy", "classots_1_1exception_1_1LowEntropy.html", "classots_1_1exception_1_1LowEntropy" ],
+    [ "MemoryAllocationError", "classots_1_1exception_1_1MemoryAllocationError.html", "classots_1_1exception_1_1MemoryAllocationError" ],
     [ "NotImplementedYet", "classots_1_1exception_1_1NotImplementedYet.html", "classots_1_1exception_1_1NotImplementedYet" ],
     [ "OutOfRange", "classots_1_1exception_1_1OutOfRange.html", "classots_1_1exception_1_1OutOfRange" ],
     [ "RangeError", "classots_1_1exception_1_1RangeError.html", "classots_1_1exception_1_1RangeError" ],
-    [ "RuntimeError", "classots_1_1exception_1_1RuntimeError.html", "classots_1_1exception_1_1RuntimeError" ]
+    [ "RuntimeError", "classots_1_1exception_1_1RuntimeError.html", "classots_1_1exception_1_1RuntimeError" ],
+    [ "SecurityError", "classots_1_1exception_1_1SecurityError.html", "classots_1_1exception_1_1SecurityError" ],
+    [ "SecurityException", "classots_1_1exception_1_1SecurityException.html", "classots_1_1exception_1_1SecurityException" ],
+    [ "UnknownNetwork", "classots_1_1exception_1_1UnknownNetwork.html", "classots_1_1exception_1_1UnknownNetwork" ]
 ];

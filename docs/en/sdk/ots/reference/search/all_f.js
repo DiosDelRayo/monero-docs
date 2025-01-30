@@ -1,9 +1,21 @@
 var searchData=
 [
-  ['phrase_0',['phrase',['../classots_1_1Seed.html#a44298bced5f1a11998e8f55ba1a96371',1,'ots::Seed::phrase()'],['../classots_1_1LegacySeed.html#a6ade50ac82d7cf77855d0604b19a1d59',1,'ots::LegacySeed::phrase()'],['../classots_1_1MoneroSeed.html#a718cafd24338ca14bdf1def1fcdd8f90',1,'ots::MoneroSeed::phrase()'],['../classots_1_1Polyseed.html#a169adbd22c8d3c5e5bb34c406d25f865',1,'ots::Polyseed::phrase()']]],
-  ['phrasefromkey_1',['phraseFromKey',['../namespaceots.html#a9fc38fd03f0de8480c6977f11155751e',1,'ots']]],
-  ['polyseed_2',['polyseed',['../classots_1_1Polyseed.html',1,'ots::Polyseed'],['../namespaceots.html#a2894bc63610aee8f1e3bd1643790105eac3adf8931462de3b6a6dc4a042a63ec3',1,'ots::Polyseed']]],
-  ['publicspendkey_3',['publicSpendKey',['../classots_1_1Wallet.html#a76dcbd057b65c25764755c39dca4d782',1,'ots::Wallet']]],
-  ['publicviewkey_4',['publicViewKey',['../classots_1_1Wallet.html#af7612875a0b3e8fcf9b87f1b4c624859',1,'ots::Wallet']]],
-  ['python_5',['python',['../index.html#autotoc_md8',1,'OTS library for Python'],['../index.html#autotoc_md4',1,'Python']]]
+  ['passwordnotsupported_0',['passwordnotsupported',['../classots_1_1exception_1_1seed_1_1PasswordNotSupported.html',1,'ots::exception::seed::PasswordNotSupported'],['../classots_1_1exception_1_1seed_1_1PasswordNotSupported.html#aaba9adcf94e1708345b1184418d10b21',1,'ots::exception::seed::PasswordNotSupported::PasswordNotSupported()']]],
+  ['paymentid_1',['paymentid',['../classots_1_1Address.html#a404331850b18140ad155b4ec1fd4e1ad',1,'ots::Address::paymentID() const noexcept'],['../classots_1_1Address.html#a67c9db14430f09741c58ff4737b40324',1,'ots::Address::paymentID(const std::string &amp;address, Network network=Network::MAIN)']]],
+  ['phrase_2',['phrase',['../classots_1_1Polyseed.html#a9f2612fb65df291487c46b9e0cf41e01',1,'ots::Polyseed::phrase()'],['../classots_1_1MoneroSeed.html#ab8dae234d7e93fcf78bbae799835f4fc',1,'ots::MoneroSeed::phrase()'],['../classots_1_1Seed.html#a66846b1fb9f5036e010d88d2174e71f3',1,'ots::Seed::phrase()'],['../classots_1_1LegacySeed.html#aa135cd3b4d0571197a0e8053a4612138',1,'ots::LegacySeed::phrase()']]],
+  ['polyseed_3',['polyseed',['../namespaceots.html#a2894bc63610aee8f1e3bd1643790105eac3adf8931462de3b6a6dc4a042a63ec3',1,'ots::Polyseed'],['../classots_1_1Polyseed.html#a9ded9b7b5e7b7ae8aafbf12916428b23',1,'ots::Polyseed::Polyseed()'],['../classots_1_1PolyseedKeyStore.html#ad048f316c781208857325f352692b771',1,'ots::PolyseedKeyStore::Polyseed'],['../classots_1_1KeyStore.html#ad048f316c781208857325f352692b771',1,'ots::KeyStore::Polyseed'],['../classots_1_1Polyseed.html',1,'ots::Polyseed']]],
+  ['polyseed_2dkey_2dstore_2ecpp_4',['polyseed-key-store.cpp',['../polyseed-key-store_8cpp.html',1,'']]],
+  ['polyseed_2dkey_2dstore_2ehpp_5',['polyseed-key-store.hpp',['../polyseed-key-store_8hpp.html',1,'']]],
+  ['polyseed_5fmemwipe_5fwrapper_6',['polyseed_memwipe_wrapper',['../namespaceots.html#a28b8a6cb39bc619c01fa2cb0d7fe0ebc',1,'ots']]],
+  ['polyseed_5fpbkdf2_5fwrapper_7',['polyseed_pbkdf2_wrapper',['../namespaceots.html#a29e80a59a92adc3716e8a021231dd04e',1,'ots']]],
+  ['polyseed_5frandom_5fwrapper_8',['polyseed_random_wrapper',['../namespaceots.html#a755a4f3e16c5ef0f9a01f4bcf21ad8db',1,'ots']]],
+  ['polyseeddatareadonlysession_9',['polyseeddatareadonlysession',['../classots_1_1exception_1_1keystore_1_1polyseed_1_1PolyseedDataReadOnlySession.html#a1b9daca00d1f4a13dc8dfdb4a3db2f23',1,'ots::exception::keystore::polyseed::PolyseedDataReadOnlySession::PolyseedDataReadOnlySession()'],['../classots_1_1exception_1_1keystore_1_1polyseed_1_1PolyseedDataReadOnlySession.html',1,'ots::exception::keystore::polyseed::PolyseedDataReadOnlySession']]],
+  ['polyseedkeystore_10',['polyseedkeystore',['../classots_1_1PolyseedKeyStore.html#aefa0518cf367231de454fc3f59c795c7',1,'ots::PolyseedKeyStore::PolyseedKeyStore(const std::array&lt; uint8_t, 32 &gt; &amp;key) noexcept'],['../classots_1_1PolyseedKeyStore.html#af3be0f083e1779c3003cbc8b3b8b1951',1,'ots::PolyseedKeyStore::PolyseedKeyStore() noexcept'],['../classots_1_1PolyseedKeyStore.html',1,'ots::PolyseedKeyStore']]],
+  ['polyseedkeystoredeleter_11',['PolyseedKeyStoreDeleter',['../structots_1_1PolyseedKeyStoreDeleter.html',1,'ots']]],
+  ['ptr_12',['ptr',['../structots__handle__t.html#a2d31d88051f68b2d9bac02d82db8ae89',1,'ots_handle_t::ptr'],['../structots__result__t.html#a0a4bcef6ea2bc13b0be2d98a78d7f562',1,'ots_result_t::ptr']]],
+  ['ptr_5f_13',['ptr_',['../classots_1_1ZeroizeReferenceCopy.html#a3ecd9cd6a57d9b8cdc22bb49d8a96dcc',1,'ots::ZeroizeReferenceCopy']]],
+  ['publicspendkey_14',['publicspendkey',['../classots_1_1Account.html#abdd1a7485ed55c095ebc94edf5ec6952',1,'ots::Account::publicSpendKey()'],['../classots_1_1Wallet.html#a489ed2a449a5084c6489d57f7cedfa3b',1,'ots::Wallet::publicSpendKey()']]],
+  ['publicviewkey_15',['publicviewkey',['../classots_1_1Account.html#aed6e832959069eb30d8fc0fd7e30ee44',1,'ots::Account::publicViewKey()'],['../classots_1_1Wallet.html#a7c44a2f6be39025759f8ed59a61d3ff1',1,'ots::Wallet::publicViewKey()']]],
+  ['push_5fback_16',['push_back',['../classots_1_1SeedIndices.html#ac3f09414dae0c2de7c4cbfe2e973bcdd',1,'ots::SeedIndices']]],
+  ['python_17',['python',['../index.html#autotoc_md8',1,'OTS library for Python'],['../index.html#autotoc_md4',1,'Python']]]
 ];

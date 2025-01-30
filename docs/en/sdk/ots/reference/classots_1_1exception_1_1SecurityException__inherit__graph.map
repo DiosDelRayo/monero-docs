@@ -1,0 +1,21 @@
+<map id="ots::exception::SecurityException" name="ots::exception::SecurityException">
+<area shape="rect" id="Node000001" title="Any security realted issue." alt="" coords="765,69,925,109"/>
+<area shape="rect" id="Node000007" href="$classots_1_1exception_1_1keystore_1_1LockedAccessAttempt.html" title="a process tried to access locked key data" alt="" coords="991,5,1154,45"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="930,63,1000,43,1002,48,931,68"/>
+<area shape="rect" id="Node000009" href="$classots_1_1exception_1_1wipeablestring_1_1UnsafeConversion.html" title="a conversion to std::string is not allowed" alt="" coords="975,69,1170,109"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="940,87,975,87,975,92,940,92"/>
+<area shape="rect" id="Node000010" href="$classots_1_1exception_1_1wipeablevector_1_1UnsafeConversion.html" title="a conversion to std::vector is not allowed" alt="" coords="973,133,1172,173"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="931,111,1002,131,1000,136,930,116"/>
+<area shape="rect" id="Node000002" href="$classots_1_1exception_1_1DomainError.html" title="errors related to the library use itself" alt="" coords="532,77,717,102"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="731,87,765,87,765,92,731,92"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="337,51,460,77"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="474,70,532,76,531,82,474,75"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="157,51,265,77"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="279,61,337,61,337,67,279,67"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,51,109,77"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="123,61,157,61,157,67,123,67"/>
+<area shape="rect" id="Node000006" href="$classots_1_1exception_1_1Exception.html" title=" " alt="" coords="313,101,484,126"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="498,100,531,97,532,102,498,105"/>
+<area shape="rect" id="Node000008" href="$classots_1_1exception_1_1keystore_1_1LockedWriteAttempt.html" title="a process tried to write to locked key data" alt="" coords="1220,5,1383,45"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="1168,23,1220,23,1220,28,1168,28"/>
+</map>

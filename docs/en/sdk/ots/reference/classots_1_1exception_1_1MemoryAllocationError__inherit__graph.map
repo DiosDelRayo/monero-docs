@@ -1,0 +1,13 @@
+<map id="ots::exception::MemoryAllocationError" name="ots::exception::MemoryAllocationError">
+<area shape="rect" id="Node000001" title="Could not allocate memory." alt="" coords="45,225,261,265"/>
+<area shape="rect" id="Node000006" href="$classots_1_1exception_1_1polyseed_1_1MemoryAllocationError.html" title="Could not allocate memory." alt="" coords="71,313,235,353"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="155,279,155,313,150,313,150,279"/>
+<area shape="rect" id="Node000002" href="$classots_1_1exception_1_1RuntimeError.html" title="Conditions only detectable at runtime." alt="" coords="58,152,247,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="155,191,155,225,150,225,150,191"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,79,129,104"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="93,110,140,150,137,154,90,115"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="15,5,119,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="70,44,70,79,65,79,65,44"/>
+<area shape="rect" id="Node000005" href="$classots_1_1exception_1_1Exception.html" title=" " alt="" coords="154,79,325,104"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="217,115,169,154,165,150,213,110"/>
+</map>
